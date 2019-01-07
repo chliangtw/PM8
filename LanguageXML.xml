@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="System.String"></Asset>
+  <Japan>
+    <Punishment>家族</Punishment>
+    <Punishment>休日</Punishment>
+    <Punishment>パーティー</Punishment>
+    <Punishment>キュー</Punishment>
+    <Select>ランダンム</Select>
+    <Select>說明</Select>
+    <Select>続き</Select>
+    <Dialog>
+      <Random>ランダンムで決めますか？今までの選択は削除</Random>
+      <Explain>罰の中は最高８を選ばれる</Explain>
+      <Clean>すべて削除？今までの選択は削除</Clean>
+    </Dialog>
+    <Explain>選んだキャラクター、ゲームの中に小さ\nいアイコンで表す。</Explain>
+    <TestPlay>小さいアイコンを押して見てくださ\nい、ゲームでの働きは分かります。</TestPlay>
+    <BigNote>大きいアイコンを押し\n潰したら、50点。</BigNote>
+    <SmallNote>小さいアイコンを押し潰し\nたら、100点。</SmallNote>
+    <GetNote>高得点するには、選んだキャラクター\nのアイコンを押し潰す。</GetNote>
+    <Start>スタート</Start>
+    <Grade>マイナー</Grade>
+    <Grade>中等度</Grade>
+    <Grade>頭のおかしい</Grade>
+    <RListTitle>罰のリスト</RListTitle>
+    <RRedTitle>楽しいことルレットを回す</RRedTitle>
+    <FingerFight>
+      <HowPlay>遊び方?</HowPlay>
+      <HowPlay>２～４人は一つのWindows Phone 7でゲームをすることができます。</HowPlay>
+      <HowPlay>ステップ　1：</HowPlay>
+      <HowPlay>言語を選んでください。１３の国の言語があります。</HowPlay>
+      <HowPlay>ステップ　2：</HowPlay>
+      <HowPlay>四つの状況で、全員は認める罰ゲームを選んでまたは入力してください。</HowPlay>
+      <HowPlay>ステップ　3 ：</HowPlay>
+      <HowPlay>好きなキャラクターを選れんで、そしてキャラクターのアイコンを覚えてください。</HowPlay>
+      <HowPlay>ステップ　4a：</HowPlay>
+      <HowPlay>（フィンガー ファイティング）－全員は指で３０秒中で自分のキャラクターのアイコンをクリックしたら点数が増す。１５秒後アイコンのスピードが速くなって、そして小さくなります。</HowPlay>
+      <HowPlay>全員は指で３０秒中で自分のキャラクターのアイコンをクリックしたら点数が増す。１５秒後アイコンのスピードが速くなって、そして小さくなります。</HowPlay>
+      <HowPlay>ステップ　5：</HowPlay>
+      <HowPlay>負けた人はルーレットを動き回って、面白い罰ゲームを受け止めてください。</HowPlay>
+      <HowPlay>このゲームを作った目的は、あなたが友達、家族と一緒に楽しく遊ばせます。それて、あなたたちの関係はもっと良くなれます。このゲームの中でもっとも面白い部分は最後の罰ゲームなんです。</HowPlay>
+    </FingerFight>
+    <DyamicBomb>
+      <HowPlay>Step4b:</HowPlay>
+      <HowPlay>（動爆弾）－全員は順番にモニターの左下の丸をクリックしてください。少なくとも一つの丸をクリックして、最多三つの丸をクリックしてください。最後の丸をクリックしたら負けます。</HowPlay>
+    </DyamicBomb>
+    <NumberTrip>
+      <HowPlay>Step4c:</HowPlay>
+      <HowPlay>[Number Trap]－デジタル入力とプリセット番号が同じでない場合、ゲームは0から99までのシステムで起動すると、プレイヤーの矢印で示されたデフォルトの乱数発生器の桁数が、、、デジタル数字の範囲を入力する数字をクリックするセキュリティは面白い罰を受け入れる必要があるデフォルト番号は同じ敗者である入力するプレイヤーの特定の数になるまで、数が減少する、と述べた。</HowPlay>
+    </NumberTrip>    
+  </Japan>
+  <Korea>
+    <Punishment>가정</Punishment>
+    <Punishment>축제일</Punishment>
+    <Punishment>파티</Punishment>
+    <Punishment>줄을 설때</Punishment>
+    <Select>랜덤</Select>
+    <Select>설명</Select>
+    <Select>계속</Select>
+    <Dialog>
+      <Random>랜덤을 선택하시겠습니까? 선택 항목 모두 취소 되었습니다.</Random>
+      <Explain>각자의 서랍(상자) 속에서 8가지의 벌칙을 고르시오.</Explain>
+      <Clean>모두 취소하였습니다? 선택 항목 모두 취소 되었습니다.</Clean>
+    </Dialog>
+    <Explain>당신이 선택한 캐릭터 옆에 있는 작은 도\n시가 바로 게임 중의 모습입니다.</Explain>
+    <TestPlay>미리보기</TestPlay>
+    <BigNote>게임 중 큰 그림을 클\n릭하면 득점50점.</BigNote>
+    <SmallNote>게임 중 작은 그림을 클릭하\n면 득점100점(종료 15초 전\n에 나타남).</SmallNote>
+    <GetNote>높은 점수를 얻고 싶다면,모든 임무를 \n완수해야함.</GetNote>
+    <Start>시작</Start>
+    <Grade>약한/\n경미하다</Grade>
+    <Grade>심한/강함</Grade>
+    <Grade>절정/\n미치다</Grade>
+    <RListTitle>벌칙 리스트</RListTitle>
+    <RRedTitle>스핀 룰렛 재미를 위해</RRedTitle>
+    <FingerFight>
+      <HowPlay>게임 방법?</HowPlay>
+      <HowPlay>2명 ~ 4명이 Windows Phone 7 를 통해 게임을 할 수 있다 .</HowPlay>
+      <HowPlay>Step1:</HowPlay>
+      <HowPlay>언어 선택 ( 총 13가지 언어 제공 )</HowPlay>
+      <HowPlay>Step2:</HowPlay>
+      <HowPlay>4가지 상황에서 , 게임에서 질 경우 받을 벌칙을 선택한다 ( 최대 8가지 선택 가능 )</HowPlay>
+      <HowPlay>Step3:</HowPlay>
+      <HowPlay>좋아하는 캐릭터를 선택한다, 단 캐릭터를 대표하는 그림을 꼭 기억 할 것.</HowPlay>
+      <HowPlay>Step4a:</HowPlay>
+      <HowPlay>[Finger Fighting]－에서는 게임에 참여한 인원 모두가30초내에 자신이 선택한 캐릭터를 대표하는 그림을 선택 할 시 점수가 플러스된다. 단,15초가 지나면 그림은 점점 작아진다.</HowPlay>
+      <HowPlay>에서는 게임에 참여한 인원 모두가30초내에 자신이 선택한 캐릭터를 대표하는 그림을 선택 할 시 점수가 플러스된다. 단,15초가 지나면 그림은 점점 작아진다.</HowPlay>
+      <HowPlay>Step5:</HowPlay>
+      <HowPlay>손가락을 이용 자신에 캐릭터를 대표하는 그림을 선택하여 점수를 얻는 게임을 통해 민첩성을 높일 수 있으며 , 서로가 방해도 할 수 있고 도움도 줄 수 있는 게임이다.</HowPlay>
+      <HowPlay>게임중 가장 재미있는 부분이 바로 벌칙을 받는 부분이다.본 게임은 모두가 함께 즐거움을 나눌 수 있도록 제작되었다, 친구와 함께 혹은 가족과 함께 모두가 즐길 수 있는 게임이다.</HowPlay>
+    </FingerFight>
+    <DyamicBomb>
+      <HowPlay>Step4b:</HowPlay>
+      <HowPlay>[Dynamic Bomb]－은 게임에 참여하는 모든 인원이 번갈아 가면서 왼쪽 화면 아래에 있는 동그라미(폭탄)를 클릭한다. 최소 1번 최대 3번까지 클릭이 가능하며 마지막 동그라미(폭탄)를 클릭하는 사람이 지는 게임이다.</HowPlay>
+    </DyamicBomb>
+    <NumberTrip>
+      <HowPlay>Step4c:</HowPlay>
+      <HowPlay>[Number Trap]－디지털 입력 및 프리셋 번호가되는 것과 동일하지 않은 경우 게임이 0-99 시스템 시작되면 플레이어에서 화살표로 표시된 기본 난수 생성기 자리 숫자는, 디지털 숫자의 범위를 입력할 수있는 그림을 클릭 숫자가 줄어 듭니다 보안, 기본 번호가 동일한 패자 재미 처벌을 수락해야합니다 입력 플레이어의 특정 숫자까지했다.</HowPlay>
+    </NumberTrip>
+  </Korea>
+  <China>
+    <Punishment>家庭类</Punishment>
+    <Punishment>夜店类</Punishment>
+    <Punishment>聚会类</Punishment>
+    <Punishment>排队时</Punishment>
+    <Select>隨便选啦~</Select>
+    <Select>说明</Select>
+    <Select>下一步</Select>
+    <Dialog>
+      <Random>您确定要随机吗？它会清除之前所选择的项目喔。</Random>
+      <Explain>您可以选择不同的惩罚项目最多8项，请玩得High一点吧！如果您也有想到不同的玩法或项目，也希望提供给我们做参考。</Explain>
+      <Clean>清除全部? 它会清除之前所选择的项目喔。</Clean>
+    </Dialog>
+    <Explain>您记得刚才选的主角吗？他们在等一下游\n戏时会变成另一个图案，请记得他们。</Explain>
+    <TestPlay>您可以试点下方两个图案(感觉一下)。</TestPlay>
+    <BigNote>点击比较大的图案+50分</BigNote>
+    <SmallNote>点击比较小的图案+100分，\n他们只出现在最后的15秒。</SmallNote>
+    <GetNote>如果您不想输，等一下游戏时，您可以\n影响他人点击他们的图案或者多点一点\n自己的图案。</GetNote>
+    <Start>开始</Start>
+    <Grade>轻微</Grade>
+    <Grade>中度</Grade>
+    <Grade>疯狂</Grade>
+    <RListTitle>大冒险列表</RListTitle>
+    <RRedTitle>请胜利的人开始转吧</RRedTitle>
+    <FingerFight>
+      <HowPlay>游戏如何玩法?</HowPlay>
+      <HowPlay>2到4个人可在一支 Windows Phone 7 上玩这个游戏.</HowPlay>
+      <HowPlay>步骤 1:</HowPlay>
+      <HowPlay>选取语言介面, 提供了13囯家话言.</HowPlay>
+      <HowPlay>步骤 2:</HowPlay>
+      <HowPlay>在四个情境中,输入或选取每个参与的玩家都认同的惩罚项目(最多可选取八项).</HowPlay>
+      <HowPlay>步骤 3:</HowPlay>
+      <HowPlay>选择你喜欢的角色, 并记住代表此角色之小图像</HowPlay>
+      <HowPlay>步骤 4a:</HowPlay>
+      <HowPlay> [指姆战](Finger Fighting)－每位参与的玩家利用手指在30秒之内点选你喜欢的角色所代表的图像以增加分数,15秒后,图像会快速出现且图像会变小.</HowPlay>
+      <HowPlay>通过手指点选角色增加分数，手指之间可以不经意触，甚至阻止对方或帮对方得分，可训练反应能力与增进彼此的感情、熟悉度.</HowPlay>
+      <HowPlay>步骤 5:</HowPlay>
+      <HowPlay>输的玩家转动轮盘, 接受有趣的惩罚.</HowPlay>
+      <HowPlay>通过轮盘处罚游戏，使得大伙可以更专注于游戏上，更有参与感，也经由处罚，发挥个人特色去表现，让大家更认识你这个人.</HowPlay>
+    </FingerFight>
+    <DyamicBomb>
+      <HowPlay>步骤 4b:</HowPlay>
+      <HowPlay>[动态炸弹](Dynamic Bomb)－每个玩家轮流点取萤幕左下方圆圈 最少点1个, 最多点3个,直到输的玩家点取到最后一个圆圈.</HowPlay>
+    </DyamicBomb>
+    <NumberTrip>
+      <HowPlay>步骤 4c:</HowPlay>
+      <HowPlay>[数字陷阱](Number Trap)－当游戏开始系统会在0-99之间，乱数产生一个预设数字号码，参与玩家依箭头指示，点选该人物以输入范围内之数字号码，如果输入与预设数字号码不相同，即表示安全，数字范围缩小，直到某玩家输入与预设数字号码相同即为输家，必须接受有趣的惩罚.</HowPlay>
+    </NumberTrip>
+  </China>
+  <Spain>
+    <Punishment>familia</Punishment>
+    <Punishment>vaccaciones</Punishment>
+    <Punishment>fiesta</Punishment>
+    <Punishment>aleatorio</Punishment>
+    <Select>aleatorio</Select>
+    <Select>descripto</Select>
+    <Select>comienzo</Select>
+    <Dialog>
+      <Random>¿Está usted seguro de que desea al azar? De números aleatorios, los archivos previamente seleccionados serán claras</Random>
+      <Explain>elegirá ocho castigos</Explain>
+      <Clean>todos limpiar? los archivos previamente seleccionados serán claras</Clean>
+    </Dialog>
+    <Explain>El icono del globo junto a su carácter \nes su papel en el juego.</Explain>
+    <TestPlay>vista previa</TestPlay>
+    <BigNote>obtener 50 puntos si se \ntoca la más grande.</BigNote>
+    <SmallNote>obtener 100 puntos si se \ntoca la más pequeña. Sólo \nse verá en th últimos 15 \nsegundos.</SmallNote>
+    <GetNote>Tu recibe una puntuación alta si \ntoque tu personaje</GetNote>
+    <Start>comienzo</Start>
+    <Grade>luz</Grade>
+    <Grade>medio</Grade>
+    <Grade>loco</Grade>
+    <RListTitle>lista de castigo</RListTitle>
+    <RRedTitle>girar la ruleta sólo por diversión</RRedTitle>
+    <FingerFight>
+      <HowPlay>¿Cómo se juega?</HowPlay>
+      <HowPlay>2-4 personas pueden jugar juntos en un Windows Phone 7.</HowPlay>
+      <HowPlay>Paso 1:</HowPlay>
+      <HowPlay>Seleccione el idioma.</HowPlay>
+      <HowPlay>Paso 2:</HowPlay>
+      <HowPlay>Selección o entrada de las normas de pena que todos los jugadores están de acuerdo.</HowPlay>
+      <HowPlay>Paso 3:</HowPlay>
+      <HowPlay>Seleccione el personaje que le guste.</HowPlay>
+      <HowPlay>Paso 4a:</HowPlay>
+      <HowPlay>Para [La lucha contra los dedos]－Use su dedo para tocar el icono de tu personaje seleccionado para aumentar su puntuación.</HowPlay>
+      <HowPlay>Use su dedo para tocar el icono de tu personaje seleccionado para aumentar su puntuación.</HowPlay>
+      <HowPlay>Paso 5:</HowPlay>
+      <HowPlay>El perdedor será castigado de alguna manera que se selecciona haciendo girar la ruleta.</HowPlay>
+      <HowPlay>Es más que un juego. Es un método eficiente para socializar con sus amigos y llevarse bien con su familia a través de los dedos tocando dentro del juego.</HowPlay>
+    </FingerFight>
+    <DyamicBomb>
+      <HowPlay>Paso 4b:</HowPlay>
+      <HowPlay>Para [Dinámica de bomba]－Cada jugador toma un turno para tocar los botones círculos (al menos 1, a lo mas 3) hasta que el perdedor obtenga el último toque y activa la bomba.</HowPlay>
+    </DyamicBomb>
+    <NumberTrip>
+      <HowPlay>Paso 4c:</HowPlay>
+      <HowPlay>For [Number Trap]－System randomly selects a number between between 0 and 100. Say it is 45 for the explaination. Each player take turn to guess a number. For example, the first player pick the number 60. The second player is subject to pick the number between 0 and 60. Those who guess the number is the same number  generated by the system wil be the loser  and need to be punished in a funny way.</HowPlay>
+    </NumberTrip>
+  </Spain>
+  <Taiwan>
+    <Punishment>家庭類</Punishment>
+    <Punishment>夜店類</Punishment>
+    <Punishment>聚會類</Punishment>
+    <Punishment>排隊時</Punishment>
+    <Select>隨便選啦~</Select>
+    <Select>說明</Select>
+    <Select>下一步</Select>
+    <Dialog>
+      <Random>您確定要隨機嗎？它會清除之前所選擇的項目喔。</Random>
+      <Explain>您可以選擇不同的懲罰項目最多8項，請玩得High一點吧！如果您也有想到不同的玩法或項目，也希望提供給我們做參考。</Explain>
+      <Clean>清除全部？它會清除之前所選擇的項目喔。</Clean>
+    </Dialog>
+    <Explain>您記得剛才選的主角嗎？他們在等一下遊\n戲時會變成另一個圖案，請記得他們。</Explain>
+    <TestPlay>您可以試點下方兩個圖案(感覺一下)。</TestPlay>
+    <BigNote>點擊比較大的圖案+50分</BigNote>
+    <SmallNote>點擊比較小的圖案+100分，\n他們只出現在最後的15秒。</SmallNote>
+    <GetNote>如果您不想輸，等一下遊戲時，您可以\n影響他人點擊他們的圖案或者多點一點\n自己的圖案。</GetNote>
+    <Start>開始</Start>
+    <Grade>輕微</Grade>
+    <Grade>中度</Grade>
+    <Grade>瘋狂</Grade>
+    <RListTitle>大冒險列表</RListTitle>
+    <RRedTitle>請勝利的人開始轉吧</RRedTitle>
+    <FingerFight>
+      <HowPlay>遊戲如何玩法?</HowPlay>
+      <HowPlay>2至4個人可在一支 Windows Phone 7 上玩這個遊戲.</HowPlay>
+      <HowPlay>步驟 1:</HowPlay>
+      <HowPlay>選取語言介面, 提供了13國語言.</HowPlay>
+      <HowPlay>步驟 2:</HowPlay>
+      <HowPlay>在四個情境中,輸入或選取每個參與的玩家都認同的懲罰項目(最多可選取八項).</HowPlay>
+      <HowPlay>步驟 3:</HowPlay>
+      <HowPlay>選擇你/妳喜歡的角色, 並記住代表此角色之小圖像.</HowPlay>
+      <HowPlay>步驟 4a:</HowPlay>
+      <HowPlay>[指姆戰](Finger Fighting)－每位參與的玩家利用手指在30秒之內點選你/妳喜歡的角色所代表的圖像以增加分數,15秒後,圖像會快速出現且圖像會變小.</HowPlay>
+      <HowPlay>透過手指點選角色增加分數，手指之間可以不經意觸，甚至阻止對方或幫對方得分，可訓練反應能力與增進彼此的感情、熟悉度.</HowPlay>
+      <HowPlay>步驟 5:</HowPlay>
+      <HowPlay>輸的玩家轉動輪盤, 接受有趣的懲罰.</HowPlay>
+      <HowPlay>透過輪盤處罰遊戲，使得大夥可以更專注於遊戲上，更有參與感，也經由處罰，發揮個人特色，讓大家更認識你.</HowPlay>
+    </FingerFight>
+    <DyamicBomb>
+      <HowPlay>步驟 4b:</HowPlay>
+      <HowPlay>[動態炸彈](Dynamic Bomb)－每個玩家輪流點取圓圈.最少點1個, 最多點3個,直到輸的玩家點取到最後一個圓圈.</HowPlay>
+    </DyamicBomb>
+    <NumberTrip>
+      <HowPlay>步驟 4c:</HowPlay>
+      <HowPlay>[數字陷阱](Number Trap)－當遊戲開始系統會在0-99之間，亂數產生一個預設數字號碼，參與玩家依箭頭指示，點選該人物以輸入範圍內之數字號碼，如果輸入與預設數字號碼不相同，即表示安全，數字範圍縮小，直到某玩家輸入與預設數字號碼相同即為輸家，必須接受有趣的懲罰.</HowPlay>
+    </NumberTrip>
+  </Taiwan>
+  <America>
+    <Punishment>Family</Punishment>
+    <Punishment>Holiday</Punishment>
+    <Punishment>Party</Punishment>
+    <Punishment>Line Up</Punishment>
+    <Select>Random ALL</Select>
+    <Select>Description</Select>
+    <Select>Finish &amp; Go</Select>
+    <Dialog>
+      <Random>You sure you want random? Random number, the previously selected files will be clear.</Random>
+      <Explain>Choose punishments in each drawers, total number is eight.</Explain>
+      <Clean>Clean All? the previously selected files will be clear.</Clean>
+    </Dialog>
+    <Explain>The balloon icon beside your character \nis your role in game.</Explain>
+    <TestPlay>You can try to touch this icon what \nwill happen in this game.</TestPlay>
+    <BigNote>You touch the biggest \none can get 50 points.</BigNote>
+    <SmallNote>You touch the smallest one \ncan get 100 points, but you \nwill only see it in the last 15 \nseconds.</SmallNote>
+    <GetNote>You want to get high score. You must \ntouch your character's icon.</GetNote>
+    <Start>Start</Start>
+    <Grade>light</Grade>
+    <Grade>middle</Grade>
+    <Grade>crazy</Grade>
+    <RListTitle>Just for Fun</RListTitle>
+    <RRedTitle>Spin!! roulette!</RRedTitle>
+    <FingerFight>
+      <HowPlay>How to play?</HowPlay>
+      <HowPlay>2-4 people can play together in one Windows Phone 7.</HowPlay>
+      <HowPlay>Step1:</HowPlay>
+      <HowPlay>Select the language.</HowPlay>
+      <HowPlay>Step2:</HowPlay>
+      <HowPlay>Pick or input the punishment rules that all the players agree to.</HowPlay>
+      <HowPlay>Step3:</HowPlay>
+      <HowPlay>Select the character you like.</HowPlay>
+      <HowPlay>Step4a:</HowPlay>
+      <HowPlay>For [Finger Fighting]－Use your one finger to tap on the icon of your selected character to increase your score.</HowPlay>
+      <HowPlay>Use your one finger to tap on the icon of your selected character to increase your score.</HowPlay>
+      <HowPlay>Step5:</HowPlay>
+      <HowPlay>The loser will be punished in certain way which is selected by spinning the roulette.</HowPlay>
+      <HowPlay>It is more than a game. it is an effective approach to socialize with your friends and to get along with your family through finger touching within the game.</HowPlay>
+    </FingerFight>
+    <DyamicBomb>
+      <HowPlay>Step4b:</HowPlay>
+      <HowPlay>For [Dynamic Bomb]－Each player take tune to tap on the circle buttoms (at least 1, at most 3) until the loser get the last one tap.</HowPlay>
+    </DyamicBomb>
+    <NumberTrip>
+      <HowPlay>Step4c:</HowPlay>
+      <HowPlay>For [Number Trap]－System randomly selects a number between between 0 and 100. Say it is 45 for the explaination. Each player take turn to guess a number. For example, the first player pick the number 60. The second player is subject to pick the number between 0 and 60. Those who guess the number is the same number  generated by the system wil be the loser  and need to be punished in a funny way.</HowPlay>
+    </NumberTrip>
+  </America>
+  <France>
+    <Punishment>famille</Punishment>
+    <Punishment>jour férié</Punishment>
+    <Punishment>fête</Punishment>
+    <Punishment>ligne</Punishment>
+    <Select>Aléatoire</Select>
+    <Select>description</Select>
+    <Select>Commencez</Select>
+    <Dialog>
+      <Random>Etes-vous sûr de prendre aléatoire? Tous les items choisis précédemment seront supprimés.</Random>
+      <Explain>Ne choisissez que 8 punitions dans les tiroirs.</Explain>
+      <Clean>Nettoyez tout? Tous les items choisis précédemment seront supprimés.</Clean>
+    </Dialog>
+    <Explain>L'icône de ballon près du personnage \nchoisi est votre rôle dans le jeu.</Explain>
+    <TestPlay>Vous pouvez essayer de toucher cette icône \npour voir ce qui se produira dans ce jeu.</TestPlay>
+    <BigNote>Quand vous touchez \nla plus grande icône, \nvous pouvez obtenir \n50 points.</BigNote>
+    <SmallNote>Quand vous touchez la plus \npetite icône, vous pouvez obtenir \n100 points, mais vous ne le verrez \nqu'aux 15 dernières secondes.</SmallNote>
+    <GetNote>Si vous voulez obtenir de nombreux \npoints, vous devez toucher votre \nicône de personnage.</GetNote>
+    <Start>Commencez</Start>
+    <Grade>lumière</Grade>
+    <Grade>moyen</Grade>
+    <Grade>fou</Grade>
+    <RListTitle>liste de punitions</RListTitle>
+    <RRedTitle>Juste pour lamusement\nRoulette de rotation</RRedTitle>
+    <FingerFight>
+      <HowPlay>How to play?</HowPlay>
+      <HowPlay>2-4 people can play together in one Windows Phone 7.</HowPlay>
+      <HowPlay>Step1:</HowPlay>
+      <HowPlay>Select the language.</HowPlay>
+      <HowPlay>Step2:</HowPlay>
+      <HowPlay>Pick or input the punishment rules that all the players agree to.</HowPlay>
+      <HowPlay>Step3:</HowPlay>
+      <HowPlay>Select the character you like.</HowPlay>
+      <HowPlay>Step4a:</HowPlay>
+      <HowPlay>For [Finger Fighting]－Use your one finger to tap on the icon of your selected character to increase your score.</HowPlay>
+      <HowPlay>Use your one finger to tap on the icon of your selected character to increase your score.</HowPlay>
+      <HowPlay>Step5:</HowPlay>
+      <HowPlay>The loser will be punished in certain way which is selected by spinning the roulette.</HowPlay>
+      <HowPlay>It is more than a game. it is an effective approach to socialize with your friends and to get along with your family through finger touching within the game.</HowPlay>
+    </FingerFight>
+    <DyamicBomb>
+      <HowPlay>Step4b:</HowPlay>
+      <HowPlay>For [Dynamic Bomb]－Each player take tune to tap on the circle buttoms (at least 1, at most 3) until the loser get the last one tap.</HowPlay>
+    </DyamicBomb>
+    <NumberTrip>
+      <HowPlay>Step4c:</HowPlay>
+      <HowPlay>For [Number Trap]－System randomly selects a number between between 0 and 100. Say it is 45 for the explaination. Each player take turn to guess a number. For example, the first player pick the number 60. The second player is subject to pick the number between 0 and 60. Those who guess the number is the same number  generated by the system wil be the loser  and need to be punished in a funny way.</HowPlay>
+    </NumberTrip>
+  </France>
+  <Germany>
+    <Punishment>die Familie</Punishment>
+    <Punishment>der Feiertag</Punishment>
+    <Punishment>die  Party</Punishment>
+    <Punishment>wenn Linie</Punishment>
+    <Select>gelegentlich</Select>
+    <Select>Erklärung</Select>
+    <Select>Beginn</Select>
+    <Dialog>
+      <Random>Sind Sie sicher daß Sie es für gelegentlich wünschen? Jeder von Ihnen gewählte Einzelteil kann beseitigt werden.</Random>
+      <Explain>wählen Sie Bestrafungen in jedem Fächer aus! Gesamtnummer ist acht.</Explain>
+      <Clean>völlig  aufräumen? Jeder von Ihnen gewählte Einzelteil kann beseitigt werden.</Clean>
+    </Dialog>
+    <Explain>Das Ballonikon neben dem von Ihnen \ngewählten Charakter ist Ihre Rolle im \nSpiel.</Explain>
+    <TestPlay>Sie können versuchen, dieses Ikon zu berühren \nund sehen was in diesem Spiel geschehen wird.</TestPlay>
+    <BigNote>Wenn Sie das größere \nberühren, können Sie \ndann 50 Punkte erhalten.</BigNote>
+    <SmallNote>Wenn Sie das kleinere berühren, \nkönnen Sie 100 Punkte erhalten, \naber Sie sehen es nur in dem \nletzten 15 Sekunden.</SmallNote>
+    <GetNote>Wenn Sie mehre Punkte erhalten \nmöchten, müssen Sie Ihr Charakterikon \nberühren.</GetNote>
+    <Start>Beginn</Start>
+    <Grade>licht</Grade>
+    <Grade>mittlere</Grade>
+    <Grade>verrückt</Grade>
+    <RListTitle>Bestrafungsliste</RListTitle>
+    <RRedTitle>nur zum Spaß das Drehungroulette</RRedTitle>
+    <FingerFight>
+      <HowPlay>Wie Spielt man es?</HowPlay>
+      <HowPlay>2 bis 4 Spieler spielen zusammen an einem Windows Phone 7.</HowPlay>
+      <HowPlay>Schritt 1:</HowPlay>
+      <HowPlay>Wählen Sie die Sprache aus.</HowPlay>
+      <HowPlay>Schritt 2:</HowPlay>
+      <HowPlay>Wählen sie die Strafen aus. Alle Spieler müssen zustimmen.</HowPlay>
+      <HowPlay>Schritt 3:</HowPlay>
+      <HowPlay>Wählen Sie Ihre Spielfigur aus.</HowPlay>
+      <HowPlay>Schritt 4a:</HowPlay>
+      <HowPlay>Für [Fingerkämpfen]－Tippen Sie auf das Zeichen ihres Characters um Ihre Punktzahl zu erhöhen.</HowPlay>
+      <HowPlay>Tippen Sie auf das Zeichen ihres Characters um Ihre Punktzahl zu erhöhen.</HowPlay>
+      <HowPlay>Schritt 5:</HowPlay>
+      <HowPlay>Der Verlierer wird in einer bestimmten Weise bestraft, was durch das Drehen des Roulettes entschieden wird.</HowPlay>
+      <HowPlay>Es ist mehr als ein Spiel, es ist ein effektiver Versuch sich mit anderen Anzufreunden und mit deiner Familie auszukommen indem ihr euch während des Spiels mit den Fingern berührt.</HowPlay>
+    </FingerFight>
+    <DyamicBomb>
+      <HowPlay>Schritt 4b:</HowPlay>
+      <HowPlay>Für [Dynamische Bombe]－Jeder Spieler berührt rundenweise die Kreistasten (mind. 1, höchstens 3 mal) bis der Verlierer die letzte verbleibende Tast berührt.</HowPlay>
+    </DyamicBomb>
+    <NumberTrip>
+      <HowPlay>Schritt 4c:</HowPlay>
+      <HowPlay>For [Number Trap]－System randomly selects a number between between 0 and 100. Say it is 45 for the explaination. Each player take turn to guess a number. For example, the first player pick the number 60. The second player is subject to pick the number between 0 and 60. Those who guess the number is the same number  generated by the system wil be the loser  and need to be punished in a funny way.</HowPlay>
+    </NumberTrip>
+  </Germany>
+  <Malaysia>
+    <Punishment>Keluarga</Punishment>
+    <Punishment>Liburan</Punishment>
+    <Punishment>Pesta</Punishment>
+    <Punishment>Acak</Punishment>
+    <Select>Acak</Select>
+    <Select>Deskripsi</Select>
+    <Select>selesai &amp; pergi</Select>
+    <Dialog>
+      <Random>Apakah kamu yakin untuk di acak? Sebelum kamu memilih pilihan akan di bersihkan.</Random>
+      <Explain>Setiap pengundi boleh memilih 8 buah hukuman.</Explain>
+      <Clean>Bersihkan semua? Sebelum kamu memilih pilihan akan di bersihkan.</Clean>
+    </Dialog>
+    <Explain>Sebuah bentuk balon disamping \nkaraktermu menunjukan peran \nkamu dalam permainan.</Explain>
+    <TestPlay>Kamu bisa mencoba untuk menyentuh gambar \ndan lihat apa yang terjadi pada permainan itu.</TestPlay>
+    <BigNote>Menyentuh gambar \nterbesar akan \nmendapatkan 50 poin.</BigNote>
+    <SmallNote>Menyentuh gambar terkecil akan \nmendapatkan 100 poin, tetapi \nhanya dapat dilihat pada 15 detik \nterakhir.</SmallNote>
+    <GetNote>Jika kamu ingin mendapatkan nilai \nyang tinggi, kamu harus menyentuh \ngambar karakter sendiri.</GetNote>
+    <Start>Mulai</Start>
+    <Grade>ringan</Grade>
+    <Grade>tengah</Grade>
+    <Grade>gila</Grade>
+    <RListTitle>Daftar hukuman</RListTitle>
+    <RRedTitle>Memutar undian berputar Hanya untuk bergembira</RRedTitle>
+    <FingerFight>
+      <HowPlay>How to play?</HowPlay>
+      <HowPlay>2-4 people can play together in one Windows Phone 7.</HowPlay>
+      <HowPlay>Step1:</HowPlay>
+      <HowPlay>Select the language.</HowPlay>
+      <HowPlay>Step2:</HowPlay>
+      <HowPlay>Pick or input the punishment rules that all the players agree to.</HowPlay>
+      <HowPlay>Step3:</HowPlay>
+      <HowPlay>Select the character you like.</HowPlay>
+      <HowPlay>Step4a:</HowPlay>
+      <HowPlay>For [Finger Fighting]－Use your one finger to tap on the icon of your selected character to increase your score.</HowPlay>
+      <HowPlay>Use your one finger to tap on the icon of your selected character to increase your score.</HowPlay>
+      <HowPlay>Step5:</HowPlay>
+      <HowPlay>The loser will be punished in certain way which is selected by spinning the roulette.</HowPlay>
+      <HowPlay>It is more than a game. it is an effective approach to socialize with your friends and to get along with your family through finger touching within the game.</HowPlay>
+    </FingerFight>
+    <DyamicBomb>
+      <HowPlay>Step4b:</HowPlay>
+      <HowPlay>For [Dynamic Bomb]－Each player take tune to tap on the circle buttoms (at least 1, at most 3) until the loser get the last one tap.</HowPlay>
+    </DyamicBomb>
+    <NumberTrip>
+      <HowPlay>Step4c:</HowPlay>
+      <HowPlay>For [Number Trap]－System randomly selects a number between between 0 and 100. Say it is 45 for the explaination. Each player take turn to guess a number. For example, the first player pick the number 60. The second player is subject to pick the number between 0 and 60. Those who guess the number is the same number  generated by the system wil be the loser  and need to be punished in a funny way.</HowPlay>
+    </NumberTrip>
+  </Malaysia>
+  <Russia>
+    <Punishment>Семья</Punishment>
+    <Punishment>Праздник</Punishment>
+    <Punishment>Вечеринка</Punishment>
+    <Punishment>При очереди</Punishment>
+    <Select>Случайные</Select>
+    <Select>Описание</Select>
+    <Select>Начало</Select>
+    <Dialog>
+      <Random>Вы уверены, что хотите случайной? До \nотобранных проектов будут очищены.</Random>
+      <Explain>Выбрать наказаний тип в каждом ящике, общий итог только восемь.</Explain>
+      <Clean>Очистить все? До отобранных проектов будут очищены.</Clean>
+    </Dialog>
+    <Explain>рядом где вы выбрали роль, там \nваша изображения в игре.</Explain>
+    <TestPlay>Нажмите этот значок, чтобы увидеть, \nчто произойдет в этой игре.</TestPlay>
+    <BigNote>Нажмите на самый \nбольшой, можно \nполучить 50 баллов.</BigNote>
+    <SmallNote>Нажмите на маленький, вы \nможете получить 100 баллов, \nно вы его увидите только в \nпоследние 15 секунд.</SmallNote>
+    <GetNote>Вы хотите получить высокие \nоценки. Вы должны коснуться \nзначок вашего персонажа.</GetNote>
+    <Start>Начало</Start>
+    <Grade>лёгкий</Grade>
+    <Grade>серьезный</Grade>
+    <Grade>Безумный</Grade>
+    <RListTitle>Наказания Список</RListTitle>
+    <RRedTitle>Спин рулетки</RRedTitle>
+    <FingerFight>
+      <HowPlay>Как играть?</HowPlay>
+      <HowPlay>Из 2 по 4, играют по Windows Phone 7.</HowPlay>
+      <HowPlay>Шаг 1:</HowPlay>
+      <HowPlay>Выбрать язык, есть 13 языков.</HowPlay>
+      <HowPlay>Шаг 2:</HowPlay>
+      <HowPlay>В четырёх обстановках, подвергнуть «наказанию» какого-то проиграннго участвующего (разновидные наказания, максимум восемь).</HowPlay>
+      <HowPlay>Шаг 3:</HowPlay>
+      <HowPlay>Выбрайте свою любимую роль,и помнить картинку этой роля.</HowPlay>
+      <HowPlay>Шаг 4a:</HowPlay>
+      <HowPlay>Область [Борьба по пальцам]－Каждый участвующий в течение 30секунд щёлкают пальцами картинку любимой роля поочерёдно чтоб возрасти счёт очков, а через 15 секунд, картинки со всё возрастающей скоростью явятся и уменьшиться.</HowPlay>
+      <HowPlay>Каждый участвующий в течение 30секунд щёлкают пальцами картинку любимой роля поочерёдно чтоб возрасти счёт очков, а через 15 секунд, картинки со всё возрастающей скоростью явятся и уменьшиться.</HowPlay>
+      <HowPlay>Шаг 5:</HowPlay>
+      <HowPlay>Проигранный участвующий вращает рулеточку, и подвергнется «интересному наказанию».</HowPlay>
+      <HowPlay>Цель изобретательности: игрок играет с друзьями и членами семьи, и разделять радость с нимию. «Наказание» после игры будет самая интересная часть этой игры!</HowPlay>
+    </FingerFight>
+    <DyamicBomb>
+      <HowPlay>Шаг 4б:</HowPlay>
+      <HowPlay>Область [Динамическая бомба]－Каждый участвующий щёлкаю кружок на левом нижнем экране, как минимум щёлкать один кружок, а максимум 3 кружка, вплоть до выбора кружка проигранного участвующего.</HowPlay>
+    </DyamicBomb>
+    <NumberTrip>
+      <HowPlay>Шаг 4с:</HowPlay>
+      <HowPlay>For [Number Trap]－System randomly selects a number between between 0 and 100. Say it is 45 for the explaination. Each player take turn to guess a number. For example, the first player pick the number 60. The second player is subject to pick the number between 0 and 60. Those who guess the number is the same number  generated by the system wil be the loser  and need to be punished in a funny way.</HowPlay>
+    </NumberTrip>
+  </Russia>
+  <Vientnames>
+    <Punishment>Gia đình</Punishment>
+    <Punishment>Ngày nghỉ</Punishment>
+    <Punishment>Tiệc tùng</Punishment>
+    <Punishment>Ngẫu nhiên</Punishment>
+    <Select>Ngẫu nhiên</Select>
+    <Select>Mô tả</Select>
+    <Select>Bắt đầu</Select>
+    <Dialog>
+      <Random>Bạn có chắc bạn muốn lựa chọn ngẫu nhiên hay không? Trước khi bạn chọn các đồ vật sẽ bị xóa hết</Random>
+      <Explain>Chọn lựa hình thức phatjtrong mỗi ngăn kéo, con số tổng cộng chỉ được 8</Explain>
+      <Clean>Xóa hết? Trước khi bạn chọn các đồ vật sẽ bị xóa hết</Clean>
+    </Dialog>
+    <Explain>Hình ảnh quả bong bóng kế bên nhân \nvật của bạn là vai của bạn trong trò \nchơi</Explain>
+    <TestPlay>Bạn có thể tích vô hình ảnh này để biết \nsẽ xảy ra với bạn trong trò chơi</TestPlay>
+    <BigNote>Nếu bạn chạm trúng \nquả bóng lớn nhất, \nbạn được 50 điểm</BigNote>
+    <SmallNote>Nếu bạn chạm trúng quả bóng \nnhỏ nhất bạn được 100 điểm \nnhưng bạn chỉ được thấy trong \n15 phút cuối</SmallNote>
+    <GetNote>Nếu muốn đạt điểm cao bạn phải \nchạm trúng hình ảnh nhân vật</GetNote>
+    <Start>Bắt đầu</Start>
+    <Grade>ánh sáng</Grade>
+    <Grade>trung</Grade>
+    <Grade>điên dại</Grade>
+    <RListTitle>Danh sách trừng phạt</RListTitle>
+    <RRedTitle>Xoay bàn Rulet Chỉ để vui mà thôi</RRedTitle>
+    <FingerFight>
+      <HowPlay>How to play?</HowPlay>
+      <HowPlay>2-4 people can play together in one Windows Phone 7.</HowPlay>
+      <HowPlay>Step1:</HowPlay>
+      <HowPlay>Select the language.</HowPlay>
+      <HowPlay>Step2:</HowPlay>
+      <HowPlay>Pick or input the punishment rules that all the players agree to.</HowPlay>
+      <HowPlay>Step3:</HowPlay>
+      <HowPlay>Select the character you like.</HowPlay>
+      <HowPlay>Step4a:</HowPlay>
+      <HowPlay>For [Finger Fighting]－Use your one finger to tap on the icon of your selected character to increase your score.</HowPlay>
+      <HowPlay>Use your one finger to tap on the icon of your selected character to increase your score.</HowPlay>
+      <HowPlay>Step5:</HowPlay>
+      <HowPlay>The loser will be punished in certain way which is selected by spinning the roulette.</HowPlay>
+      <HowPlay>It is more than a game. it is an effective approach to socialize with your friends and to get along with your family through finger touching within the game.</HowPlay>
+    </FingerFight>
+    <DyamicBomb>
+      <HowPlay>Step4b:</HowPlay>
+      <HowPlay>For [Dynamic Bomb]－Each player take tune to tap on the circle buttoms (at least 1, at most 3) until the loser get the last one tap.</HowPlay>
+    </DyamicBomb>
+    <NumberTrip>
+      <HowPlay>Step4c:</HowPlay>
+      <HowPlay>For [Number Trap]－System randomly selects a number between between 0 and 100. Say it is 45 for the explaination. Each player take turn to guess a number. For example, the first player pick the number 60. The second player is subject to pick the number between 0 and 60. Those who guess the number is the same number  generated by the system wil be the loser  and need to be punished in a funny way.</HowPlay>
+    </NumberTrip>
+  </Vientnames>
+  <Dutch>
+    <Punishment>Familie</Punishment>
+    <Punishment>Vakantie</Punishment>
+    <Punishment>Feest</Punishment>
+    <Punishment>Willekeurig</Punishment>
+    <Select>Willekeurig</Select>
+    <Select>Beschrijving</Select>
+    <Select>Finish &amp; Gaan</Select>
+    <Dialog>
+      <Random>Ben je er zeker van willekeurig items te selecteren? Eerder geselecteerd item zal worden gewist</Random>
+      <Explain>Kies straffen uit elke lade. Het aantal straffen mag niet meer zijn dan acht.</Explain>
+      <Clean>Alles weghalen? Eerder geselecteerd item zal worden gewist</Clean>
+    </Dialog>
+    <Explain>Het ballon icoon naast je personage \nis jouw rol in het spel.</Explain>
+    <TestPlay>Je kunt proberen om dit icoon aan te raken, \nen zien wat er gebeuren zal in dit spel.</TestPlay>
+    <BigNote>Raak de grotere en \nverdien 50 punten</BigNote>
+    <SmallNote>Raak de kleinere en verdien \n100 punten, maar deze is \nalleen te zien in de laatste \n15 seconden</SmallNote>
+    <GetNote>Voor een hogere score moet je het \nicoon van jouw personage raken</GetNote>
+    <Start>Start</Start>
+    <Grade>licht</Grade>
+    <Grade>midden</Grade>
+    <Grade>maf</Grade>
+    <RListTitle>Straffenlijst</RListTitle>
+    <RRedTitle>Roulette Alleen voor de lol</RRedTitle>
+    <FingerFight>
+      <HowPlay>How to play?</HowPlay>
+      <HowPlay>2-4 people can play together in one Windows Phone 7.</HowPlay>
+      <HowPlay>Step1:</HowPlay>
+      <HowPlay>Select the language.</HowPlay>
+      <HowPlay>Step2:</HowPlay>
+      <HowPlay>Pick or input the punishment rules that all the players agree to.</HowPlay>
+      <HowPlay>Step3:</HowPlay>
+      <HowPlay>Select the character you like.</HowPlay>
+      <HowPlay>Step4a:</HowPlay>
+      <HowPlay>For [Finger Fighting]－Use your one finger to tap on the icon of your selected character to increase your score.</HowPlay>
+      <HowPlay>Use your one finger to tap on the icon of your selected character to increase your score.</HowPlay>
+      <HowPlay>Step5:</HowPlay>
+      <HowPlay>The loser will be punished in certain way which is selected by spinning the roulette.</HowPlay>
+      <HowPlay>It is more than a game. it is an effective approach to socialize with your friends and to get along with your family through finger touching within the game.</HowPlay>
+    </FingerFight>
+    <DyamicBomb>
+      <HowPlay>Step4b:</HowPlay>
+      <HowPlay>For [Dynamic Bomb]－Each player take tune to tap on the circle buttoms (at least 1, at most 3) until the loser get the last one tap.</HowPlay>
+    </DyamicBomb>
+    <NumberTrip>
+      <HowPlay>Step4c:</HowPlay>
+      <HowPlay>For [Number Trap]－System randomly selects a number between between 0 and 100. Say it is 45 for the explaination. Each player take turn to guess a number. For example, the first player pick the number 60. The second player is subject to pick the number between 0 and 60. Those who guess the number is the same number  generated by the system wil be the loser  and need to be punished in a funny way.</HowPlay>
+    </NumberTrip>
+  </Dutch>
+  <Italy>
+    <Punishment>famiglia</Punishment>
+    <Punishment>vacanza</Punishment>
+    <Punishment>festa</Punishment>
+    <Punishment>fila</Punishment>
+    <Select>Random tutti</Select>
+    <Select>Descrizione</Select>
+    <Select>inizia</Select>
+    <Dialog>
+      <Random>sicuro di volerne uno a caso?Le voci appena scelte saranno cancellate</Random>
+      <Explain>scegli le punizioni dal cassetto, massimo 8 </Explain>
+      <Clean>cancella？Le voci appena scelte saranno cancellate</Clean>
+    </Dialog>
+    <Explain>il simbolo del pallone vicino al tuo personaggio e' il ruolo nel gioco</Explain>
+    <TestPlay>puoi provare a toccare il simbolo e vedere \ncosa succedera' nel gioco</TestPlay>
+    <BigNote>tocca quello piu' grande \ne prendi 50 punti</BigNote>
+    <SmallNote>tocca quello piu' piccolo e \nprendi 100 punti, pero' lo vedrai \nsolo negli ultimi 15 secondi</SmallNote>
+    <GetNote>per avere un punteggio piu' alto, devi \ntoccare il tuo personaggio</GetNote>
+    <Start>inizia</Start>
+    <Grade>leggero</Grade>
+    <Grade>grave</Grade>
+    <Grade>furioso</Grade>
+    <RListTitle>la lista delle punizioni</RListTitle>
+    <RRedTitle>Roulette solo per divertimento</RRedTitle>
+    <FingerFight>
+      <HowPlay>come si gioca?</HowPlay>
+      <HowPlay>2-4 persone possono giocare insieme su un Windows Phone 7.</HowPlay>
+      <HowPlay>fase 1:</HowPlay>
+      <HowPlay>seleziona la lingua.</HowPlay>
+      <HowPlay>fase 2:</HowPlay>
+      <HowPlay>seleziona o immetti le regole delle punizioni su cui tutti giocatori sono d'accordo.</HowPlay>
+      <HowPlay>fase 3:</HowPlay>
+      <HowPlay>seleziona il personaggio che preferisci.</HowPlay>
+      <HowPlay>fase 4a:</HowPlay>
+      <HowPlay>[la battaglia delle dita]－Usa un dito per toccare il disegno del tuo personaggio e aumentare il tuo punteggio.</HowPlay>
+      <HowPlay>Usa un dito per toccare il disegno del tuo personaggio e aumentare il tuo punteggio.</HowPlay>
+      <HowPlay>fase 5:</HowPlay>
+      <HowPlay>il perdente sara' punito con un metodo scelto girando la roulette.</HowPlay>
+      <HowPlay>è più di un gioco. È un metodo efficace per socializzare con i tuoi amici e andare d'accordo con la tua famiglia attraverso il tocco delle dita nel gioco.</HowPlay>
+    </FingerFight>
+    <DyamicBomb>
+      <HowPlay>fase 4b:</HowPlay>
+      <HowPlay>[bomba dinamica]－I giocatori premono a turno i tasti circolari (almeno 1 volta, massimo 3) fino a quando il perdente da' l'ultimo colpetto.</HowPlay>
+    </DyamicBomb>
+    <NumberTrip>
+      <HowPlay>fase 4c:</HowPlay>
+      <HowPlay>For [Number Trap]－System randomly selects a number between between 0 and 100. Say it is 45 for the explaination. Each player take turn to guess a number. For example, the first player pick the number 60. The second player is subject to pick the number between 0 and 60. Those who guess the number is the same number  generated by the system wil be the loser  and need to be punished in a funny way.</HowPlay>
+    </NumberTrip>
+  </Italy>
+</XnaContent>

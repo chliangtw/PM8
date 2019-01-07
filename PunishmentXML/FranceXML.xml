@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="System.String"></Asset>
+  <Family>
+    <item>Le gagnant gratte le perdant pendant 5 seconds.</item>
+    <item>Massez l''épaule du gangant pendant une minute.</item>
+    <item>Chantez tout en gardant un œuf à la coque dans la bouche.</item>
+    <item>Imitez un orang-outan promenant pendant 10 secondes.</item>
+    <item>Imitez un canard dandinant.</item>
+    <item>Avec le livre sur la tête, le perdant défile pendant 10 secondes.</item>
+    <item>Allez au lit à l''heure pendant deux semaines.</item>
+    <item>Accompagnez votre mère au marché pendant une semaine.</item>
+    <item>Donnez un bain à un animal familier pendant un mois. (Le gagnant choisit l''animal familier.)</item>
+    <item>Ramassez la crotte d''un chien dans la rue ou sur le trottoir, et nettoyez les rues.</item>
+    <item>Faites la vaisselle pour votre famille pendant une semaine.</item>
+    <item>Ramassez et rangez les jouets pendant une semaine.</item>
+    <item>Imitez le SpongeBob !</item>
+    <item>Mettez un bas sur la tête et faites l''expression féroce. Faites-vous photographier.</item>
+    <item>Faites au rouge à lèvres des dessins drôles sur le ventre. Faites-vous photographier!</item>
+    <item>Pour réduire les dépenses, la moitié de votre argent de poche est retirée.</item>
+    <item>Nettoyez votre chambre pendant un mois.</item>
+    <item>Balayez la maison pendant un mois.</item>
+    <item>Essuyez le plancher pendant un mois.</item>
+    <item>Jetez les ordures pendant un mois.</item>
+    <item>Massez le dos du gagnant une heure par jour pendant un mois.</item>
+    <item>Préparez le petit déjeuner pour votre famille pendant une semaine.</item>
+    <item>Commandez un repas complet de KFC.</item>
+    <item>Le perdant écrit avec les fesses le nom du gagnant dans l''air.</item>
+    <item>Vous ne pouvez pas acheter de nouveaux vêtements pendant un mois.</item>
+    <item>Le perdant est privé de sortir pendant deux semaines.</item>
+    <item>Échange de rôles entre vous et un parent. Assurez les responsabilités de votre parent pendant un jour.</item>
+    <item>Le couvre-feu du perdant est avancé d''une heure pendant une semaine.</item>
+  </Family>
+  <Nightclubs>
+    <item>Au resto McDonald'' s, vous pleurez en disant fort " Ce n''est pas KFC!".</item>
+    <item>Commandez une pizza chez KFC.</item>
+    <item>Abordez un(e) inconnu(e) en lui disant  "Vous êtes beau (belle)."</item>
+    <item>Demandez à un inconnu sa carte de visite. (Il faut réussir au moins une fois.)</item>
+    <item>Un passant fait manger au perdant un mélange de nourritures dégoûtant.</item>
+    <item>Dansez le hula-hula.</item>
+    <item>Le perdant achète un billet de loterie pour le gagnant.</item>
+    <item>Achetez des bonbons pour tout le monde.</item>
+    <item>Adressez-vous à dix foyers et demandez-leur des bonbons (Déguisez-vous comme un personnage de cartoon.</item>
+    <item>Dansez la danse de singe.</item>
+    <item>Chaque gagnant effleure le front du perdant une fois.</item>
+    <item>Dites " Ne bougez pas !" à la voix de Donald Duck''s.</item>
+    <item>Allez au palais présidentiel  et chantez le chant national.</item>
+    <item>Abordez un inconnu et demandez son numéro de téléphone.</item>
+    <item>Dans la rue, chantez une chanson d''amour aux gens du sexe opposé.</item>
+    <item>Vendez des produits factices aux passants et finalement, expliquez  ceci est simplement une duperie.</item>
+    <item>Chaque gagnant dessine sur le visage du perdant et puis vous faites des photos comme preuve.</item>
+    <item>Criez fort pendant 5 secondes sur la piste de danse.</item>
+    <item>Les deux derniers perdants s''embrassent pendant 5 secondes.</item>
+    <item>Epreuve de hardiesse : mettez un ver sur l''épaule pendant 5 secondes.</item>
+    <item>Epreuve de courage : le perdant se rase la tête.</item>
+    <item>Le perdant doit faire ce que dit le gagnant</item>
+  </Nightclubs>
+  <Party>
+    <item>A l''épicerie Family Mart, achetez une glace et demandez au caissier comment la chauffer en micro-onde.</item>
+    <item>Un seau de glace est vidé dans l''habillement du perdant.</item>
+    <item>Dans la rue, demandez à un(e) inconnu(e) son adresse de MSN.</item>
+    <item>Tenez la pose d''un chien faisant pipi, tout en grattant les oreilles avec les doigts.</item>
+    <item>Allez à un bar et annoncez "Je viens d''avoir une augmentation de salaire. Vos consommations sont à mon compte.</item>
+    <item>Faites cul sec!</item>
+    <item>Feignez d''être Jack sur le Titanic en criant " Je suis roi du monde."</item>
+    <item>Faites une impression du sexe opposé.</item>
+    <item>Imitez une célébrité.</item>
+    <item>Montez sur une table, posez comme Superman et criez "Je suis Superman".</item>
+    <item>Prenez dix photos de vous faisant des grimances.</item>
+    <item>Tenez une chaussure près de l''oreille et disez "Allô, c''est qui ?"</item>
+    <item>Le perdant embrasse quelqu''un choisi par le gagnant.</item>
+    <item>Au KTV, allez dans la salle à côté et chantez ensemble avec les autres.</item>
+    <item>Les deux perdants se donnent le suçon.</item>
+    <item>Enlevez le t-shirt de quelqu''un avec votre bouche.</item>
+    <item>Faites dix poussées.</item>
+    <item>Dansez la danse.</item>
+    <item>Faites 30 sit-up.</item>
+    <item>Racontez un secret.</item>
+    <item>Racontez une histoire gênante qui vous est arrivée.</item>
+    <item>Étreignez un arbre comme un koala pendant 10 secondes.</item>
+    <item>Buvez un mélange de boissons dégoutant.</item>
+    <item>Faites une danse érotique.</item>
+  </Party>
+  <Queue>
+    <item>Trouvez trois inconnus pour jouer au "Party Magic".</item>
+    <item>Tenez les affaires du gagnant jusqu''à ce qu''il y ait un nouveau perdant.</item>
+    <item>Dites "Je vous aime,  laissez-moi sauter la queue, SVP"  trois fois.</item>
+    <item>Dites à haute voix : "Je suis le 7ème nain. J''attends SnowWhite, mais elle n''est pas encore arrivée".</item>
+    <item>Dites à haute voix : "Tout le monde n''est pas en bonne file d''attendte. La bonne file d''attente est ici"</item>
+    <item>Dites à haute voix : "Je vais péter. Tout le monde sort d''ici."</item>
+    <item>Laissez les gagnants s''asseoir sur votre dos pour qu''ils puissent se reposer 2 minutes.</item>
+    <item>Trouvez trois inconnu(e)s du sexe opposé et leur dites "Je vous aime".</item>
+    <item>Chantez une chanson à haute voix et puis criez: "Donnez-moi de l''argent!"</item>
+    <item>Demandez une carte de visite à une personne dans la queue.</item>
+    <item>Dites à haute voix : "Soyez patients! Vous n''allez attendre que 3 heures</item>
+    <item>Dites à la haute voix:" J''ai la BO (odeur de corps), merci de me supporter."</item>
+  </Queue>
+</XnaContent>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="System.String"></Asset>
+  <Family>
+    <item>Pemenang menggaruk pihak yang kalah selama 5 detik.</item>
+    <item>Membantu pemenang memijat pundak selama 1 menit.</item>
+    <item>Bernyanyi dengan telur setengah matang di mulut.</item>
+    <item>Menirukan gorila berjalan selama 10 detik.</item>
+    <item>Menirukan bebek berjalan.</item>
+    <item>Diatas kepala diletakan buku, kemudian di pentas selama 10 detik.</item>
+    <item>Tidur tepat waktu selama 2 minggu.</item>
+    <item>Menemani ibu membeli sayur di pasar selama 1 minggu.</item>
+    <item>Memandikan binatang peliharaan selama 1 bulan (Pemenang berhak memilih jenis binatang).</item>
+    <item>Memungut kotoran anjing di jalan dan membersihkan jalan.</item>
+    <item>Menjadi pencuci piring rumah tangga selama 1 minggu.</item>
+    <item>Membereskan mainan selama 1 minggu.</item>
+    <item>Mengambil mainan anak-anak dan mengatakan barang ini kesukaan saya.</item>
+    <item>Menirukan Spongebob!</item>
+    <item>Memakaikan stocking diatas kepala pihak yang kalah dan membuat ekspresi galak dan bersedia untuk difoto.</item>
+    <item>Menggambar gambar lucu di atas perut dengan lipstik dan bersedia untuk difoto.</item>
+    <item>Untuk mengurangi pengeluaran, uang jajan dipotong setengah.</item>
+    <item>Membersihkan kamar sendiri selama 1 bulan.</item>
+    <item>Menyapu lantai selama 1 bulan.</item>
+    <item>Mengepel lantai selama 1 bulan.</item>
+    <item>Menjadi pembuang sampah rumah tangga selama 1 bulan.</item>
+    <item>Setiap hari selama 1 jam menepuk punggung pemenang dengan lembut untuk 1 bulan.</item>
+    <item>Memasak sarapan pagi untuk keluarga selama 1 minggu.</item>
+    <item>Memesan satu paket KFC.</item>
+    <item>Pihak yang kalah menulis nama pemenang dengan menggerakan bokong!</item>
+    <item>Dilarang membeli baju baru selama 1 bulan.</item>
+    <item>Dilarang keluar rumah selama 2 minggu.</item>
+    <item>Bertukar peran antara orang tua dan anak. Mengambil tangungjawab orang tua selama 1 hari.</item>
+    <item>Memajukan jam pulang selama 1 jam.</item>
+  </Family>
+  <Nightclubs>
+    <item>Pergi ke McDonald dan berkata "ini bukan KFC".</item>
+    <item>Pergi ke KFC dan memesan nasi daging.</item>
+    <item>Mendatangi orang tak dikenal dan berkata "kamu cantik (tampan)".</item>
+    <item>Meminta kartu nama kepada orang tak dikenal (Dihitung berhasil jika mendapatkan 1 lembar kartu nama).</item>
+    <item>Orang tak dikenal menyuapi pihak kalah dengan makanan yang telah dibuat secara khusus (Pemenang yang memutuskan).</item>
+    <item>Menarikan tari hula-hula.</item>
+    <item>Membeli lotre untuk pemenang.</item>
+    <item>Mentraktir permen untuk semua orang.</item>
+    <item>Mengunjungi 10 keluarga (Memakai kostum dengan karakter kartun).</item>
+    <item>Menarikan tari kera.</item>
+    <item>Pemenang menyentil dahi pihak kalah 1 kali.</item>
+    <item>Menirukan suara Donald bebek dan berkata "diam".</item>
+    <item>Pergi ke istana presiden dan menyanyikan lagu nasional.</item>
+    <item>Mendatangi orang tak dikenal dan meminta nomor telepon.</item>
+    <item>Menyanyikan lagu cinta untuk lawan jenis di jalan.</item>
+    <item>Merekomendasikan barang tidak bermutu kepada orang tak dikenal dan pada akhirnya jujur mengatakan bahwa barang itu tidak bermutu.</item>
+    <item>Pemenang mewarnai wajah pihak yang kalah dan mengambil foto sebagai bukti.</item>
+    <item>Berteriak selama 5 detik di lantai dansa.</item>
+    <item>Pihak yang kalah dan pihak ke 2 yang kalah bercumbu selama 5 detik.</item>
+    <item>Meletakkan seekor serangga di bahu selama 5 detik.</item>
+    <item>Pihak kalah mencukur rambutnya hingga botak.</item>
+    <item>Pemenang memerintah, Pihak yang kalah melaksanakan.</item>
+  </Nightclubs>
+  <Party>
+    <item>Pergi ke Family mart membeli es krim dan meminta pegawai toko untuk memanaskan di dalam oven.</item>
+    <item>Menuang satu ember es batu ke dalam pakaian pihak kalah.</item>
+    <item>Berkenalan dengan lawan jenis di jalan dan harus mendapatkan alamat MSN orang tersebut.</item>
+    <item>Mengangkat kaki tinggi-tinggi seperti anjing membuang air kecil sambil menyentuk telinga dengan jari (bersedia difoto untuk dijadikan sebagai bukti).</item>
+    <item>Pergi ke bar dan mengumumkan, "Saya baru mendapat kenaikan gaji,minuman saya yang bayar".</item>
+    <item>Minum segelas wiski.</item>
+    <item>Memerankan Jack dan Rose dalam film Titanic, berkata "saya raja dunia".</item>
+    <item>Bertukar gaya antara sesama lawan jenis.</item>
+    <item>Menirukan gaya seorang artis atau selebritis.</item>
+    <item>Berdiri diatas meja makan dan bergaya sambil berkata "saya adalah superman".</item>
+    <item>Foto diri sendiri sebanyak 10 lembar dengan mimik yang buruk.</item>
+    <item>Mendekatkan sepatu ke telinga dan berkata "siapa yang menelepon".</item>
+    <item>Pemenang meminta pihak yang kalah untuk mencumbu seseorang.</item>
+    <item>Di tempat karaoke mendatangi ruangan sebelah dan bernyanyi satu lagu bersama.</item>
+    <item>Dua orang pihak yang kalah secara bersama-sama melakukan gerakan orang kampungan.</item>
+    <item>Menggunakan mulut untuk membuka baju seseorang.</item>
+    <item>Push up sebanyak 10 kali.</item>
+    <item>Menarikan tari "sorry".</item>
+    <item>Sit up sebanyak 30 kali.</item>
+    <item>Menceritakan sebuah rahasia yang tidak diketahui orang banyak.</item>
+    <item>Menceritakan kejadian diri sendiri yang memalukan.</item>
+    <item>Pihak kalah diikat di atas pohon seperti koala memeluk pohon.</item>
+    <item>Pihak kalah meminum berbagai macam campuran minuman yang menjijikan.</item>
+    <item>Menari tarian yang sexy.</item>
+  </Party>
+  <Queue>
+    <item>Mencari tiga orang yang tak dikenal dan bersama-sama memainkan permainan Party Magic (Pesta Sulap).</item>
+    <item>Pihak kalah membantu pemenang membawakan seluruh barangnya sampai muncul pihak kalah yang baru.</item>
+    <item>Saya mencintai kalian semua dan perbolehkan saya menerobos antrian" (lakukan sebanyak 3 kali).</item>
+    <item>Berteriak :"Saya adalah kurcaci ke 7  dan putri salju telah meninggalkan saya sendiri dan menyebabkan saya menunggu disini" (lakukan sebanyak 3 kali).</item>
+    <item>Berteriak :"Kalian semua mengantri diantrian yang salah dan sebelah sini adalah antrian yang benar" (lakukan sebanyak 3 kali).</item>
+    <item>Berteriak : "Saya ingin buang angin, ayo semua keluar dari sini" (lakukan sebanyak 3 kali).</item>
+    <item>Pemenang menduduki punggung pihak kalah untuk istirahat selama 2 menit.</item>
+    <item>Mencari tiga orang lawan jenis yang tak dikenal yang berada di dalam antrian dan berteriak :"saya cinta kamu".</item>
+    <item>Bernyanyi sebuah lagu dengan keras, setelah selesai kemudian berteriak : "Berikan saya uang".</item>
+    <item>Meminta kartu nama kepada orang yang berada di dalam antrian (Dihitung berhasil setelah mendapatkan 1 lembar).</item>
+    <item>Berteriak :"Tolong semuanya bersabar, hanya menunggu 3 jam lagi".</item>
+    <item>Berteriak: "Saya memiliki bau badan, tolong kalian bersabar" (lakukan sebanyak 3 kali).</item>
+  </Queue>
+</XnaContent>

@@ -1028,7 +1028,7 @@ function scene:show( event )
 			LanguagesetText.x = display.contentWidth * 0.65
 			LanguagesetText.y = display.contentHeight * 0.14
 			sceneGroup:insert( LanguagesetText )
-
+				
 			display.remove(ConfirmButton)
 			ConfirmButton = widget.newButton(
 		    {

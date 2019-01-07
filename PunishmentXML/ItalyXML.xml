@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="System.String"></Asset>
+  <Family>
+    <item>il vincitore fa il solletico al perdente per 5 secondi</item>
+    <item>massaggia la spalla del vincitore per un minuto</item>
+    <item>canta con un uovo sodo in bocca</item>
+    <item>imita la camminata dell'orangotango per 10 secondi</item>
+    <item>imita la camminata del' anatra</item>
+    <item>con un libro sulla testa, il perdente cammina in passerella per 10 secondi</item>
+    <item>va' a letto puntuale per due settimane</item>
+    <item>accompagna tua mamma a fare la psesa per una settimana</item>
+    <item>lava un animale domestico (il vincitore sceglie quale)</item>
+    <item>raccogli escrementi dalla strada o dal marciapiede e pulisci</item>
+    <item>lava i piatti per una settimana</item>
+    <item>raccogli i giocattoli per una settimana</item>
+    <item>prendi un giocattolo da bambini, e di' a voce alta "questo e' il mio giocattolo preferito", poi giocaci</item>
+    <item>imita Spongebob</item>
+    <item>metti una calza da donna sulla testa del perdente, che fa delle smorfie da fotografare</item>
+    <item>fa' un disegno comico sulla pancia del perdente con il rossetto e fotografalo</item>
+    <item>rinuncia alla meta' della paghetta settimanale</item>
+    <item>pulisci la tua stanza per un mese</item>
+    <item>spazza la casa per un mese</item>
+    <item>lava il pavimento per un mese</item>
+    <item>butta via i rifiuti per un mese</item>
+    <item>fa un massaggio ai genitori o alla schiena del vincitore per un'ora al giorno</item>
+    <item>prepara la colazione alla famiglia per una settimana (cucina tu)</item>
+    <item>ordina un cestino di pollo fritto del KFC!</item>
+    <item>il perdente scrive il nome del vincitore con il sedere</item>
+    <item>non comprare vestiti per un mese</item>
+    <item>il perdente e' recluso in casa per due settimane</item>
+    <item>scambiati i ruoli con i genitori e per un giorno gestisci tu la famiglia</item>
+    <item>il perdente deve tornare a casa un'ora prima per una settimana</item>
+  </Family>
+  <Nightclubs>
+    <item>al McDonald's, siediti per terra piangendo e gridando ''questo non e' il KFC'</item>
+    <item>ordina la pizza al KFC</item>
+    <item>attacca discorso con un passante e di' che sei bello</item>
+    <item>chiedi un bigliettino da visita a un passante</item>
+    <item>il passante da' un cibo disgustoso al perdente</item>
+    <item>fa' un ballo hawaiano</item>
+    <item>il perdente compra un biglietto della lotteria al vincitore</item>
+    <item>compra le caramelle per tutti</item>
+    <item>Chiedi le caramente bussando alla porta di 10 appartamenti (vestito come un personaggio dei cartoni)</item>
+    <item>fa' il ballo della scimmia</item>
+    <item>il vincitore da' un colpetto in fronte al perdente</item>
+    <item>di' "fermati!" con la voce di Paperino</item>
+    <item>va' in un palazzo governativo e canta l'inno nazionale</item>
+    <item>chiedi il numero di telefono a un passante</item>
+    <item>canta una canzone d'amore per una persona dell'altro sesso</item>
+    <item>cerca di vendere un prodotto falso a un passante e alla fine digli la verita'</item>
+    <item>il vincitore dipinge la faccia del perdente e gli fa le foto come prova</item>
+    <item>grida forte sulla pista da ballo per 5 secondi</item>
+    <item>il perdente bacia l'altro perdente per 5 secondi</item>
+    <item>test di coraggio: tieni un insetto sulla spalla per 5 secondi</item>
+    <item>test di coraggio: rasati i capelli a zero</item>
+    <item>il vincitore dice una cosa ed il perdente obbedisce</item>
+  </Nightclubs>
+  <Party>
+    <item>compra i ghiaccioli al negozio chiedendo al commesso di scaldarteli un momento</item>
+    <item>versa un secchio di ghiaccio nei vestiti del perdente</item>
+    <item>per strada chiedi l'indirizzo MSN di un passante</item>
+    <item>imita un cane che fa pipi' tenendo un dito nell'orecchio e fatti riprendere in foto</item>
+    <item>entra in un bar dicendo "ho avuto un aumento di stipendio, offro da bere a tutti"</item>
+    <item>finisci un bicchiere intero di whisky</item>
+    <item>fa finta di essere Jack sul Titanic che grida "sono il re del mondo!"</item>
+    <item>fa' finta di essere uno dell'altro sesso</item>
+    <item>imita una persona o un attore famoso</item>
+    <item>sta' in piedi sul tavolo e fa' il gesto di Superman gridando "sono Superman!"</item>
+    <item>fa' dieci foto con smorfie diverse</item>
+    <item>porta la scarpa all'orecchio e di' "pronto, chi parla?"</item>
+    <item>il perdente bacia qualcuno (scelto dal vincitore)</item>
+    <item>nel karaoke va' nella stanza accanto e canta una canzone</item>
+    <item>i due perdenti si baciano</item>
+    <item>togli un indumento a una persona con la bocca</item>
+    <item>fa' 10 flessioni di seguito</item>
+    <item>balla la canzone coreana "Sorry"</item>
+    <item>fa' 30 addominali di seguito</item>
+    <item>racconta un tuo segreto</item>
+    <item>racconta una cosa imbarazzante</item>
+    <item>abbraccia un albero come fossi un koala per 10 secondi</item>
+    <item>bevi un mix disgustoso di bevande</item>
+    <item>fa' un ballo sexy</item>
+  </Party>
+  <Queue>
+    <item>cerca tre passanti per giocare a "Party Magic"</item>
+    <item>tieni in mano tutti gli averi del vincitore fin quando c'e' un nuovo perdente</item>
+    <item>di' a voce alta per 3 volte "vi voglio bene, fatemi passare avanti nella fila!"</item>
+    <item>di' a voce alta "sono uno dei sette nani, sto aspettando Biancaneve, pero' non si e' presentata ancora"</item>
+    <item>di' a voce alta "avete sbagliato, bisogna mettersi in fila qua"</item>
+    <item>di' a voce alta "mi scappa una scoreggia, andate via!"</item>
+    <item>fa' sedere il vincitore sulle tue spalle per due minuti</item>
+    <item>cerca tre persone del sesso opposto e digli a voce alta "ti amo"</item>
+    <item>canta a voce alta e poi grida "datemi qualche soldo!"</item>
+    <item>prendi un biglietto da visita di una persona in fila</item>
+    <item>di' a voce alta "abbiate pazienza, aspettate solo altre tre ore"</item>
+    <item>di' a voce alta "abbiate pazienza, puzzo di sudore"</item>
+  </Queue>
+</XnaContent>

@@ -7,9 +7,15 @@ function languageButtonEvent( ... )
 	composer.gotoScene( "Scenes.LanguageoptionScene", frad , 400)
 end
 
+function startButtonEvent( ... )
+	composer.gotoScene( "Scenes.GameSelectionScene", frad , 400)
+end
+
 function scene:create( event )
 	local sceneGroup = self.view
-	
+
+	print("Width: "..display.contentWidth)
+	print("Height: "..display.contentHeight)
 	--背景圖片
 	local backgrounkImage = display.newImage( "Image/MainMenu/party_magic.jpg" )
 	backgrounkImage.x = display.contentCenterX

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="System.String"></Asset>
+  <Family>
+    <item>capturas ganador durante cinco segundos.</item>
+    <item>Hombro ganador masaje durante un minuto.</item>
+    <item>La boca con huevo pasado por agua y cantar.</item>
+    <item>Imitar "orangután" caminar por diez segundos.</item>
+    <item>Imitar "pato" a pie.</item>
+    <item>Ponga un libro en la cabeza de perdedor y llevar a cabo la pasarela durante diez segundos.</item>
+    <item>Ir a la cama a tiempo para dos semanas.</item>
+    <item>Acompañar a mamá para ir al mercado para una semana.</item>
+    <item>Dar un baño de la mascota durante un mes.</item>
+    <item>Recoja las heces de perro en el camino, y limpiar las calles.</item>
+    <item>Lavar el dishs durante una semana.</item>
+    <item>Recoger los juguetes durante una semana.</item>
+    <item>Disfruta de juguete de los niños y dicen que este es mi juguete favorito y jugar con él.</item>
+    <item>Imitar a Bob Esponja!</item>
+    <item>El perdedor de la Fuerza para poner un calcetín en la cabeza y poner una expresión feroz, haciendo una foto.</item>
+    <item>Lápiz de labios se pintan patrones divertido en el vientre de perdedor, para hacer dibujos.</item>
+    <item>Deducir la mitad de dinero de bolsillo.</item>
+    <item>Limpie su habitación por un mes.</item>
+    <item>Barrer la casa por un mes.</item>
+    <item>Trapear el piso por un mes.</item>
+    <item>Tire la basura de la familia durante un mes.</item>
+    <item>Libra de los ganadores de los padres de nuevo todos los días durante una hora por un mes.</item>
+    <item>Desayuno cocinar para la familia durante una semana.</item>
+    <item>Orden de una comida cubo de KFC aquí!</item>
+    <item>Escriba el nombre del perdedor con su trasero!</item>
+    <item>No se puede comprar ropa nueva durante un mes.</item>
+    <item>Estar conectados a tierra durante dos semanas.</item>
+    <item>Función de intercambio con tu y sus padres, hacer lo que su padre debe hacer.</item>
+    <item>Guardia de entrada Realiza una hora antes.</item>
+  </Family>
+  <Nightclubs>
+    <item>En McDonald''s, se sientan en el suelo llorando y decir que no es de KFC.</item>
+    <item>Orden de Pizza en KFC.</item>
+    <item>Abordarlo extranjero y decirles que son hermosas (o guapo).</item>
+    <item>Pregunte a un extraño para su tarjeta de visita (éxito al menos una vez).</item>
+    <item>Un extraño alimentar el perdedor de una mezcla repugnante de los alimentos.</item>
+    <item>Baile del hula hula.</item>
+    <item>El perdedor comprar billete de lotería para el ganador.</item>
+    <item>Comprar dulces para todos.</item>
+    <item>Truco o trata a diez familias (Vestido como un personaje de dibujos animados).</item>
+    <item>Hacer la danza de mono.</item>
+    <item>Los ganadores película de su frente, una vez cada uno.</item>
+    <item>Utilizar la voz del Pato Donald decir congelados!</item>
+    <item>Ir al edificio de oficinas del gobierno y cantar el himno nacional.</item>
+    <item>Abordarlo extranjero y pídale que le de su número de teléfono.</item>
+    <item>En la calle, cantar una canción de amor para el sexo opuesto.</item>
+    <item>Vender un producto falso a un extraño, y, finalmente, explicar que es falso.</item>
+    <item>Ganador de las pinturas en la cara perdedor y tomar fotos como evidencia.</item>
+    <item>Nota de cinco segundos en la pista de baile.</item>
+    <item>El perdedor besos para los próximos último jugador durante cinco segundos.(Seguridad de beso)</item>
+    <item>poner un error en el hombro durante cinco segundos.</item>
+    <item>Loser o se corta el pelo.</item>
+    <item>Haz lo que digo.</item>
+  </Nightclubs>
+  <Party>
+    <item>En una tienda, comprar un helado luego pedir al secretario que el microondas.</item>
+    <item>Volcado de un cubo de hielo en una persona elegida por una persona.</item>
+    <item>Como el sexo opuesto en la calle por su dirección de MSN.</item>
+    <item>Se presentan como un perro orinando mientras se mantiene el dedo en la oreja. Tome una foto como prueba.</item>
+    <item>Ir a un bar y anunciar "Acabo de recibir un aumento de sueldo, voy a pagar por sus bebidas."</item>
+    <item>Un disparo de la bebida de whisky.</item>
+    <item>Pretender ser Jack en el Titanic y gritar "Soy el rey del mundo".</item>
+    <item>Hacer una impresión del sexo opuesto.</item>
+    <item>Imitar a una persona o una súper estrella de famouse.</item>
+    <item>Párese sobre una mesa, hacer un superhombre plantean, entonces nota "Yo soy Superman".</item>
+    <item>Tome diez fotos feas!</item>
+    <item>Ponga un zapato a su oído y decir ¿Quién Llama?</item>
+    <item>El perdedor tiene que besar a alguien.</item>
+    <item>En KTV ir a la habitación de al lado y cantar una canción.</item>
+    <item>Dos perdedores darse un hickey.</item>
+    <item>Quítate la camisa de alguien con la boca.</item>
+    <item>Hacer diez flexiones.</item>
+    <item>Hacer la danza sentimos.</item>
+    <item>hace treinta abdominales.</item>
+    <item>Contar un secreto.</item>
+    <item>decir algo embarazoso.</item>
+    <item>Empatar el perdedor a un árbol.</item>
+    <item>beber una mezcla repugnante de las bebidas.</item>
+    <item>Hacer un baile sexy.</item>
+  </Party>
+  <Queue>
+    <item>Encontrar tres personas al azar para jugar la magia Parte.</item>
+    <item>Mantenga ganadores pertenencias hasta que haya un perdedor nuevo.</item>
+    <item>Yo soy el séptimo enano. Estoy esperando a blanco de nieve, pero no ha llegado todavía.</item>
+    <item>Te quiero. Por favor, déjame saltar la cola" tres veces.</item>
+    <item>Decir en voz alta "Todo el mundo está en la línea de worng, la línea de la derecha está aquí!"</item>
+    <item>Decir en voz alta: "Quiero pedo, todo el mundo salir!"</item>
+    <item>Que los ganadores se sientan en la espalda durante dos minutos!</item>
+    <item>Encuentra tres del sexo opuesto y nota Te amo.</item>
+    <item>Cantar una canción en voz alta luego gritar "¡Dame el dinero!".</item>
+    <item>Tome una tarjeta de visita de una persona en una fila de personas.</item>
+    <item>Decir en voz alta "Por favor, ser pacientes, sólo tiene que esperar durante tres horas."</item>
+    <item>Decir en voz alta "No tengo el olor corporal, por favor, desnudo conmigo."</item>
+  </Queue>
+</XnaContent>

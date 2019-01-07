@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="System.String"></Asset>
+  <Family>
+    <item>Winner scratches loser for 5 seconds.</item>
+    <item>Massage winner's shoulder for 1 minute.</item>
+    <item>Sing with soft-boiled egg in mouth.</item>
+    <item>Imitate an orangutan walking for 10 seconds.</item>
+    <item>Imitate a duck walking.</item>
+    <item>With book on head, loser performs a catwalk for 10 seconds.</item>
+    <item>Go to bed on time for two weeks.</item>
+    <item>Accompany mother to market or grocery for a week.</item>
+    <item>Give a pet a bath for a month. (Winner chooses the pet.)</item>
+    <item>Pick up dog feces on road or sidewalk, and clean streets.</item>
+    <item>Wash family dishes for a week.</item>
+    <item>Pick up toys for a week.</item>
+    <item>Hold a children's toy and loudly say, "This is my favorite toy", then play with it.</item>
+    <item>Imitate SpongeBob!</item>
+    <item>Put a stocking on loser's head and make ferocious expression. Provide photographs.</item>
+    <item>Use lipstick to paint funny patterns on loser’s belly. Provide photographs.</item>
+    <item>Deduct half a week's allowance.</item>
+    <item>Clean up your room for a month.</item>
+    <item>Sweep house for a month.</item>
+    <item>Mop the floor for a month.</item>
+    <item>Throw out the family garbage for a month.</item>
+    <item>Massage parent's or winner's back an hour a day for a month.</item>
+    <item>Provide(cook) family breakfast for a week.</item>
+    <item>Order a KFC bucket meal here!</item>
+    <item>Loser write the winner's name in the air with butt!</item>
+    <item>Can't buy new clothes for a month.</item>
+    <item>Loser is grounded for two weeks.</item>
+    <item>Role exchange between you and a parent. Take over your parent's responsibilities for a day.</item>
+    <item>Make loser's curfew one hour earlier for a week.</item>
+  </Family>
+  <Nightclubs>
+    <item>At McDonald's, you sit on the floor crying and loudly say,"This is not KFC."</item>
+    <item>Order pizza at KFC.</item>
+    <item>Accost stranger and say,"You are beautiful (or handsome)."</item>
+    <item>Ask for a stranger's business card (be successful at least success once).</item>
+    <item>Stranger feed the loser a disgusting mixture of foods.</item>
+    <item>Dance the hula-hula.</item>
+    <item>Loser buy Lottery ticket for the winner.</item>
+    <item>Buy candy for everybody.</item>
+    <item>Trick or treat 10 families（Dress as a cartoon character）.</item>
+    <item>Dance monkey dance.</item>
+    <item>The winners flick your forehead once each.</item>
+    <item>Use Donald Duck's voice to say "Freeze!".</item>
+    <item>Go to a government office building and sing the national anthem.</item>
+    <item>Accost stranger and ask her( or his) phone number.</item>
+    <item>In the street sing love song for the opposite sex.</item>
+    <item>Merchandise fictitious product to stranger, and finally explain this is all fictitious.</item>
+    <item>Winner paint on loser's face and take photos as evidence.</item>
+    <item>Shout for 5 seconds on the dance floor.</item>
+    <item>The losing player kisses the next to last player for 5 seconds.</item>
+    <item>Boldness test: put a bug on the shoulder for 5 seconds.</item>
+    <item>Bravery test: Loser shaves his (her) hair.</item>
+    <item>Winner says, loser does.</item>
+  </Nightclubs>
+  <Party>
+    <item>At convenience store buy popsicle, ask clerk to microwave it.</item>
+    <item>A bucket of ice is dumped into the loser's clothing.</item>
+    <item>On the street get a stranger's MSN address.</item>
+    <item>Hold the pose of a dog peeing while holding finger in ear. Take photo for evidence.</item>
+    <item>Go to a bar and announce, "I just got a pay raise. Drinks are on me."</item>
+    <item>Drink a shot of whiskey.</item>
+    <item>Pretend to be Jack on the Titanic shouting, "I am king of the world."</item>
+    <item>Do an impression of the opposite sex.</item>
+    <item>Imitate a famous person or a superstar.</item>
+    <item>Stand on a table. Do a superman pose, shout "I am Superman."</item>
+    <item>Make 10 photos of yourself making ugly faces.</item>
+    <item>Hold shoe next to ear and say, "Who's calling?"</item>
+    <item>Loser kiss somebody. (Winner's choice)</item>
+    <item>At a KTV, go to the next room and sing one song.</item>
+    <item>The two losers give each other a hickey.</item>
+    <item>Take off someone's T-shirt with your mouth.</item>
+    <item>Do ten push-ups.</item>
+    <item>Dance the "sorry" dance.</item>
+    <item>Do 30 sit-ups.</item>
+    <item>Tell a secret.</item>
+    <item>Tell one embrrassing thing that happened to you.</item>
+    <item>Hug a tree like a Koala for 10 seconds.</item>
+    <item>Drink a disgusting mix of drinks.</item>
+    <item>Do a sexy dance.</item>
+  </Party>
+  <Queue>
+    <item>Find three passers-by to play "Party Magic".</item>
+    <item>Hold the winner's belongings until there is a new loser.</item>
+    <item>Say, "I love you, please let me jump the queue" three times.</item>
+    <item>Loudly say,"I'm the 7th dwarf. I'm waiting for SnowWhite but she has't shown up yet."</item>
+    <item>Loudly say, "Everybody is in the wrong line, the right line is here."</item>
+    <item>Loudly say, "I want to fart, everybody out of here."</item>
+    <item>Let winners sit on your back to take a rest for two minutes!</item>
+    <item>Find three members of the opposite sex and shout, "I love  you".</item>
+    <item>Loudly sing a song, then shout, "Give me money".</item>
+    <item>Take a business card from one person in a line of people.</item>
+    <item>Loudly say, "Please be patient, just wait for three hours".</item>
+    <item>Loudly say, "I have BO (body odor), please bear with me."</item>
+  </Queue>
+</XnaContent>

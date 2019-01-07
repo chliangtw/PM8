@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="System.String"></Asset>
+  <Family>
+    <item>Người thắng cuộc cào cấu kẻ thua cuộc trong 5 giây.</item>
+    <item>Mát-xa vai người thắng cuộc trong 1 phút.</item>
+    <item>Vừa hát vừa ngậm trứng lòng đào trong miệng.</item>
+    <item>Đi theo kiểu đười ươi trong 10 giây.</item>
+    <item>Đi theo kiểu vịt.</item>
+    <item>Đặt quyển sách trên đầu đi giống người mẫu trong vòng 10 giây.</item>
+    <item>Đi ngủ đúng giờ trong vòng 2 tuần.</item>
+    <item>Đưa đón mẹ đi chợ hay mua đồ tạp hóa trong vòng 1 tuần.</item>
+    <item>Tăm rửa cho thú cưng trong vòng 1 tháng (người thắng cuộc được lựa chọn thú cưng).</item>
+    <item>Hốt phân chó trên đường hoặc vỉa hè hoặc quét dọn đường.</item>
+    <item>Rửa chén bát trong vòng 1 tuần.</item>
+    <item>Nhặt đồ chơi trong vòng 1 tuần.</item>
+    <item>Cầm 1 món đồ chơi trẻ em và la lớn, "Đây là món đồ chơi ưa thích của tôi" và sau đó chơi với nó.</item>
+    <item>Bắt chước SpongeBob!</item>
+    <item>Đội 1 cái tất dài lên đầu kẻ thua cuộc và làm điệu bộ hung ác. Chụp lại hình để làm chứng.</item>
+    <item>Dùng son môi để vẽ những hình ảnh buồn cười lên bụng kẻ thua cuộc. Chụp lại hình để làn chứng.</item>
+    <item>Bị cắt nửa tuần tiền trợ cấp.</item>
+    <item>Dọn dẹp phòng của bạn trong 1 tháng.</item>
+    <item>Quyets nhà trong vòng 1 tháng.</item>
+    <item>Lau sàn nhà trong vòng 1 tháng.</item>
+    <item>Đi đổ rác của gia đình trong vòng 1 tháng.</item>
+    <item>Mát-xa lưng của ba mẹ hoặc người thắng cuộc mỗi ngày 1 giờ trong vòng 1 tháng.</item>
+    <item>Làm bữa sáng cho cả gia đình trong 1 tuần.</item>
+    <item>Đặt 1 bữa ăn thịnh soạn ở KFC.</item>
+    <item>Kẻ thua cuộc dùng mông viết tên người thắng cuộc vào khoảng không.</item>
+    <item>Bạn không được mua quần áo mới trong vòng 1 tháng.</item>
+    <item>Người thua cuộc không được ra ngoài trong vòng 2 tuần.</item>
+    <item>Bạn với ba hoặc mẹ thay đổi vai trò cho nhau. Bạn đảm nhận các nhiệm vụ của ba hoạc mẹ trong vòng 1 ngày.</item>
+    <item>Đặt ra lệnh giới nghiêm sớm hơn 1 giờ đối với kẻ thua cuộc trong 1 tuần.</item>
+  </Family>
+  <Nightclubs>
+    <item>Tại cửa hàng McDonald''s ngồi bệt trên sàn nhà khóc và la lớn "Đây không phải là KFC".</item>
+    <item>Đặt bánh pizza ở KFC.</item>
+    <item>Bắt chuyện với người lạ và nói "Bạn rất xinh/đẹp trai".</item>
+    <item>Hỏi xin card kinh doanh của 1 người lạ (phải thành công ít nhất 1 lần).</item>
+    <item>Người lạ đút cho người thua cuộc 1 hỗn hợp thức ăn gớm ghiếc.</item>
+    <item>Múa điệu vũ hula-hula (Ha oai).</item>
+    <item>Để người thắng cuộc ngồi trên lưng bạn trong vòng 2 phút.</item>
+    <item>Mua kẹo cho mọi người.</item>
+    <item>Trick or treat (lừa hay lộc) 10 gia đình. (Mặc đồ của nhân vật hoạt hình)</item>
+    <item>Múa điệu múa của khỉ.</item>
+    <item>Người thắng cuộc đánh nhẹ vào trán mọi người.</item>
+    <item>Giả giọng vịt Donald để nói "Lạnh quá"!</item>
+    <item>Đến 1 tòa nhà văn phòng chính phủ và hát quốc ca.</item>
+    <item>Bắt chuyện với người lạ và hỏi xin số điện thoại của họ.</item>
+    <item>Trên đường, hát 1 bài tình ca cho người không cùng giới tính với bạn.</item>
+    <item>Cố gắng thuyết phục bán 1 món hàng tưởng tưởng cho người lạ, cuối cùng phải giải thích món hàng đó là tưởng tượng.</item>
+    <item>Người thắng cuộc vẽ lên mặt người thua cuộc.(Chụp lại hình để làm bằng chứng).</item>
+    <item>La hét trong 5 giây trên sàn nhảy.</item>
+    <item>Người thua cuộc hôn người chơi (kế người chơi cuối cùng trong vòng 5 giây).</item>
+    <item>Thử tính can đảm: Bỏ 1 con bọ lên vai trong 5 giây.</item>
+    <item>Thử tính dũng cảm: Người thua cuộc đi cạo trọc.</item>
+    <item>Người thua cuộc làm mọi điều người thắng cuộc chỉ định.</item>
+  </Nightclubs>
+  <Party>
+    <item>Mua kem đá ở của hàng tiện dụng và nhờ người bán hàng làm nóng bằng lò vi sóng.</item>
+    <item>Người thua cuộc bị đổ 1 xô đá lên người.</item>
+    <item>Trên đường hỏi xin 1 người lạ địa chỉ MSN.</item>
+    <item>Đứng theo kiểu con chó đang đi tiểu trong khi tay thì nắm lỗ tai. Chụp laih hình để làm bằng chứng.</item>
+    <item>Đến quán rượu và thông báo với mọi người: "Tôi mới được tăng lương hôm nay. Tất cả để tôi trả".</item>
+    <item>Uống 1 liều rượu whiskey.</item>
+    <item>Giả làm Jack trong phim Titanic và la lớn tôi là vua của thế giới.</item>
+    <item>Làm 1 hành động tạo ấn tượng đối với người khác giới.</item>
+    <item>Bắt chước hành động của 1 người nổi tiếng/ngôi sao ca nhạc-điện ảnh.</item>
+    <item>Đứng trên bàn giống tư thế của Superman và la lớn: "Tôi là Superman".</item>
+    <item>Chụp 10 tấm hình của bạn khi làm mặt xấu.</item>
+    <item>Để giầy kế tai và hỏi "Ai đang gọi vậy?".</item>
+    <item>Người thắng cuộc chỉ định cho người thua cuộc hôn 1 người nào đó.</item>
+    <item>Tại tiệm karaoke, đi qua phòng bên cạnh và hát 1 bài hát.</item>
+    <item>Hai người thua cuộc hôn (thơm) đến khi chỗ hôn đỏ lên thì dừng.</item>
+    <item>Cởi áo phông  (áo thun) của người khác bằng miệng.</item>
+    <item>Chống đẩy (hít đất) 10 cái.</item>
+    <item>Nhảy điệu múa xin lỗi.</item>
+    <item>Đứng lên ngồi xuống (thụt dầu) 30 lần.</item>
+    <item>Kể 1 điều bí mật của bạn.</item>
+    <item>Kể 1 điều làm bạn bối rối.</item>
+    <item>Ôm 1 cái cây theo kiểu Koala trong vòng 10 giây.</item>
+    <item>Uống 1 hỗn hợp nước uống gớm ghiếc.</item>
+    <item>Nhảy 1 điệu nhảy khêu gợi.</item>
+  </Party>
+  <Queue>
+    <item>Mời 1 người khách qua đường tham gia trò chơi "Bữa tiệc ảo thuật".3 lần</item>
+    <item>Giữ đồ đạc cá nhân cho người thắng cuộc cho tới khi có người thua mới.</item>
+    <item>Nói "Tôi yêu bạn lắm. Cho tôi đứng xếp hàng trước bạn nhé". 3 lần</item>
+    <item>La lớn lên "Tôi là chú lùn thứ 7. Tôi đang đợi nàng Bạch Tuyết nhưng nàng ấy chưa đến".3 lần</item>
+    <item>La lớn "Mọi người đứng lộn hàng rồi. Đây mới là hàng đúng".3 lần</item>
+    <item>La thật lớn "Tôi đang muốn đánh rắm. Mọi người ra khỏi đây ngay".3 lần</item>
+    <item>Để người thắng cuộc ngồi trên lưng bạn trong vòng 2 phút.</item>
+    <item>Tìm 3 người khác giới và la lớn "Anh yêu em/Em yêu anh".</item>
+    <item>Hát 1 bài hát thật to và sau đó nói "Hãy cho tôi tiền".</item>
+    <item>Hỏi xin card kinh doanh của 1 người đang đứng xếp hàng.</item>
+    <item>Hãy nói lớn "Làm ơn kiên nhẫn đợi 3 tiếng nữa".</item>
+    <item>Nói lớn "Người tôi có mùi khó chiu. Làm ơn hãy chịu đựng chung với tôi".3 lần</item>
+  </Queue>
+</XnaContent>
