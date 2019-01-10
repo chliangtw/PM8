@@ -15,11 +15,14 @@
       <Explain>罰の中は最高８を選ばれる</Explain>
       <Clean>すべて削除？今までの選択は削除</Clean>
     </Dialog>
-    <Explain>選んだキャラクター、ゲームの中に小さ\nいアイコンで表す。</Explain>
+    <Explain>選んだキャラクター、ゲームの中に小さ</Explain>
+    <Explain>いアイコンで表す。</Explain>
     <TestPlay>小さいアイコンを押して見てくださ\nい、ゲームでの働きは分かります。</TestPlay>
     <BigNote>大きいアイコンを押し\n潰したら、50点。</BigNote>
-    <SmallNote>小さいアイコンを押し潰し\nたら、100点。</SmallNote>
-    <GetNote>高得点するには、選んだキャラクター\nのアイコンを押し潰す。</GetNote>
+    <SmallNote>小さいアイコンを押し潰し</SmallNote>
+    <SmallNote>たら、100点。</SmallNote>
+    <GetNote>高得点するには、選んだキャラクター</GetNote>
+    <GetNote>のアイコンを押し潰す。</GetNote>
     <Start>スタート</Start>
     <Grade>マイナー</Grade>
     <Grade>中等度</Grade>
@@ -64,11 +67,15 @@
       <Explain>각자의 서랍(상자) 속에서 8가지의 벌칙을 고르시오.</Explain>
       <Clean>모두 취소하였습니다? 선택 항목 모두 취소 되었습니다.</Clean>
     </Dialog>
-    <Explain>당신이 선택한 캐릭터 옆에 있는 작은 도\n시가 바로 게임 중의 모습입니다.</Explain>
+    <Explain>당신이 선택한 캐릭터 옆에 있는 작은 도</Explain>
+    <Explain>시가 바로 게임 중의 모습입니다.</Explain>
     <TestPlay>미리보기</TestPlay>
     <BigNote>게임 중 큰 그림을 클\n릭하면 득점50점.</BigNote>
-    <SmallNote>게임 중 작은 그림을 클릭하\n면 득점100점(종료 15초 전\n에 나타남).</SmallNote>
-    <GetNote>높은 점수를 얻고 싶다면,모든 임무를 \n완수해야함.</GetNote>
+    <SmallNote>게임 중 작은 그림을 클릭하</SmallNote>
+    <SmallNote>면 득점100점(종료 15초 전</SmallNote>
+    <SmallNote>에 나타남).</SmallNote>
+    <GetNote>높은 점수를 얻고 싶다면,모든 임무를 </GetNote>
+    <GetNote>완수해야함.</GetNote>
     <Start>시작</Start>
     <Grade>약한/\n경미하다</Grade>
     <Grade>심한/강함</Grade>
@@ -113,11 +120,15 @@
       <Explain>您可以选择不同的惩罚项目最多8项，请玩得High一点吧！如果您也有想到不同的玩法或项目，也希望提供给我们做参考。</Explain>
       <Clean>清除全部? 它会清除之前所选择的项目喔。</Clean>
     </Dialog>
-    <Explain>您记得刚才选的主角吗？他们在等一下游\n戏时会变成另一个图案，请记得他们。</Explain>
+    <Explain>您记得刚才选的主角吗？他们在等一下游</Explain>
+    <Explain>戏时会变成另一个图案，请记得他们。</Explain>
     <TestPlay>您可以试点下方两个图案(感觉一下)。</TestPlay>
     <BigNote>点击比较大的图案+50分</BigNote>
-    <SmallNote>点击比较小的图案+100分，\n他们只出现在最后的15秒。</SmallNote>
-    <GetNote>如果您不想输，等一下游戏时，您可以\n影响他人点击他们的图案或者多点一点\n自己的图案。</GetNote>
+    <SmallNote>点击比较小的图案+100分，</SmallNote>
+    <SmallNote>他们只出现在最后的15秒。</SmallNote>
+    <GetNote>如果您不想输，等一下游戏时，您可以</GetNote>
+    <GetNote>影响他人点击他们的图案或者多点一点</GetNote>
+    <GetNote>自己的图案。</GetNote>
     <Start>开始</Start>
     <Grade>轻微</Grade>
     <Grade>中度</Grade>
@@ -162,11 +173,16 @@
       <Explain>elegirá ocho castigos</Explain>
       <Clean>todos limpiar? los archivos previamente seleccionados serán claras</Clean>
     </Dialog>
-    <Explain>El icono del globo junto a su carácter \nes su papel en el juego.</Explain>
+    <Explain>El icono del globo junto a su carácter</Explain>
+    <Explain>es su papel en el juego.</Explain>
     <TestPlay>vista previa</TestPlay>
     <BigNote>obtener 50 puntos si se \ntoca la más grande.</BigNote>
-    <SmallNote>obtener 100 puntos si se \ntoca la más pequeña. Sólo \nse verá en th últimos 15 \nsegundos.</SmallNote>
-    <GetNote>Tu recibe una puntuación alta si \ntoque tu personaje</GetNote>
+    <SmallNote>obtener 100 puntos si se </SmallNote>
+    <SmallNote>toca la más pequeña. Sólo </SmallNote>
+    <SmallNote>se verá en th últimos 15 </SmallNote>
+    <SmallNote>segundos.</SmallNote>
+    <GetNote>Tu recibe una puntuación alta si </GetNote>
+    <GetNote>toque tu personaje</GetNote>
     <Start>comienzo</Start>
     <Grade>luz</Grade>
     <Grade>medio</Grade>
@@ -211,11 +227,15 @@
       <Explain>您可以選擇不同的懲罰項目最多8項，請玩得High一點吧！如果您也有想到不同的玩法或項目，也希望提供給我們做參考。</Explain>
       <Clean>清除全部？它會清除之前所選擇的項目喔。</Clean>
     </Dialog>
-    <Explain>您記得剛才選的主角嗎？他們在等一下遊\n戲時會變成另一個圖案，請記得他們。</Explain>
+    <Explain>您記得剛才選的主角嗎？他們在等一下遊</Explain>
+    <Explain>戲時會變成另一個圖案，請記得他們。</Explain>
     <TestPlay>您可以試點下方兩個圖案(感覺一下)。</TestPlay>
     <BigNote>點擊比較大的圖案+50分</BigNote>
-    <SmallNote>點擊比較小的圖案+100分，\n他們只出現在最後的15秒。</SmallNote>
-    <GetNote>如果您不想輸，等一下遊戲時，您可以\n影響他人點擊他們的圖案或者多點一點\n自己的圖案。</GetNote>
+    <SmallNote>點擊比較小的圖案+100分，</SmallNote>
+    <SmallNote>他們只出現在最後的15秒。</SmallNote>
+    <GetNote>如果您不想輸，等一下遊戲時，您可以</GetNote>
+    <GetNote>影響他人點擊他們的圖案或者多點一點</GetNote>
+    <GetNote>自己的圖案。</GetNote>
     <Start>開始</Start>
     <Grade>輕微</Grade>
     <Grade>中度</Grade>
@@ -260,11 +280,16 @@
       <Explain>Choose punishments in each drawers, total number is eight.</Explain>
       <Clean>Clean All? the previously selected files will be clear.</Clean>
     </Dialog>
-    <Explain>The balloon icon beside your character \nis your role in game.</Explain>
+    <Explain>The balloon icon beside your character </Explain>
+    <Explain>is your role in game.</Explain>
     <TestPlay>You can try to touch this icon what \nwill happen in this game.</TestPlay>
     <BigNote>You touch the biggest \none can get 50 points.</BigNote>
-    <SmallNote>You touch the smallest one \ncan get 100 points, but you \nwill only see it in the last 15 \nseconds.</SmallNote>
-    <GetNote>You want to get high score. You must \ntouch your character's icon.</GetNote>
+    <SmallNote>You touch the smallest one </SmallNote>
+    <SmallNote>can get 100 points, but you </SmallNote>
+    <SmallNote>will only see it in the last 15 </SmallNote>
+    <SmallNote>seconds.</SmallNote>
+    <GetNote>You want to get high score. You must</GetNote>
+    <GetNote>touch your character's icon.</GetNote>
     <Start>Start</Start>
     <Grade>light</Grade>
     <Grade>middle</Grade>
@@ -309,11 +334,17 @@
       <Explain>Ne choisissez que 8 punitions dans les tiroirs.</Explain>
       <Clean>Nettoyez tout? Tous les items choisis précédemment seront supprimés.</Clean>
     </Dialog>
-    <Explain>L'icône de ballon près du personnage \nchoisi est votre rôle dans le jeu.</Explain>
+    <Explain>L'icône de ballon près du personnage </Explain>
+    <Explain>choisi est votre rôle dans le jeu.</Explain>
     <TestPlay>Vous pouvez essayer de toucher cette icône \npour voir ce qui se produira dans ce jeu.</TestPlay>
     <BigNote>Quand vous touchez \nla plus grande icône, \nvous pouvez obtenir \n50 points.</BigNote>
-    <SmallNote>Quand vous touchez la plus \npetite icône, vous pouvez obtenir \n100 points, mais vous ne le verrez \nqu'aux 15 dernières secondes.</SmallNote>
-    <GetNote>Si vous voulez obtenir de nombreux \npoints, vous devez toucher votre \nicône de personnage.</GetNote>
+    <SmallNote>Quand vous touchez la plus </SmallNote>
+    <SmallNote>petite icône, vous pouvez obtenir </SmallNote>
+    <SmallNote>100 points, mais vous ne le verrez </SmallNote>
+    <SmallNote>qu'aux 15 dernières secondes.</SmallNote>
+    <GetNote>Si vous voulez obtenir de nombreux </GetNote>
+    <GetNote>points, vous devez toucher votre </GetNote>
+    <GetNote>icône de personnage.</GetNote>
     <Start>Commencez</Start>
     <Grade>lumière</Grade>
     <Grade>moyen</Grade>
@@ -358,11 +389,17 @@
       <Explain>wählen Sie Bestrafungen in jedem Fächer aus! Gesamtnummer ist acht.</Explain>
       <Clean>völlig  aufräumen? Jeder von Ihnen gewählte Einzelteil kann beseitigt werden.</Clean>
     </Dialog>
-    <Explain>Das Ballonikon neben dem von Ihnen \ngewählten Charakter ist Ihre Rolle im \nSpiel.</Explain>
+    <Explain>Das Ballonikon neben dem von Ihnen </Explain>
+    <Explain>gewählten Charakter ist Ihre Rolle im Spiel.</Explain>
     <TestPlay>Sie können versuchen, dieses Ikon zu berühren \nund sehen was in diesem Spiel geschehen wird.</TestPlay>
     <BigNote>Wenn Sie das größere \nberühren, können Sie \ndann 50 Punkte erhalten.</BigNote>
-    <SmallNote>Wenn Sie das kleinere berühren, \nkönnen Sie 100 Punkte erhalten, \naber Sie sehen es nur in dem \nletzten 15 Sekunden.</SmallNote>
-    <GetNote>Wenn Sie mehre Punkte erhalten \nmöchten, müssen Sie Ihr Charakterikon \nberühren.</GetNote>
+    <SmallNote>Wenn Sie das kleinere berühren, </SmallNote>
+    <SmallNote>können Sie 100 Punkte erhalten, </SmallNote>
+    <SmallNote>aber Sie sehen es nur in dem </SmallNote>
+    <SmallNote>letzten 15 Sekunden.</SmallNote>
+    <GetNote>Wenn Sie mehre Punkte erhalten </GetNote>
+    <GetNote>möchten, müssen Sie Ihr Charakterikon </GetNote>
+    <GetNote>berühren.</GetNote>
     <Start>Beginn</Start>
     <Grade>licht</Grade>
     <Grade>mittlere</Grade>
@@ -407,11 +444,17 @@
       <Explain>Setiap pengundi boleh memilih 8 buah hukuman.</Explain>
       <Clean>Bersihkan semua? Sebelum kamu memilih pilihan akan di bersihkan.</Clean>
     </Dialog>
-    <Explain>Sebuah bentuk balon disamping \nkaraktermu menunjukan peran \nkamu dalam permainan.</Explain>
+    <Explain>Sebuah bentuk balon disamping karaktermu </Explain>
+    <Explain>menunjukan peran kamu dalam permainan.</Explain>
     <TestPlay>Kamu bisa mencoba untuk menyentuh gambar \ndan lihat apa yang terjadi pada permainan itu.</TestPlay>
     <BigNote>Menyentuh gambar \nterbesar akan \nmendapatkan 50 poin.</BigNote>
-    <SmallNote>Menyentuh gambar terkecil akan \nmendapatkan 100 poin, tetapi \nhanya dapat dilihat pada 15 detik \nterakhir.</SmallNote>
-    <GetNote>Jika kamu ingin mendapatkan nilai \nyang tinggi, kamu harus menyentuh \ngambar karakter sendiri.</GetNote>
+    <SmallNote>Menyentuh gambar terkecil akan </SmallNote>
+    <SmallNote>mendapatkan 100 poin, tetapi </SmallNote>
+    <SmallNote>hanya dapat dilihat pada 15 detik </SmallNote>
+    <SmallNote>terakhir.</SmallNote>
+    <GetNote>Jika kamu ingin mendapatkan nilai </GetNote>
+    <GetNote>yang tinggi, kamu harus menyentuh </GetNote>
+    <GetNote>gambar karakter sendiri.</GetNote>
     <Start>Mulai</Start>
     <Grade>ringan</Grade>
     <Grade>tengah</Grade>
@@ -456,11 +499,17 @@
       <Explain>Выбрать наказаний тип в каждом ящике, общий итог только восемь.</Explain>
       <Clean>Очистить все? До отобранных проектов будут очищены.</Clean>
     </Dialog>
-    <Explain>рядом где вы выбрали роль, там \nваша изображения в игре.</Explain>
+    <Explain>рядом где вы выбрали роль, там </Explain>
+    <Explain>ваша изображения в игре.</Explain>
     <TestPlay>Нажмите этот значок, чтобы увидеть, \nчто произойдет в этой игре.</TestPlay>
     <BigNote>Нажмите на самый \nбольшой, можно \nполучить 50 баллов.</BigNote>
-    <SmallNote>Нажмите на маленький, вы \nможете получить 100 баллов, \nно вы его увидите только в \nпоследние 15 секунд.</SmallNote>
-    <GetNote>Вы хотите получить высокие \nоценки. Вы должны коснуться \nзначок вашего персонажа.</GetNote>
+    <SmallNote>Нажмите на маленький, вы </SmallNote>
+    <SmallNote>можете получить 100 баллов, </SmallNote>
+    <SmallNote>но вы его увидите только в </SmallNote>
+    <SmallNote>последние 15 секунд.</SmallNote>
+    <GetNote>Вы хотите получить высокие </GetNote>
+    <GetNote>оценки. Вы должны коснуться </GetNote>
+    <GetNote>значок вашего персонажа.</GetNote>
     <Start>Начало</Start>
     <Grade>лёгкий</Grade>
     <Grade>серьезный</Grade>
@@ -505,11 +554,16 @@
       <Explain>Chọn lựa hình thức phatjtrong mỗi ngăn kéo, con số tổng cộng chỉ được 8</Explain>
       <Clean>Xóa hết? Trước khi bạn chọn các đồ vật sẽ bị xóa hết</Clean>
     </Dialog>
-    <Explain>Hình ảnh quả bong bóng kế bên nhân \nvật của bạn là vai của bạn trong trò \nchơi</Explain>
+    <Explain>Hình ảnh quả bong bóng kế bên nhân </Explain>
+    <Explain>vật của bạn là vai của bạn trong trò chơi</Explain>
     <TestPlay>Bạn có thể tích vô hình ảnh này để biết \nsẽ xảy ra với bạn trong trò chơi</TestPlay>
     <BigNote>Nếu bạn chạm trúng \nquả bóng lớn nhất, \nbạn được 50 điểm</BigNote>
-    <SmallNote>Nếu bạn chạm trúng quả bóng \nnhỏ nhất bạn được 100 điểm \nnhưng bạn chỉ được thấy trong \n15 phút cuối</SmallNote>
-    <GetNote>Nếu muốn đạt điểm cao bạn phải \nchạm trúng hình ảnh nhân vật</GetNote>
+    <SmallNote>Nếu bạn chạm trúng quả bóng </SmallNote>
+    <SmallNote>nhỏ nhất bạn được 100 điểm </SmallNote>
+    <SmallNote>nhưng bạn chỉ được thấy trong </SmallNote>
+    <SmallNote>15 phút cuối</SmallNote>
+    <GetNote>Nếu muốn đạt điểm cao bạn phải </GetNote>
+    <GetNote>chạm trúng hình ảnh nhân vật</GetNote>
     <Start>Bắt đầu</Start>
     <Grade>ánh sáng</Grade>
     <Grade>trung</Grade>
@@ -554,11 +608,16 @@
       <Explain>Kies straffen uit elke lade. Het aantal straffen mag niet meer zijn dan acht.</Explain>
       <Clean>Alles weghalen? Eerder geselecteerd item zal worden gewist</Clean>
     </Dialog>
-    <Explain>Het ballon icoon naast je personage \nis jouw rol in het spel.</Explain>
+    <Explain>Het ballon icoon naast je personage </Explain>
+    <Explain>is jouw rol in het spel.</Explain>
     <TestPlay>Je kunt proberen om dit icoon aan te raken, \nen zien wat er gebeuren zal in dit spel.</TestPlay>
     <BigNote>Raak de grotere en \nverdien 50 punten</BigNote>
-    <SmallNote>Raak de kleinere en verdien \n100 punten, maar deze is \nalleen te zien in de laatste \n15 seconden</SmallNote>
-    <GetNote>Voor een hogere score moet je het \nicoon van jouw personage raken</GetNote>
+    <SmallNote>Raak de kleinere en verdien </SmallNote>
+    <SmallNote>100 punten, maar deze is </SmallNote>
+    <SmallNote>alleen te zien in de laatste </SmallNote>
+    <SmallNote>15 seconden</SmallNote>
+    <GetNote>Voor een hogere score moet je het </GetNote>
+    <GetNote>icoon van jouw personage raken</GetNote>
     <Start>Start</Start>
     <Grade>licht</Grade>
     <Grade>midden</Grade>
@@ -603,11 +662,15 @@
       <Explain>scegli le punizioni dal cassetto, massimo 8 </Explain>
       <Clean>cancella？Le voci appena scelte saranno cancellate</Clean>
     </Dialog>
-    <Explain>il simbolo del pallone vicino al tuo personaggio e' il ruolo nel gioco</Explain>
+    <Explain>il simbolo del pallone vicino al tuo  </Explain>
+    <Explain>personaggio e'il ruolo nel gioco</Explain>
     <TestPlay>puoi provare a toccare il simbolo e vedere \ncosa succedera' nel gioco</TestPlay>
     <BigNote>tocca quello piu' grande \ne prendi 50 punti</BigNote>
-    <SmallNote>tocca quello piu' piccolo e \nprendi 100 punti, pero' lo vedrai \nsolo negli ultimi 15 secondi</SmallNote>
-    <GetNote>per avere un punteggio piu' alto, devi \ntoccare il tuo personaggio</GetNote>
+    <SmallNote>tocca quello piu' piccolo e </SmallNote>
+    <SmallNote>prendi 100 punti, pero' lo vedrai </SmallNote>
+    <SmallNote>solo negli ultimi 15 secondi</SmallNote>
+    <GetNote>per avere un punteggio piu' alto, devi </GetNote>
+    <GetNote>toccare il tuo personaggio</GetNote>
     <Start>inizia</Start>
     <Grade>leggero</Grade>
     <Grade>grave</Grade>

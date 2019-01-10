@@ -4,7 +4,44 @@ local composer = require( "composer" )
 local scene = composer.newScene()
 
 local xml = require("xmlSimple").newParser()
-local TWxml = xml:loadFile("LanguageXML.xml")
+local langxml = xml:loadFile("LanguageXML.xml")
+local rulexml = {}
+local lang = composer.getVariable( "lang" )
+
+if(lang == "Japan") then
+	rulexml = xml:loadFile("JapanXML.xml")
+elseif lang == "Korea" then
+	rulexml = xml:loadFile("KoreaXML.xml")
+elseif lang == "China" then
+	rulexml = xml:loadFile("ChinaXML.xml")
+elseif lang == "Spain" then
+	rulexml = xml:loadFile("SpainXML.xml")
+elseif lang == "Taiwan" then
+	rulexml = xml:loadFile("TaiwanXML.xml")
+elseif lang == "America" then
+	rulexml = xml:loadFile("AmericaXML.xml")
+elseif lang == "France" then
+	rulexml = xml:loadFile("FranceXML.xml")
+elseif lang == "Germany" then
+	rulexml = xml:loadFile("GermanyXML.xml")
+elseif lang == "Malaysia" then
+	rulexml = xml:loadFile("MalaysiaXML.xml")
+elseif lang == "Russia" then
+	rulexml = xml:loadFile("RussiaXML.xml")
+elseif lang == "Vientnames" then
+	rulexml = xml:loadFile("VientnamesXML.xml")
+elseif lang == "Dutch" then
+	rulexml = xml:loadFile("DutchXML.xml")
+elseif lang == "Italy" then
+	rulexml = xml:loadFile("ItalyXML.xml")
+end
+
+
+--按鈕
+local randomruleButton,nextstepruleButton,allcleanButton
+
+--TableView
+local tableView
 
 local function textListener( event )
  
@@ -32,11 +69,19 @@ function scene:create( event )
 	backgrounkImage.y = display.contentCenterY
 	sceneGroup:insert( backgrounkImage )
 
---類別標題
+--類別標題背景
 	local categorytitle = display.newImage( "Image/Family/family_item.png" )
 	categorytitle.x = display.contentWidth * 0.6
 	categorytitle.y = display.contentHeight * 0.08
 	sceneGroup:insert( categorytitle )
+
+--類別標題文字
+
+	local categorytitleText = display.newText( "",0 , 0, native.systemFontBold, 24 )
+	categorytitleText.x = display.contentWidth * 0.33
+	categorytitleText.y = display.contentHeight * 0.08
+	categorytitleText:setFillColor( 0, 0, 0 )
+	sceneGroup:insert( categorytitleText )
 
 --增加輸入框
 	local definitionField = native.newTextField( display.contentWidth * 0.6, display.contentHeight * 0.275, display.contentWidth * 0.73, display.contentHeight * 0.15 )
@@ -51,6 +96,387 @@ function scene:create( event )
 	blockbg.y = display.contentHeight * 0.275
 	sceneGroup:insert( blockbg )
 
+--規則類型(輕度)
+	local MildRuleIcon =  display.newImage( "Image/Arrow/green.png" )
+	MildRuleIcon.x = display.contentWidth * 0.065
+	MildRuleIcon.y = display.contentHeight * 0.1
+	sceneGroup:insert( MildRuleIcon )
+
+	local MildRuleText = display.newText( "",0 , 0, native.systemFontBold, 14 )
+	MildRuleText.x = display.contentWidth * 0.16
+	MildRuleText.y = display.contentHeight * 0.1
+	MildRuleText:setFillColor( 0, 0, 0 )
+	sceneGroup:insert( MildRuleText )
+
+--規則類型(中度)
+	local ModerateRuleIcon =  display.newImage( "Image/Arrow/blue.png" )
+	ModerateRuleIcon.x = display.contentWidth * 0.065
+	ModerateRuleIcon.y = display.contentHeight * 0.22
+	sceneGroup:insert( ModerateRuleIcon )
+
+	local ModerateRuleText = display.newText( "",0 , 0, native.systemFontBold, 14 )
+	ModerateRuleText.x = display.contentWidth * 0.16
+	ModerateRuleText.y = display.contentHeight * 0.22
+	ModerateRuleText:setFillColor( 0, 0, 0 )
+	sceneGroup:insert( ModerateRuleText )
+
+
+--規則類型(重度)
+	local SevereRuleIcon =  display.newImage( "Image/Arrow/red.png" )
+	SevereRuleIcon.x = display.contentWidth * 0.065
+	SevereRuleIcon.y = display.contentHeight * 0.34
+	sceneGroup:insert( SevereRuleIcon )
+
+	local SevereRuleText = display.newText( "",0 , 0, native.systemFontBold, 14 )
+	SevereRuleText.x = display.contentWidth * 0.16
+	SevereRuleText.y = display.contentHeight * 0.34
+	SevereRuleText:setFillColor( 0, 0, 0 )
+	sceneGroup:insert( SevereRuleText )
+
+
+
+	if(lang == "Japan") then
+		categorytitleText.text = langxml.XnaContent.Japan.Punishment[1]:value()
+		MildRuleText.text = langxml.XnaContent.Japan.Grade[1]:value()
+		ModerateRuleText.text = langxml.XnaContent.Japan.Grade[2]:value()
+		SevereRuleText.text = langxml.XnaContent.Japan.Grade[3]:value()
+		randomruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/random0101.png",
+	        onEvent = randomruleButtonEvent
+	    }
+	    )
+	    randomruleButton.x = display.contentWidth * 0.12
+		randomruleButton.y = display.contentHeight * 0.6
+		sceneGroup:insert( randomruleButton )
+
+		--下一步按鈕
+		nextstepruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/coutinue0101.png",
+	        onEvent = nextstepruleButtonEvent
+	    }
+	    )
+	    nextstepruleButton.x = display.contentWidth * 0.1
+		nextstepruleButton.y = display.contentHeight * 0.755
+		sceneGroup:insert( nextstepruleButton )
+
+	elseif lang == "Korea" then
+		categorytitleText.text = langxml.XnaContent.Korea.Punishment[1]:value()
+		MildRuleText.text = langxml.XnaContent.Korea.Grade[1]:value()
+		ModerateRuleText.text = langxml.XnaContent.Korea.Grade[2]:value()
+		SevereRuleText.text = langxml.XnaContent.Korea.Grade[3]:value()
+		randomruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/random0201.png",
+	        onEvent = randomruleButtonEvent
+	    }
+	    )
+	    randomruleButton.x = display.contentWidth * 0.12
+		randomruleButton.y = display.contentHeight * 0.6
+		sceneGroup:insert( randomruleButton )
+
+		--下一步按鈕
+		nextstepruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/coutinue0201.png",
+	        onEvent = nextstepruleButtonEvent
+	    }
+	    )
+	    nextstepruleButton.x = display.contentWidth * 0.1
+		nextstepruleButton.y = display.contentHeight * 0.755
+		sceneGroup:insert( nextstepruleButton )
+	elseif lang == "China" then
+		categorytitleText.text = langxml.XnaContent.China.Punishment[1]:value()
+		MildRuleText.text = langxml.XnaContent.China.Grade[1]:value()
+		ModerateRuleText.text = langxml.XnaContent.China.Grade[2]:value()
+		SevereRuleText.text = langxml.XnaContent.China.Grade[3]:value()
+		randomruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/random0301.png",
+	        onEvent = randomruleButtonEvent
+	    }
+	    )
+	    randomruleButton.x = display.contentWidth * 0.12
+		randomruleButton.y = display.contentHeight * 0.6
+		sceneGroup:insert( randomruleButton )
+
+		--下一步按鈕
+		nextstepruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/coutinue0301.png",
+	        onEvent = nextstepruleButtonEvent
+	    }
+	    )
+	    nextstepruleButton.x = display.contentWidth * 0.1
+		nextstepruleButton.y = display.contentHeight * 0.755
+		sceneGroup:insert( nextstepruleButton )
+	elseif lang == "Spain" then
+		
+		categorytitleText.text = langxml.XnaContent.Spain.Punishment[1]:value()
+		MildRuleText.text = langxml.XnaContent.Spain.Grade[1]:value()
+		ModerateRuleText.text = langxml.XnaContent.Spain.Grade[2]:value()
+		SevereRuleText.text = langxml.XnaContent.Spain.Grade[3]:value()
+		randomruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/random0401.png",
+	        onEvent = randomruleButtonEvent
+	    }
+	    )
+	    randomruleButton.x = display.contentWidth * 0.12
+		randomruleButton.y = display.contentHeight * 0.6
+		sceneGroup:insert( randomruleButton )
+
+		--下一步按鈕
+		nextstepruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/coutinue0401.png",
+	        onEvent = nextstepruleButtonEvent
+	    }
+	    )
+	    nextstepruleButton.x = display.contentWidth * 0.1
+		nextstepruleButton.y = display.contentHeight * 0.755
+		sceneGroup:insert( nextstepruleButton )
+	elseif lang == "Taiwan" then
+		categorytitleText.text = langxml.XnaContent.Taiwan.Punishment[1]:value()
+		MildRuleText.text = langxml.XnaContent.Taiwan.Grade[1]:value()
+		ModerateRuleText.text = langxml.XnaContent.Taiwan.Grade[2]:value()
+		SevereRuleText.text = langxml.XnaContent.Taiwan.Grade[3]:value()
+
+		--隨機按鈕
+		randomruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/random0501.png",
+	        onEvent = randomruleButtonEvent
+	    }
+	    )
+	    randomruleButton.x = display.contentWidth * 0.12
+		randomruleButton.y = display.contentHeight * 0.6
+		sceneGroup:insert( randomruleButton )
+
+		--下一步按鈕
+		nextstepruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/coutinue0501.png",
+	        onEvent = nextstepruleButtonEvent
+	    }
+	    )
+	    nextstepruleButton.x = display.contentWidth * 0.1
+		nextstepruleButton.y = display.contentHeight * 0.755
+		sceneGroup:insert( nextstepruleButton )
+
+
+		--全部清除按鈕
+		allcleanButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/clean0501.png",
+	        onEvent = allcleanButtonEvent
+	    }
+	    )
+	    allcleanButton.x = display.contentWidth * 0.12
+		allcleanButton.y = display.contentHeight * 0.89
+		sceneGroup:insert( allcleanButton )
+	elseif lang == "America" then
+		categorytitleText.text = langxml.XnaContent.America.Punishment[1]:value()
+		MildRuleText.text = langxml.XnaContent.America.Grade[1]:value()
+		ModerateRuleText.text = langxml.XnaContent.America.Grade[2]:value()
+		SevereRuleText.text = langxml.XnaContent.America.Grade[3]:value()
+		randomruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/random0601.png",
+	        onEvent = randomruleButtonEvent
+	    }
+	    )
+	    randomruleButton.x = display.contentWidth * 0.12
+		randomruleButton.y = display.contentHeight * 0.6
+		sceneGroup:insert( randomruleButton )
+
+		--下一步按鈕
+		nextstepruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/coutinue0601.png",
+	        onEvent = nextstepruleButtonEvent
+	    }
+	    )
+	    nextstepruleButton.x = display.contentWidth * 0.1
+		nextstepruleButton.y = display.contentHeight * 0.755
+		sceneGroup:insert( nextstepruleButton )
+	elseif lang == "France" then
+		categorytitleText.text = langxml.XnaContent.France.Punishment[1]:value()
+		MildRuleText.text = langxml.XnaContent.France.Grade[1]:value()
+		ModerateRuleText.text = langxml.XnaContent.France.Grade[2]:value()
+		SevereRuleText.text = langxml.XnaContent.France.Grade[3]:value()
+		randomruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/random0701.png",
+	        onEvent = randomruleButtonEvent
+	    }
+	    )
+	    randomruleButton.x = display.contentWidth * 0.12
+		randomruleButton.y = display.contentHeight * 0.6
+		sceneGroup:insert( randomruleButton )
+
+		--下一步按鈕
+		nextstepruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/coutinue0701.png",
+	        onEvent = nextstepruleButtonEvent
+	    }
+	    )
+	    nextstepruleButton.x = display.contentWidth * 0.1
+		nextstepruleButton.y = display.contentHeight * 0.755
+		sceneGroup:insert( nextstepruleButton )
+	elseif lang == "Germany" then
+		categorytitleText.text = langxml.XnaContent.Germany.Punishment[1]:value()
+		MildRuleText.text = langxml.XnaContent.Germany.Grade[1]:value()
+		ModerateRuleText.text = langxml.XnaContent.Germany.Grade[2]:value()
+		SevereRuleText.text = langxml.XnaContent.Germany.Grade[3]:value()
+		randomruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/random0801.png",
+	        onEvent = randomruleButtonEvent
+	    }
+	    )
+	    randomruleButton.x = display.contentWidth * 0.12
+		randomruleButton.y = display.contentHeight * 0.6
+		sceneGroup:insert( randomruleButton )
+
+		--下一步按鈕
+		nextstepruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/coutinue0801.png",
+	        onEvent = nextstepruleButtonEvent
+	    }
+	    )
+	    nextstepruleButton.x = display.contentWidth * 0.1
+		nextstepruleButton.y = display.contentHeight * 0.755
+		sceneGroup:insert( nextstepruleButton )
+	elseif lang == "Malaysia" then
+		categorytitleText.text = langxml.XnaContent.Malaysia.Punishment[1]:value()
+		MildRuleText.text = langxml.XnaContent.Malaysia.Grade[1]:value()
+		ModerateRuleText.text = langxml.XnaContent.Malaysia.Grade[2]:value()
+		SevereRuleText.text = langxml.XnaContent.Malaysia.Grade[3]:value()
+		randomruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/random0901.png",
+	        onEvent = randomruleButtonEvent
+	    }
+	    )
+	    randomruleButton.x = display.contentWidth * 0.12
+		randomruleButton.y = display.contentHeight * 0.6
+		sceneGroup:insert( randomruleButton )
+
+		--下一步按鈕
+		nextstepruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/coutinue0901.png",
+	        onEvent = nextstepruleButtonEvent
+	    }
+	    )
+	    nextstepruleButton.x = display.contentWidth * 0.1
+		nextstepruleButton.y = display.contentHeight * 0.755
+		sceneGroup:insert( nextstepruleButton )
+	elseif lang == "Russia" then
+		categorytitleText.text = langxml.XnaContent.Russia.Punishment[1]:value()
+		MildRuleText.text = langxml.XnaContent.Russia.Grade[1]:value()
+		ModerateRuleText.text = langxml.XnaContent.Russia.Grade[2]:value()
+		SevereRuleText.text = langxml.XnaContent.Russia.Grade[3]:value()
+		randomruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/random1001.png",
+	        onEvent = randomruleButtonEvent
+	    }
+	    )
+	    randomruleButton.x = display.contentWidth * 0.12
+		randomruleButton.y = display.contentHeight * 0.6
+		sceneGroup:insert( randomruleButton )
+
+		--下一步按鈕
+		nextstepruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/coutinue1001.png",
+	        onEvent = nextstepruleButtonEvent
+	    }
+	    )
+	    nextstepruleButton.x = display.contentWidth * 0.1
+		nextstepruleButton.y = display.contentHeight * 0.755
+		sceneGroup:insert( nextstepruleButton )
+	elseif lang == "Vientnames" then
+		categorytitleText.text = langxml.XnaContent.Vientnames.Punishment[1]:value()
+		MildRuleText.text = langxml.XnaContent.Vientnames.Grade[1]:value()
+		ModerateRuleText.text = langxml.XnaContent.Vientnames.Grade[2]:value()
+		SevereRuleText.text = langxml.XnaContent.Vientnames.Grade[3]:value()
+		randomruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/random1101.png",
+	        onEvent = randomruleButtonEvent
+	    }
+	    )
+	    randomruleButton.x = display.contentWidth * 0.12
+		randomruleButton.y = display.contentHeight * 0.6
+		sceneGroup:insert( randomruleButton )
+
+		--下一步按鈕
+		nextstepruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/coutinue1101.png",
+	        onEvent = nextstepruleButtonEvent
+	    }
+	    )
+	    nextstepruleButton.x = display.contentWidth * 0.1
+		nextstepruleButton.y = display.contentHeight * 0.755
+		sceneGroup:insert( nextstepruleButton )
+	elseif lang == "Dutch" then
+		categorytitleText.text = langxml.XnaContent.Dutch.Punishment[1]:value()
+		MildRuleText.text = langxml.XnaContent.Dutch.Grade[1]:value()
+		ModerateRuleText.text = langxml.XnaContent.Dutch.Grade[2]:value()
+		SevereRuleText.text = langxml.XnaContent.Dutch.Grade[3]:value()
+		randomruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/random1201.png",
+	        onEvent = randomruleButtonEvent
+	    }
+	    )
+	    randomruleButton.x = display.contentWidth * 0.12
+		randomruleButton.y = display.contentHeight * 0.6
+		sceneGroup:insert( randomruleButton )
+
+		--下一步按鈕
+		nextstepruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/coutinue1201.png",
+	        onEvent = nextstepruleButtonEvent
+	    }
+	    )
+	    nextstepruleButton.x = display.contentWidth * 0.1
+		nextstepruleButton.y = display.contentHeight * 0.755
+		sceneGroup:insert( nextstepruleButton )
+	elseif lang == "Italy" then
+		categorytitleText.text = langxml.XnaContent.Italy.Punishment[1]:value()
+		MildRuleText.text = langxml.XnaContent.Italy.Grade[1]:value()
+		ModerateRuleText.text = langxml.XnaContent.Italy.Grade[2]:value()
+		SevereRuleText.text = langxml.XnaContent.Italy.Grade[3]:value()
+		randomruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/random1301.png",
+	        onEvent = randomruleButtonEvent
+	    }
+	    )
+	    randomruleButton.x = display.contentWidth * 0.12
+		randomruleButton.y = display.contentHeight * 0.6
+		sceneGroup:insert( randomruleButton )
+
+		--下一步按鈕
+		nextstepruleButton = widget.newButton(
+	    {
+	        defaultFile = "Image/Family/coutinue1301.png",
+	        onEvent = nextstepruleButtonEvent
+	    }
+	    )
+	    nextstepruleButton.x = display.contentWidth * 0.1
+		nextstepruleButton.y = display.contentHeight * 0.755
+		sceneGroup:insert( nextstepruleButton )
+	end
 --加入家庭類選項
 
 	function onRowRender( event )
@@ -58,29 +484,83 @@ function scene:create( event )
 	    local rowIndex = row.index
 	    local row_ContentWidth = row.contentWidth
 	    local row_ContentHeight = row.contentHeight
+	    local familyrulecontent
+	    local testarray ={}
 	    --欄為背景
 	    local rowbg = display.newImage( "Image/Family/stickers_back.png" )
 	    rowbg.x = row_ContentWidth * 0.5
-	    rowbg.y = row_ContentHeight * 0.5
+	    rowbg.y = row_ContentHeight * 0.5 
+
+	    local rowbg2 = display.newImage( "Image/Family/green_01.png" )
+	    rowbg2.x = row.contentWidth * 0.7
+	    rowbg2.y = row.contentHeight *0.000001
+
+
+	    numbertitle = display.newText( rowIndex,0 , 0, native.systemFontBold, 14 )
+		numbertitle.x = row_ContentWidth * 0.1
+		numbertitle.y =row_ContentHeight * 0.5
+		numbertitle:setFillColor( 0, 0, 0 )
+
+	    familyrulecontent = display.newText( "",0 , 0, native.systemFontBold, 14 )
+		familyrulecontent.x = row_ContentWidth * 0.5
+		familyrulecontent.y = row_ContentHeight * 0.5
+		familyrulecontent.align = "right"
+		familyrulecontent:setFillColor( 0, 0, 0 )
+		--testarray = rulexml.Family.item[rowIndex]:value()
+		print(#rulexml.Family.item)
+	    if(lang == "Japan") then
+			
+		elseif lang == "Korea" then
+			
+		elseif lang == "China" then
+			
+		elseif lang == "Spain" then
+			
+			
+		elseif lang == "Taiwan" then
+			familyrulecontent.text = rulexml.Family.item[rowIndex]:value()
+		elseif lang == "America" then
+			
+		elseif lang == "France" then
+			
+			
+		elseif lang == "Germany" then
+			
+		elseif lang == "Malaysia" then
+			
+		elseif lang == "Russia" then
+			
+		elseif lang == "Vientnames" then
+		
+		elseif lang == "Dutch" then
+			
+		elseif lang == "Italy" then
+			
+		end
+
 
 	    row:insert( rowbg )
+	    row:insert( rowbg2 )
+	    row:insert( numbertitle )
+	     row:insert( familyrulecontent )
 	end
 	
 
-	local tableView = widget.newTableView(
+	tableView = widget.newTableView(
 	    {
-	        height = 330,
+	        height = display.contentHeight * 0.9,
 	        width = display.contentWidth * 0.73,
 	        onRowRender = onRowRender,
-	        onRowTouch = onRowTouch,
+	        --onRowTouch = onRowTouch,
 	        listener = scrollListener
 	    }
 	)
 	tableView.x = display.contentWidth * 0.6
-	tableView.y = display.contentHeight * 0.865
+	tableView.y = display.contentHeight * 0.8
 	-- Insert 40 rows
-	for i = 1, 40 do
+	for i = 1, #rulexml.Family.item do
 	    -- Insert a row into the tableView
+
 	    tableView:insertRow{}
 	end
 

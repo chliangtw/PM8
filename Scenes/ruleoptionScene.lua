@@ -144,7 +144,7 @@ function scene:create( event )
 	titleText.y = display.contentHeight * 0.2
 	sceneGroup:insert( titleText )
 	if(lang == TW) then
-		
+		 
 	end
 
 

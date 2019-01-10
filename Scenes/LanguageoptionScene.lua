@@ -206,7 +206,7 @@ end
 
 function AmericalangButtonEvent( ... )
 	createlangbutton()
-	lang = "EN"
+	lang = "America"
 	display.remove( AmericalangButton )
 	--createbutton("Image/Languages/Lang/lang_0602.png",AmericalangButton,display.contentWidth * 0.15,display.contentHeight * 0.38)
 	AmericalangButton = widget.newButton(
@@ -247,7 +247,7 @@ end
 function ChinalangButtonEvent ( ... )
 
 	createlangbutton()
-	lang = CN
+	lang = "China"
 	display.remove( ChinalangButton )
 	--createbutton("Image/Languages/Lang/lang_0302.png",ChinalangButton,display.contentWidth * 0.29,display.contentHeight * 0.25)
 	ChinalangButton = widget.newButton(
@@ -287,7 +287,7 @@ end
 function TaiwanlangButtonEvent( ... )
 
 	createlangbutton()
-	lang = "TW"
+	lang = "Taiwan"
 	display.remove( TaiwanlangButton )
 	TaiwanlangButton = widget.newButton(
     {
@@ -326,7 +326,7 @@ end
 function KorealangButtonEvent( ... )
 
 	createlangbutton()
-	lang = "KR"
+	lang = "Korea"
 	display.remove( KorealangButton )
 	--Language: Korea
 	KorealangButton = widget.newButton(
@@ -366,7 +366,7 @@ end
 function JapanlangButtonEvent( ... )
 
 	createlangbutton()
-	lang = "JP"
+	lang = "Japan"
 	display.remove( JapanlangButton )
 	--Language: Japan
 	JapanlangButton = widget.newButton(
@@ -407,7 +407,7 @@ function SpainlangButtonEvent( ... )
 
 	createlangbutton()
 	display.remove( SpainlangButton )
-	lang = "ES"
+	lang = "Spain"
 	--Language: Spain
 	SpainlangButton = widget.newButton(
     {
@@ -447,7 +447,7 @@ function FrancelangButtonEvent( ... )
 
 	createlangbutton()
 	display.remove( FrancelangButton )
-	lang = "FR"
+	lang = "France"
 	--Language: France
 	FrancelangButton = widget.newButton(
 	{
@@ -487,7 +487,7 @@ function dnlangButtonEvent( ... )
 
 	createlangbutton()
 	display.remove( dnlangButton )
-	lang = "dn"
+	lang = "Dutch"
 	dnlangButton = widget.newButton(
     {
         
@@ -526,7 +526,7 @@ function RussialangButtonEvent( ... )
 	
 	createlangbutton()
 	display.remove( RussialangButton )
-	lang = "RU"
+	lang = "Russia"
 	--Language: Russia
 	RussialangButton = widget.newButton(
     {
@@ -566,7 +566,7 @@ function GermanylangButtonEvent( ... )
 
 	createlangbutton()
 	display.remove( GermanylangButton )
-	lang = "DE"
+	lang = "Germany"
 	--Language: Germany
 	GermanylangButton = widget.newButton(
     {
@@ -607,7 +607,7 @@ function IDlangButtonEvent( ... )
 	createlangbutton()
 	display.remove( IDlangButton )
 	--Language: Indonesia
-	lang = "ID"
+	lang = "Malaysia"
 	IDlangButton = widget.newButton(
     {
         
@@ -646,7 +646,7 @@ function VientnameslangButtonEvent( ... )
 
 	createlangbutton()
 	display.remove( VientnameslangButton )
-	lang = "VN"
+	lang = "Vientnames"
 	--Language: Vientnames
 	VientnameslangButton = widget.newButton(
     {
@@ -686,7 +686,7 @@ function ItalylangButtonEvent( ... )
 
 	createlangbutton()
 	display.remove( ItalylangButton )
-	lang = "IT"
+	lang = "Italy"
 	--Language: Italy
 	ItalylangButton = widget.newButton(
     {
@@ -895,7 +895,7 @@ function scene:create( event )
 	scrollView:insert( FrancelangButton )
 
 
-	--Language: dn
+	--Language: Dutch
 	dnlangButton = widget.newButton(
     {
         
@@ -935,7 +935,7 @@ function scene:create( event )
 	scrollView:insert( GermanylangButton )
 
 
-	--Language: Indonesia
+	--Language: Malaysia
 	IDlangButton = widget.newButton(
     {
         
@@ -1004,7 +1004,7 @@ function scene:show( event )
 	if "will" == phase then
 
 		--按鈕圖片更換已選擇的語言
-		if lang == "EN" then
+		if lang == "America" then
 			composer.removeScene( "Scenes.MainMenu.MainMenu_America" )
 			display.remove( AmericalangButton )
 			--createbutton("Image/Languages/Lang/lang_0602.png",AmericalangButton,display.contentWidth * 0.15,display.contentHeight * 0.38)
@@ -1041,7 +1041,7 @@ function scene:show( event )
 			ConfirmButton.y = display.contentHeight * 0.93
 			sceneGroup:insert( ConfirmButton )
 
-		elseif lang == "CN" then
+		elseif lang == "China" then
 			composer.removeScene( "Scenes.MainMenu.MainMenu_China" )
 			display.remove( ChinalangButton )
 			--createbutton("Image/Languages/Lang/lang_0302.png",ChinalangButton,display.contentWidth * 0.29,display.contentHeight * 0.25)
@@ -1077,7 +1077,7 @@ function scene:show( event )
 			ConfirmButton.y = display.contentHeight * 0.93
 			sceneGroup:insert( ConfirmButton )
 
-		elseif lang == "TW" then
+		elseif lang == "Taiwan" then
 			composer.removeScene( "Scenes.MainMenu.MainMenu_Taiwan" )
 			display.remove( TaiwanlangButton )
 			TaiwanlangButton = widget.newButton(
@@ -1112,7 +1112,7 @@ function scene:show( event )
 			ConfirmButton.y = display.contentHeight * 0.93
 			sceneGroup:insert( ConfirmButton )
 
-		elseif lang == "KR" then
+		elseif lang == "Korea" then
 			composer.removeScene( "Scenes.MainMenu.MainMenu_Korea" )
 			display.remove( KorealangButton )
 			--Language: Korea
@@ -1148,7 +1148,7 @@ function scene:show( event )
 			ConfirmButton.y = display.contentHeight * 0.93
 			sceneGroup:insert( ConfirmButton )
 
-		elseif lang == "JP" then
+		elseif lang == "Japan" then
 
 			display.remove( JapanlangButton )
 			--Language: Japan
@@ -1184,7 +1184,7 @@ function scene:show( event )
 			ConfirmButton.y = display.contentHeight * 0.93
 			sceneGroup:insert( ConfirmButton )
 
-		elseif lang == "ES" then
+		elseif lang == "Spain" then
 
 			display.remove( SpainlangButton )
 			--Language: Spain
@@ -1220,7 +1220,7 @@ function scene:show( event )
 			ConfirmButton.y = display.contentHeight * 0.93
 			sceneGroup:insert( ConfirmButton )
 
-		elseif lang == "FR" then
+		elseif lang == "France" then
 
 			display.remove( FrancelangButton )
 			--Language: France
@@ -1256,7 +1256,7 @@ function scene:show( event )
 			ConfirmButton.y = display.contentHeight * 0.93
 			sceneGroup:insert( ConfirmButton )
 
-		elseif lang == "dn" then
+		elseif lang == "Dutch" then
 
 			display.remove( dnlangButton )
 			dnlangButton = widget.newButton(
@@ -1291,7 +1291,7 @@ function scene:show( event )
 			ConfirmButton.y = display.contentHeight * 0.93
 			sceneGroup:insert( ConfirmButton )
 
-		elseif lang == "RU" then
+		elseif lang == "Russia" then
 
 			display.remove( RussialangButton )
 			--Language: Russia
@@ -1327,7 +1327,7 @@ function scene:show( event )
 			ConfirmButton.y = display.contentHeight * 0.93
 			sceneGroup:insert( ConfirmButton )
 
-		elseif lang == "DE" then
+		elseif lang == "Germany" then
 
 			display.remove( GermanylangButton )
 			--Language: Germany
@@ -1363,7 +1363,7 @@ function scene:show( event )
 			ConfirmButton.y = display.contentHeight * 0.93
 			sceneGroup:insert( ConfirmButton )
 
-		elseif lang == "ID" then
+		elseif lang == "Malaysia" then
 
 			display.remove( IDlangButton )
 			--Language: Indonesia
@@ -1399,7 +1399,7 @@ function scene:show( event )
 			ConfirmButton.y = display.contentHeight * 0.93
 			sceneGroup:insert( ConfirmButton )
 
-		elseif lang == "VN" then
+		elseif lang == "Vientnames" then
 
 			display.remove( VientnameslangButton )
 			--Language: Vientnames
@@ -1435,7 +1435,7 @@ function scene:show( event )
 			ConfirmButton.y = display.contentHeight * 0.93
 			sceneGroup:insert( ConfirmButton )
 
-		elseif lang == "IT" then
+		elseif lang == "Italy" then
 
 			display.remove( ItalylangButton )
 			--Language: Italy
