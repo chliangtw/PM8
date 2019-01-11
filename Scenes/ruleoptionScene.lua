@@ -1,4 +1,4 @@
---ruleoptionScene.lua
+ --ruleoptionScene.lua
 local widget= require("widget")
 local composer = require( "composer" )
 local scene = composer.newScene()

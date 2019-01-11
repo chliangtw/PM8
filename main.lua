@@ -10,7 +10,7 @@ local composer = require( "composer" )
 display.setStatusBar(display.HiddenStatusBar)
 composer.setVariable( "lang", "Taiwan" )
 --到遊戲主畫面
-composer.gotoScene( "Scenes.waitingload_Scene", frad,400)
+composer.gotoScene( "Scenes.Selectrole_Scene", frad,400)
 
 --[[ 
 	 Japan 日本 01
