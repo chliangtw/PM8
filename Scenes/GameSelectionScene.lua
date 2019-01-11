@@ -5,7 +5,7 @@ local scene = composer.newScene()
 local scrollView
 
 function fingerfightingButtonEvent( ... )
-	composer.gotoScene( "Scenes.Game1_fingerfighting", frad , 400)
+	composer.gotoScene( "Scenes.ruleoptionScene", frad , 400)
 end
 
 function scene:create( event )

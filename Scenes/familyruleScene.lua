@@ -7,7 +7,8 @@ local xml = require("xmlSimple").newParser()
 local langxml = xml:loadFile("LanguageXML.xml")
 local rulexml = {}
 local lang = composer.getVariable( "lang" )
-
+local familyrulecount = composer.getVariable( "familyrulecount" )
+local familyruledata = {}
 if(lang == "Japan") then
 	rulexml = xml:loadFile("JapanXML.xml")
 elseif lang == "Korea" then
@@ -34,6 +35,10 @@ elseif lang == "Dutch" then
 	rulexml = xml:loadFile("DutchXML.xml")
 elseif lang == "Italy" then
 	rulexml = xml:loadFile("ItalyXML.xml")
+end
+
+for i=1,#rulexml.Family.item do
+	table.insert( familyruledata, rulexml.Family.item[i]:value() )
 end
 
 
@@ -494,49 +499,23 @@ function scene:create( event )
 	    local rowbg2 = display.newImage( "Image/Family/green_01.png" )
 	    rowbg2.x = row.contentWidth * 0.7
 	    rowbg2.y = row.contentHeight *0.000001
-
-
+	    
 	    numbertitle = display.newText( rowIndex,0 , 0, native.systemFontBold, 14 )
 		numbertitle.x = row_ContentWidth * 0.1
 		numbertitle.y =row_ContentHeight * 0.5
 		numbertitle:setFillColor( 0, 0, 0 )
 
 	    familyrulecontent = display.newText( "",0 , 0, native.systemFontBold, 14 )
-		familyrulecontent.x = row_ContentWidth * 0.5
-		familyrulecontent.y = row_ContentHeight * 0.5
-		familyrulecontent.align = "right"
+		familyrulecontent.align = "left"
 		familyrulecontent:setFillColor( 0, 0, 0 )
 		--testarray = rulexml.Family.item[rowIndex]:value()
-		print(#rulexml.Family.item)
-	    if(lang == "Japan") then
-			
-		elseif lang == "Korea" then
-			
-		elseif lang == "China" then
-			
-		elseif lang == "Spain" then
-			
-			
-		elseif lang == "Taiwan" then
-			familyrulecontent.text = rulexml.Family.item[rowIndex]:value()
-		elseif lang == "America" then
-			
-		elseif lang == "France" then
-			
-			
-		elseif lang == "Germany" then
-			
-		elseif lang == "Malaysia" then
-			
-		elseif lang == "Russia" then
-			
-		elseif lang == "Vientnames" then
+		familyrulecontent.text = familyruledata[rowIndex]
 		
-		elseif lang == "Dutch" then
-			
-		elseif lang == "Italy" then
-			
-		end
+		--文字靠左
+		familyrulecontent.anchorX = 0
+	    familyrulecontent.x = row_ContentWidth * 0.15
+	    familyrulecontent.y = row_ContentHeight * 0.5
+
 
 
 	    row:insert( rowbg )
@@ -545,20 +524,29 @@ function scene:create( event )
 	     row:insert( familyrulecontent )
 	end
 	
+	function onRowTouch( event )
+	    local phase = event.phase
+        local row = event.row
+        local rowIndex = row.index
+	    print(rowIndex)
+		table.insert( familyrulecount, rulexml.Family.item[rowIndex]:value() )
+		print(familyrulecount[1])
+	end
 
 	tableView = widget.newTableView(
 	    {
 	        height = display.contentHeight * 0.9,
 	        width = display.contentWidth * 0.73,
 	        onRowRender = onRowRender,
-	        --onRowTouch = onRowTouch,
-	        listener = scrollListener
+	        onRowTouch = onRowTouch,
+	        listener = tableViewListener,
 	    }
 	)
 	tableView.x = display.contentWidth * 0.6
 	tableView.y = display.contentHeight * 0.8
+
 	-- Insert 40 rows
-	for i = 1, #rulexml.Family.item do
+	for i = 1, #familyruledata do
 	    -- Insert a row into the tableView
 
 	    tableView:insertRow{}
