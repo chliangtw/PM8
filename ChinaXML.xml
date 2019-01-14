@@ -30,6 +30,29 @@
     <item>禁足两个礼拜</item>
     <item>父母与小孩角色互换，说互换角色该说的话</item>
     <item>门禁提早一小时</item>
+    <!--add Party  -->
+    <item>奥客:去麦当劳说这不是肯德基</item>
+    <item>奥客:去肯德基点卤肉饭</item>
+    <item>搭讪路人说你好美或你好帅</item>
+    <item>跟路人要名片(成功要到一张)</item>
+    <item>路人喂输家吃特制食品(赢家决定)</item>
+    <item>跳草裙舞</item>
+    <item>幸运中奬:买彩卷给赢的人</item>
+    <item>买糖果请大家</item>
+    <item>装熟:跟十户家庭要糖</item>
+    <item>跳猴子舞</item>
+    <item>赢家弹输家额头一次</item>
+    <item>用唐老鸭的声音说不准动</item>
+    <item>去总统府(任一地点)大唱国歌</item>
+    <item>万人迷:搭讪路人要电话</item>
+    <item>歌神再现:在大街上唱情歌给异性听</item>
+    <item>卖膏药的商人:跟路人推荐唬烂的产品，最后说明是唬烂的</item>
+    <item>大花脸:在脸上画图一人一画,拍照存证</item>
+    <item>在舞池里大叫5秒</item>
+    <item>安全之吻:最输跟倒数第二互亲五秒</item>
+    <item>大胆测验:放一支虫在肩膀五秒钟</item>
+    <item>我是光头佬:剃光头</item>
+    <item>我说你做</item>
   </Family>
   <Nightclubs>
     <item>去全家买棒冰,问店员微波要按几</item>
@@ -57,30 +80,6 @@
     <item>我是酒桶子:混合不同的饮料喝下去</item>
     <item>装扮性感的舞者:跳艳舞</item>
   </Nightclubs>
-  <Party>
-    <item>奥客:去麦当劳说这不是肯德基</item>
-    <item>奥客:去肯德基点卤肉饭</item>
-    <item>搭讪路人说你好美或你好帅</item>
-    <item>跟路人要名片(成功要到一张)</item>
-    <item>路人喂输家吃特制食品(赢家决定)</item>
-    <item>跳草裙舞</item>
-    <item>幸运中奬:买彩卷给赢的人</item>
-    <item>买糖果请大家</item>
-    <item>装熟:跟十户家庭要糖</item>
-    <item>跳猴子舞</item>
-    <item>赢家弹输家额头一次</item>
-    <item>用唐老鸭的声音说不准动</item>
-    <item>去总统府(任一地点)大唱国歌</item>
-    <item>万人迷:搭讪路人要电话</item>
-    <item>歌神再现:在大街上唱情歌给异性听</item>
-    <item>卖膏药的商人:跟路人推荐唬烂的产品，最后说明是唬烂的</item>
-    <item>大花脸:在脸上画图一人一画,拍照存证</item>
-    <item>在舞池里大叫5秒</item>
-    <item>安全之吻:最输跟倒数第二互亲五秒</item>
-    <item>大胆测验:放一支虫在肩膀五秒钟</item>
-    <item>我是光头佬:剃光头</item>
-    <item>我说你做</item>
-  </Party>
   <Queue>
     <item>另外找三个陌生人玩这Party Magic游戏</item>
     <item>帮赢家背所有背的东西，直到下一个输家出现</item>

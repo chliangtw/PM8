@@ -29,6 +29,29 @@
     <item>禁足兩個禮拜</item>
     <item>父母與小孩角色互換，說互換角色該說的話</item>
     <item>門禁提早一小時</item>
+    <!--add Party  -->
+    <item>奧客:去麥當勞說這不是肯德基</item>
+    <item>:去肯德基點滷肉飯</item>
+    <item>搭訕路人說你好美或你好帥</item>
+    <item>跟路人要名片(成功要到一張)</item>
+    <item>路人餵輸家吃特製食品(贏家決定)</item>
+    <item>跳草裙舞</item>
+    <item>幸運中奬:買彩卷給贏的人</item>
+    <item>買糖果請大家</item>
+    <item>裝熟:跟十戶家庭要糖</item>
+    <item>跳猴子舞</item>
+    <item>贏家彈輸家額頭一次</item>
+    <item>用唐老鴨的聲音說不準動</item>
+    <item>去總統府(任一地點)大唱國歌</item>
+    <item>萬人迷:搭訕路人要電話</item>
+    <item>歌神再現:在大街上唱情歌給異性聽</item>
+    <item>賣膏藥的商人:跟路人推薦虎爛的產品，最後說明是唬爛的</item>
+    <item>大花臉:在臉上畫圖一人一畫,拍照存證</item>
+    <item>在舞池裡大叫5秒</item>
+    <item>安全之吻:最輸跟倒數第二互親五秒</item>
+    <item>大膽測驗:放一支蟲在肩膀五秒鐘</item>
+    <item>我是光頭佬:剃光頭</item>
+    <item>我說你做</item>
   </Family>
   <Nightclubs>
     <item>去全家買冰棒,問店員微波要按幾</item>
@@ -56,30 +79,6 @@
     <item>我是酒桶子:混合不同的飲料喝下去</item>
     <item>裝扮性感的舞者:跳艷舞</item>
   </Nightclubs>
-  <Party>
-    <item>奧客:去麥當勞說這不是肯德基</item>
-    <item>:去肯德基點滷肉飯</item>
-    <item>搭訕路人說你好美或你好帥</item>
-    <item>跟路人要名片(成功要到一張)</item>
-    <item>路人餵輸家吃特製食品(贏家決定)</item>
-    <item>跳草裙舞</item>
-    <item>幸運中奬:買彩卷給贏的人</item>
-    <item>買糖果請大家</item>
-    <item>裝熟:跟十戶家庭要糖</item>
-    <item>跳猴子舞</item>
-    <item>贏家彈輸家額頭一次</item>
-    <item>用唐老鴨的聲音說不準動</item>
-    <item>去總統府(任一地點)大唱國歌</item>
-    <item>萬人迷:搭訕路人要電話</item>
-    <item>歌神再現:在大街上唱情歌給異性聽</item>
-    <item>賣膏藥的商人:跟路人推薦虎爛的產品，最後說明是唬爛的</item>
-    <item>大花臉:在臉上畫圖一人一畫,拍照存證</item>
-    <item>在舞池裡大叫5秒</item>
-    <item>安全之吻:最輸跟倒數第二互親五秒</item>
-    <item>大膽測驗:放一支蟲在肩膀五秒鐘</item>
-    <item>我是光頭佬:剃光頭</item>
-    <item>我說你做</item>
-  </Party>
   <Queue>
     <item>另外找三個陌生人玩這Party Magic遊戲</item>
     <item>幫贏家背所有背的東西，直到下一個輸家出現</item>

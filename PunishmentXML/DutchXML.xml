@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<XnaContent>
-  <!-- TODO: replace this Asset with your own XML asset data. -->
-  <Asset Type="System.String"></Asset>
+
   <Family>
     <item>De winnaar moet de verliezer vijf seconden lang krabben.</item>
     <item>Masseer één minuut lang de schouders van de winnaar.</item>
@@ -32,6 +30,30 @@
     <item>Je hebt twee weken lang huisarrest.</item>
     <item>Je wisselt van rol met een ouder. Neem een dag lang de rol van je ouders over.</item>
     <item>Maak de avondklok een week lang een uur eerder.</item>
+    <!--add Party  -->
+    <item>Koop een waterijsje bij de supermarkt, en vraag de werknemer om het op te warmen in de magnetron.</item>
+    <item>Een emmer met ijs moet worden geleegd in de kleding van de verliezer.</item>
+    <item>Verkrijg het MSN adres van een vreemde op straat.</item>
+    <item>Sta in de houding van een plassende hond met een vinger in je oor. Neem een foto als bewijs.</item>
+    <item>Ga naar een bar en kondig aan: "Ik heb net een loonsheffing gekregen, alle drankjes op mijn naam.</item>
+    <item>Neem een shot whiskey.</item>
+    <item>Doe alsof je Jack bent op de Titanic, en schreeuw: "I am the king of the world!"</item>
+    <item>Doe het andere geslacht na.</item>
+    <item>Doe een beroemd persoon of superster na.</item>
+    <item>Sta op de tafel. Neem een superman houding aan en schreeuw: "Ik ben Superman."</item>
+    <item>Neem tien lelijke foto’s!</item>
+    <item>Hou een schoen naast je oor en zeg: "Wie is er aan de lijn?"</item>
+    <item>De verliezer moet iemand zoenen.</item>
+    <item>Ga in een KTV naar de kamer ernaast en zing een lied.</item>
+    <item>De twee verliezers moeten elkaar een zuigzoen geven.</item>
+    <item>Trek iemand zijn T-shirt uit met gebruik van je mond.</item>
+    <item>Druk je tien keer op.</item>
+    <item>Doe de "Sorry" dans.</item>
+    <item>Doe dertig sit-ups.</item>
+    <item>Vertel een geheim.</item>
+    <item>Vertel iemand iets beschamends dat je is overkomen.</item>
+    <item>Drink een afschuwelijke mix van drankjes.</item>
+    <item>Doe een sexy dansje.</item>
   </Family>
   <Nightclubs>
     <item>Zit op de grond in de McDonald’s, huil en zeg dat dit niet de KFC is.</item>
@@ -56,31 +78,6 @@
     <item>De verliezer moet zijn/haar haar scheren.</item>
     <item>De winnaar zegt iets, de verliezer doet het.</item>
   </Nightclubs>
-  <Party>
-    <item>Koop een waterijsje bij de supermarkt, en vraag de werknemer om het op te warmen in de magnetron.</item>
-    <item>Een emmer met ijs moet worden geleegd in de kleding van de verliezer.</item>
-    <item>Verkrijg het MSN adres van een vreemde op straat.</item>
-    <item>Sta in de houding van een plassende hond met een vinger in je oor. Neem een foto als bewijs.</item>
-    <item>Ga naar een bar en kondig aan: "Ik heb net een loonsheffing gekregen, alle drankjes op mijn naam.</item>
-    <item>Neem een shot whiskey.</item>
-    <item>Doe alsof je Jack bent op de Titanic, en schreeuw: "I am the king of the world!"</item>
-    <item>Doe het andere geslacht na.</item>
-    <item>Doe een beroemd persoon of superster na.</item>
-    <item>Sta op de tafel. Neem een superman houding aan en schreeuw: "Ik ben Superman."</item>
-    <item>Neem tien lelijke foto’s!</item>
-    <item>Hou een schoen naast je oor en zeg: "Wie is er aan de lijn?"</item>
-    <item>De verliezer moet iemand zoenen.</item>
-    <item>Ga in een KTV naar de kamer ernaast en zing een lied.</item>
-    <item>De twee verliezers moeten elkaar een zuigzoen geven.</item>
-    <item>Trek iemand zijn T-shirt uit met gebruik van je mond.</item>
-    <item>Druk je tien keer op.</item>
-    <item>Doe de "Sorry" dans.</item>
-    <item>Doe dertig sit-ups.</item>
-    <item>Vertel een geheim.</item>
-    <item>Vertel iemand iets beschamends dat je is overkomen.</item>
-    <item>Drink een afschuwelijke mix van drankjes.</item>
-    <item>Doe een sexy dansje.</item>
-  </Party>
   <Queue>
     <item>Vind drie voorbijgangers om "Party Magic" mee te spelen.</item>
     <item>Hou de spullen van de winnaar vast tot er een nieuwe verliezer is.</item>
@@ -95,4 +92,4 @@
     <item>Zeg luid: "Ik heb een BO (body odor), hou het alsjeblieft met me uit."</item>
 
   </Queue>
-</XnaContent>
+

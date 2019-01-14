@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<XnaContent>
-  <!-- TODO: replace this Asset with your own XML asset data. -->
-  <Asset Type="System.String"></Asset>
+
   <Family>
     <item>Pemenang menggaruk pihak yang kalah selama 5 detik.</item>
     <item>Membantu pemenang memijat pundak selama 1 menit.</item>
@@ -32,6 +30,31 @@
     <item>Dilarang keluar rumah selama 2 minggu.</item>
     <item>Bertukar peran antara orang tua dan anak. Mengambil tangungjawab orang tua selama 1 hari.</item>
     <item>Memajukan jam pulang selama 1 jam.</item>
+    <!--add Party  -->
+    <item>Pergi ke Family mart membeli es krim dan meminta pegawai toko untuk memanaskan di dalam oven.</item>
+    <item>Menuang satu ember es batu ke dalam pakaian pihak kalah.</item>
+    <item>Berkenalan dengan lawan jenis di jalan dan harus mendapatkan alamat MSN orang tersebut.</item>
+    <item>Mengangkat kaki tinggi-tinggi seperti anjing membuang air kecil sambil menyentuk telinga dengan jari (bersedia difoto untuk dijadikan sebagai bukti).</item>
+    <item>Pergi ke bar dan mengumumkan, "Saya baru mendapat kenaikan gaji,minuman saya yang bayar".</item>
+    <item>Minum segelas wiski.</item>
+    <item>Memerankan Jack dan Rose dalam film Titanic, berkata "saya raja dunia".</item>
+    <item>Bertukar gaya antara sesama lawan jenis.</item>
+    <item>Menirukan gaya seorang artis atau selebritis.</item>
+    <item>Berdiri diatas meja makan dan bergaya sambil berkata "saya adalah superman".</item>
+    <item>Foto diri sendiri sebanyak 10 lembar dengan mimik yang buruk.</item>
+    <item>Mendekatkan sepatu ke telinga dan berkata "siapa yang menelepon".</item>
+    <item>Pemenang meminta pihak yang kalah untuk mencumbu seseorang.</item>
+    <item>Di tempat karaoke mendatangi ruangan sebelah dan bernyanyi satu lagu bersama.</item>
+    <item>Dua orang pihak yang kalah secara bersama-sama melakukan gerakan orang kampungan.</item>
+    <item>Menggunakan mulut untuk membuka baju seseorang.</item>
+    <item>Push up sebanyak 10 kali.</item>
+    <item>Menarikan tari "sorry".</item>
+    <item>Sit up sebanyak 30 kali.</item>
+    <item>Menceritakan sebuah rahasia yang tidak diketahui orang banyak.</item>
+    <item>Menceritakan kejadian diri sendiri yang memalukan.</item>
+    <item>Pihak kalah diikat di atas pohon seperti koala memeluk pohon.</item>
+    <item>Pihak kalah meminum berbagai macam campuran minuman yang menjijikan.</item>
+    <item>Menari tarian yang sexy.</item>
   </Family>
   <Nightclubs>
     <item>Pergi ke McDonald dan berkata "ini bukan KFC".</item>
@@ -57,32 +80,6 @@
     <item>Pihak kalah mencukur rambutnya hingga botak.</item>
     <item>Pemenang memerintah, Pihak yang kalah melaksanakan.</item>
   </Nightclubs>
-  <Party>
-    <item>Pergi ke Family mart membeli es krim dan meminta pegawai toko untuk memanaskan di dalam oven.</item>
-    <item>Menuang satu ember es batu ke dalam pakaian pihak kalah.</item>
-    <item>Berkenalan dengan lawan jenis di jalan dan harus mendapatkan alamat MSN orang tersebut.</item>
-    <item>Mengangkat kaki tinggi-tinggi seperti anjing membuang air kecil sambil menyentuk telinga dengan jari (bersedia difoto untuk dijadikan sebagai bukti).</item>
-    <item>Pergi ke bar dan mengumumkan, "Saya baru mendapat kenaikan gaji,minuman saya yang bayar".</item>
-    <item>Minum segelas wiski.</item>
-    <item>Memerankan Jack dan Rose dalam film Titanic, berkata "saya raja dunia".</item>
-    <item>Bertukar gaya antara sesama lawan jenis.</item>
-    <item>Menirukan gaya seorang artis atau selebritis.</item>
-    <item>Berdiri diatas meja makan dan bergaya sambil berkata "saya adalah superman".</item>
-    <item>Foto diri sendiri sebanyak 10 lembar dengan mimik yang buruk.</item>
-    <item>Mendekatkan sepatu ke telinga dan berkata "siapa yang menelepon".</item>
-    <item>Pemenang meminta pihak yang kalah untuk mencumbu seseorang.</item>
-    <item>Di tempat karaoke mendatangi ruangan sebelah dan bernyanyi satu lagu bersama.</item>
-    <item>Dua orang pihak yang kalah secara bersama-sama melakukan gerakan orang kampungan.</item>
-    <item>Menggunakan mulut untuk membuka baju seseorang.</item>
-    <item>Push up sebanyak 10 kali.</item>
-    <item>Menarikan tari "sorry".</item>
-    <item>Sit up sebanyak 30 kali.</item>
-    <item>Menceritakan sebuah rahasia yang tidak diketahui orang banyak.</item>
-    <item>Menceritakan kejadian diri sendiri yang memalukan.</item>
-    <item>Pihak kalah diikat di atas pohon seperti koala memeluk pohon.</item>
-    <item>Pihak kalah meminum berbagai macam campuran minuman yang menjijikan.</item>
-    <item>Menari tarian yang sexy.</item>
-  </Party>
   <Queue>
     <item>Mencari tiga orang yang tak dikenal dan bersama-sama memainkan permainan Party Magic (Pesta Sulap).</item>
     <item>Pihak kalah membantu pemenang membawakan seluruh barangnya sampai muncul pihak kalah yang baru.</item>
@@ -97,4 +94,4 @@
     <item>Berteriak :"Tolong semuanya bersabar, hanya menunggu 3 jam lagi".</item>
     <item>Berteriak: "Saya memiliki bau badan, tolong kalian bersabar" (lakukan sebanyak 3 kali).</item>
   </Queue>
-</XnaContent>
+

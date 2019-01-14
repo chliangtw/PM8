@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<XnaContent>
-  <!-- TODO: replace this Asset with your own XML asset data. -->
-  <Asset Type="System.String"></Asset>
+
   <Family>
     <item>il vincitore fa il solletico al perdente per 5 secondi</item>
     <item>massaggia la spalla del vincitore per un minuto</item>
@@ -32,6 +30,31 @@
     <item>il perdente e' recluso in casa per due settimane</item>
     <item>scambiati i ruoli con i genitori e per un giorno gestisci tu la famiglia</item>
     <item>il perdente deve tornare a casa un'ora prima per una settimana</item>
+    <!--add Party  -->
+    <item>compra i ghiaccioli al negozio chiedendo al commesso di scaldarteli un momento</item>
+    <item>versa un secchio di ghiaccio nei vestiti del perdente</item>
+    <item>per strada chiedi l'indirizzo MSN di un passante</item>
+    <item>imita un cane che fa pipi' tenendo un dito nell'orecchio e fatti riprendere in foto</item>
+    <item>entra in un bar dicendo "ho avuto un aumento di stipendio, offro da bere a tutti"</item>
+    <item>finisci un bicchiere intero di whisky</item>
+    <item>fa finta di essere Jack sul Titanic che grida "sono il re del mondo!"</item>
+    <item>fa' finta di essere uno dell'altro sesso</item>
+    <item>imita una persona o un attore famoso</item>
+    <item>sta' in piedi sul tavolo e fa' il gesto di Superman gridando "sono Superman!"</item>
+    <item>fa' dieci foto con smorfie diverse</item>
+    <item>porta la scarpa all'orecchio e di' "pronto, chi parla?"</item>
+    <item>il perdente bacia qualcuno (scelto dal vincitore)</item>
+    <item>nel karaoke va' nella stanza accanto e canta una canzone</item>
+    <item>i due perdenti si baciano</item>
+    <item>togli un indumento a una persona con la bocca</item>
+    <item>fa' 10 flessioni di seguito</item>
+    <item>balla la canzone coreana "Sorry"</item>
+    <item>fa' 30 addominali di seguito</item>
+    <item>racconta un tuo segreto</item>
+    <item>racconta una cosa imbarazzante</item>
+    <item>abbraccia un albero come fossi un koala per 10 secondi</item>
+    <item>bevi un mix disgustoso di bevande</item>
+    <item>fa' un ballo sexy</item>
   </Family>
   <Nightclubs>
     <item>al McDonald's, siediti per terra piangendo e gridando ''questo non e' il KFC'</item>
@@ -57,32 +80,6 @@
     <item>test di coraggio: rasati i capelli a zero</item>
     <item>il vincitore dice una cosa ed il perdente obbedisce</item>
   </Nightclubs>
-  <Party>
-    <item>compra i ghiaccioli al negozio chiedendo al commesso di scaldarteli un momento</item>
-    <item>versa un secchio di ghiaccio nei vestiti del perdente</item>
-    <item>per strada chiedi l'indirizzo MSN di un passante</item>
-    <item>imita un cane che fa pipi' tenendo un dito nell'orecchio e fatti riprendere in foto</item>
-    <item>entra in un bar dicendo "ho avuto un aumento di stipendio, offro da bere a tutti"</item>
-    <item>finisci un bicchiere intero di whisky</item>
-    <item>fa finta di essere Jack sul Titanic che grida "sono il re del mondo!"</item>
-    <item>fa' finta di essere uno dell'altro sesso</item>
-    <item>imita una persona o un attore famoso</item>
-    <item>sta' in piedi sul tavolo e fa' il gesto di Superman gridando "sono Superman!"</item>
-    <item>fa' dieci foto con smorfie diverse</item>
-    <item>porta la scarpa all'orecchio e di' "pronto, chi parla?"</item>
-    <item>il perdente bacia qualcuno (scelto dal vincitore)</item>
-    <item>nel karaoke va' nella stanza accanto e canta una canzone</item>
-    <item>i due perdenti si baciano</item>
-    <item>togli un indumento a una persona con la bocca</item>
-    <item>fa' 10 flessioni di seguito</item>
-    <item>balla la canzone coreana "Sorry"</item>
-    <item>fa' 30 addominali di seguito</item>
-    <item>racconta un tuo segreto</item>
-    <item>racconta una cosa imbarazzante</item>
-    <item>abbraccia un albero come fossi un koala per 10 secondi</item>
-    <item>bevi un mix disgustoso di bevande</item>
-    <item>fa' un ballo sexy</item>
-  </Party>
   <Queue>
     <item>cerca tre passanti per giocare a "Party Magic"</item>
     <item>tieni in mano tutti gli averi del vincitore fin quando c'e' un nuovo perdente</item>
@@ -97,4 +94,4 @@
     <item>di' a voce alta "abbiate pazienza, aspettate solo altre tre ore"</item>
     <item>di' a voce alta "abbiate pazienza, puzzo di sudore"</item>
   </Queue>
-</XnaContent>
+

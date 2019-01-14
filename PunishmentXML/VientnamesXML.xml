@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<XnaContent>
-  <!-- TODO: replace this Asset with your own XML asset data. -->
-  <Asset Type="System.String"></Asset>
+
   <Family>
     <item>Người thắng cuộc cào cấu kẻ thua cuộc trong 5 giây.</item>
     <item>Mát-xa vai người thắng cuộc trong 1 phút.</item>
@@ -32,6 +30,31 @@
     <item>Người thua cuộc không được ra ngoài trong vòng 2 tuần.</item>
     <item>Bạn với ba hoặc mẹ thay đổi vai trò cho nhau. Bạn đảm nhận các nhiệm vụ của ba hoạc mẹ trong vòng 1 ngày.</item>
     <item>Đặt ra lệnh giới nghiêm sớm hơn 1 giờ đối với kẻ thua cuộc trong 1 tuần.</item>
+    <!--add Party  -->
+    <item>Mua kem đá ở của hàng tiện dụng và nhờ người bán hàng làm nóng bằng lò vi sóng.</item>
+    <item>Người thua cuộc bị đổ 1 xô đá lên người.</item>
+    <item>Trên đường hỏi xin 1 người lạ địa chỉ MSN.</item>
+    <item>Đứng theo kiểu con chó đang đi tiểu trong khi tay thì nắm lỗ tai. Chụp laih hình để làm bằng chứng.</item>
+    <item>Đến quán rượu và thông báo với mọi người: "Tôi mới được tăng lương hôm nay. Tất cả để tôi trả".</item>
+    <item>Uống 1 liều rượu whiskey.</item>
+    <item>Giả làm Jack trong phim Titanic và la lớn tôi là vua của thế giới.</item>
+    <item>Làm 1 hành động tạo ấn tượng đối với người khác giới.</item>
+    <item>Bắt chước hành động của 1 người nổi tiếng/ngôi sao ca nhạc-điện ảnh.</item>
+    <item>Đứng trên bàn giống tư thế của Superman và la lớn: "Tôi là Superman".</item>
+    <item>Chụp 10 tấm hình của bạn khi làm mặt xấu.</item>
+    <item>Để giầy kế tai và hỏi "Ai đang gọi vậy?".</item>
+    <item>Người thắng cuộc chỉ định cho người thua cuộc hôn 1 người nào đó.</item>
+    <item>Tại tiệm karaoke, đi qua phòng bên cạnh và hát 1 bài hát.</item>
+    <item>Hai người thua cuộc hôn (thơm) đến khi chỗ hôn đỏ lên thì dừng.</item>
+    <item>Cởi áo phông  (áo thun) của người khác bằng miệng.</item>
+    <item>Chống đẩy (hít đất) 10 cái.</item>
+    <item>Nhảy điệu múa xin lỗi.</item>
+    <item>Đứng lên ngồi xuống (thụt dầu) 30 lần.</item>
+    <item>Kể 1 điều bí mật của bạn.</item>
+    <item>Kể 1 điều làm bạn bối rối.</item>
+    <item>Ôm 1 cái cây theo kiểu Koala trong vòng 10 giây.</item>
+    <item>Uống 1 hỗn hợp nước uống gớm ghiếc.</item>
+    <item>Nhảy 1 điệu nhảy khêu gợi.</item>
   </Family>
   <Nightclubs>
     <item>Tại cửa hàng McDonald''s ngồi bệt trên sàn nhà khóc và la lớn "Đây không phải là KFC".</item>
@@ -57,32 +80,6 @@
     <item>Thử tính dũng cảm: Người thua cuộc đi cạo trọc.</item>
     <item>Người thua cuộc làm mọi điều người thắng cuộc chỉ định.</item>
   </Nightclubs>
-  <Party>
-    <item>Mua kem đá ở của hàng tiện dụng và nhờ người bán hàng làm nóng bằng lò vi sóng.</item>
-    <item>Người thua cuộc bị đổ 1 xô đá lên người.</item>
-    <item>Trên đường hỏi xin 1 người lạ địa chỉ MSN.</item>
-    <item>Đứng theo kiểu con chó đang đi tiểu trong khi tay thì nắm lỗ tai. Chụp laih hình để làm bằng chứng.</item>
-    <item>Đến quán rượu và thông báo với mọi người: "Tôi mới được tăng lương hôm nay. Tất cả để tôi trả".</item>
-    <item>Uống 1 liều rượu whiskey.</item>
-    <item>Giả làm Jack trong phim Titanic và la lớn tôi là vua của thế giới.</item>
-    <item>Làm 1 hành động tạo ấn tượng đối với người khác giới.</item>
-    <item>Bắt chước hành động của 1 người nổi tiếng/ngôi sao ca nhạc-điện ảnh.</item>
-    <item>Đứng trên bàn giống tư thế của Superman và la lớn: "Tôi là Superman".</item>
-    <item>Chụp 10 tấm hình của bạn khi làm mặt xấu.</item>
-    <item>Để giầy kế tai và hỏi "Ai đang gọi vậy?".</item>
-    <item>Người thắng cuộc chỉ định cho người thua cuộc hôn 1 người nào đó.</item>
-    <item>Tại tiệm karaoke, đi qua phòng bên cạnh và hát 1 bài hát.</item>
-    <item>Hai người thua cuộc hôn (thơm) đến khi chỗ hôn đỏ lên thì dừng.</item>
-    <item>Cởi áo phông  (áo thun) của người khác bằng miệng.</item>
-    <item>Chống đẩy (hít đất) 10 cái.</item>
-    <item>Nhảy điệu múa xin lỗi.</item>
-    <item>Đứng lên ngồi xuống (thụt dầu) 30 lần.</item>
-    <item>Kể 1 điều bí mật của bạn.</item>
-    <item>Kể 1 điều làm bạn bối rối.</item>
-    <item>Ôm 1 cái cây theo kiểu Koala trong vòng 10 giây.</item>
-    <item>Uống 1 hỗn hợp nước uống gớm ghiếc.</item>
-    <item>Nhảy 1 điệu nhảy khêu gợi.</item>
-  </Party>
   <Queue>
     <item>Mời 1 người khách qua đường tham gia trò chơi "Bữa tiệc ảo thuật".3 lần</item>
     <item>Giữ đồ đạc cá nhân cho người thắng cuộc cho tới khi có người thua mới.</item>
@@ -97,4 +94,3 @@
     <item>Hãy nói lớn "Làm ơn kiên nhẫn đợi 3 tiếng nữa".</item>
     <item>Nói lớn "Người tôi có mùi khó chiu. Làm ơn hãy chịu đựng chung với tôi".3 lần</item>
   </Queue>
-</XnaContent>

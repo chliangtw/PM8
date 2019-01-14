@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<XnaContent>
-  <!-- TODO: replace this Asset with your own XML asset data. -->
-  <Asset Type="System.String"></Asset>
+
   <Family>
     <item>capturas ganador durante cinco segundos.</item>
     <item>Hombro ganador masaje durante un minuto.</item>
@@ -32,6 +30,31 @@
     <item>Estar conectados a tierra durante dos semanas.</item>
     <item>Función de intercambio con tu y sus padres, hacer lo que su padre debe hacer.</item>
     <item>Guardia de entrada Realiza una hora antes.</item>
+    <!--add Party  -->
+     <item>En una tienda, comprar un helado luego pedir al secretario que el microondas.</item>
+    <item>Volcado de un cubo de hielo en una persona elegida por una persona.</item>
+    <item>Como el sexo opuesto en la calle por su dirección de MSN.</item>
+    <item>Se presentan como un perro orinando mientras se mantiene el dedo en la oreja. Tome una foto como prueba.</item>
+    <item>Ir a un bar y anunciar "Acabo de recibir un aumento de sueldo, voy a pagar por sus bebidas."</item>
+    <item>Un disparo de la bebida de whisky.</item>
+    <item>Pretender ser Jack en el Titanic y gritar "Soy el rey del mundo".</item>
+    <item>Hacer una impresión del sexo opuesto.</item>
+    <item>Imitar a una persona o una súper estrella de famouse.</item>
+    <item>Párese sobre una mesa, hacer un superhombre plantean, entonces nota "Yo soy Superman".</item>
+    <item>Tome diez fotos feas!</item>
+    <item>Ponga un zapato a su oído y decir ¿Quién Llama?</item>
+    <item>El perdedor tiene que besar a alguien.</item>
+    <item>En KTV ir a la habitación de al lado y cantar una canción.</item>
+    <item>Dos perdedores darse un hickey.</item>
+    <item>Quítate la camisa de alguien con la boca.</item>
+    <item>Hacer diez flexiones.</item>
+    <item>Hacer la danza sentimos.</item>
+    <item>hace treinta abdominales.</item>
+    <item>Contar un secreto.</item>
+    <item>decir algo embarazoso.</item>
+    <item>Empatar el perdedor a un árbol.</item>
+    <item>beber una mezcla repugnante de las bebidas.</item>
+    <item>Hacer un baile sexy.</item>
   </Family>
   <Nightclubs>
     <item>En McDonald''s, se sientan en el suelo llorando y decir que no es de KFC.</item>
@@ -57,32 +80,6 @@
     <item>Loser o se corta el pelo.</item>
     <item>Haz lo que digo.</item>
   </Nightclubs>
-  <Party>
-    <item>En una tienda, comprar un helado luego pedir al secretario que el microondas.</item>
-    <item>Volcado de un cubo de hielo en una persona elegida por una persona.</item>
-    <item>Como el sexo opuesto en la calle por su dirección de MSN.</item>
-    <item>Se presentan como un perro orinando mientras se mantiene el dedo en la oreja. Tome una foto como prueba.</item>
-    <item>Ir a un bar y anunciar "Acabo de recibir un aumento de sueldo, voy a pagar por sus bebidas."</item>
-    <item>Un disparo de la bebida de whisky.</item>
-    <item>Pretender ser Jack en el Titanic y gritar "Soy el rey del mundo".</item>
-    <item>Hacer una impresión del sexo opuesto.</item>
-    <item>Imitar a una persona o una súper estrella de famouse.</item>
-    <item>Párese sobre una mesa, hacer un superhombre plantean, entonces nota "Yo soy Superman".</item>
-    <item>Tome diez fotos feas!</item>
-    <item>Ponga un zapato a su oído y decir ¿Quién Llama?</item>
-    <item>El perdedor tiene que besar a alguien.</item>
-    <item>En KTV ir a la habitación de al lado y cantar una canción.</item>
-    <item>Dos perdedores darse un hickey.</item>
-    <item>Quítate la camisa de alguien con la boca.</item>
-    <item>Hacer diez flexiones.</item>
-    <item>Hacer la danza sentimos.</item>
-    <item>hace treinta abdominales.</item>
-    <item>Contar un secreto.</item>
-    <item>decir algo embarazoso.</item>
-    <item>Empatar el perdedor a un árbol.</item>
-    <item>beber una mezcla repugnante de las bebidas.</item>
-    <item>Hacer un baile sexy.</item>
-  </Party>
   <Queue>
     <item>Encontrar tres personas al azar para jugar la magia Parte.</item>
     <item>Mantenga ganadores pertenencias hasta que haya un perdedor nuevo.</item>
@@ -97,4 +94,3 @@
     <item>Decir en voz alta "Por favor, ser pacientes, sólo tiene que esperar durante tres horas."</item>
     <item>Decir en voz alta "No tengo el olor corporal, por favor, desnudo conmigo."</item>
   </Queue>
-</XnaContent>

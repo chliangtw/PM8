@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<XnaContent>
-  <!-- TODO: replace this Asset with your own XML asset data. -->
-  <Asset Type="System.String"></Asset>
+
   <Family>
     <item>Le gagnant gratte le perdant pendant 5 seconds.</item>
     <item>Massez l''épaule du gangant pendant une minute.</item>
@@ -31,6 +29,31 @@
     <item>Le perdant est privé de sortir pendant deux semaines.</item>
     <item>Échange de rôles entre vous et un parent. Assurez les responsabilités de votre parent pendant un jour.</item>
     <item>Le couvre-feu du perdant est avancé d''une heure pendant une semaine.</item>
+    <!--add Party  -->
+    <item>A l''épicerie Family Mart, achetez une glace et demandez au caissier comment la chauffer en micro-onde.</item>
+    <item>Un seau de glace est vidé dans l''habillement du perdant.</item>
+    <item>Dans la rue, demandez à un(e) inconnu(e) son adresse de MSN.</item>
+    <item>Tenez la pose d''un chien faisant pipi, tout en grattant les oreilles avec les doigts.</item>
+    <item>Allez à un bar et annoncez "Je viens d''avoir une augmentation de salaire. Vos consommations sont à mon compte.</item>
+    <item>Faites cul sec!</item>
+    <item>Feignez d''être Jack sur le Titanic en criant " Je suis roi du monde."</item>
+    <item>Faites une impression du sexe opposé.</item>
+    <item>Imitez une célébrité.</item>
+    <item>Montez sur une table, posez comme Superman et criez "Je suis Superman".</item>
+    <item>Prenez dix photos de vous faisant des grimances.</item>
+    <item>Tenez une chaussure près de l''oreille et disez "Allô, c''est qui ?"</item>
+    <item>Le perdant embrasse quelqu''un choisi par le gagnant.</item>
+    <item>Au KTV, allez dans la salle à côté et chantez ensemble avec les autres.</item>
+    <item>Les deux perdants se donnent le suçon.</item>
+    <item>Enlevez le t-shirt de quelqu''un avec votre bouche.</item>
+    <item>Faites dix poussées.</item>
+    <item>Dansez la danse.</item>
+    <item>Faites 30 sit-up.</item>
+    <item>Racontez un secret.</item>
+    <item>Racontez une histoire gênante qui vous est arrivée.</item>
+    <item>Étreignez un arbre comme un koala pendant 10 secondes.</item>
+    <item>Buvez un mélange de boissons dégoutant.</item>
+    <item>Faites une danse érotique.</item>
   </Family>
   <Nightclubs>
     <item>Au resto McDonald'' s, vous pleurez en disant fort " Ce n''est pas KFC!".</item>
@@ -56,32 +79,6 @@
     <item>Epreuve de courage : le perdant se rase la tête.</item>
     <item>Le perdant doit faire ce que dit le gagnant</item>
   </Nightclubs>
-  <Party>
-    <item>A l''épicerie Family Mart, achetez une glace et demandez au caissier comment la chauffer en micro-onde.</item>
-    <item>Un seau de glace est vidé dans l''habillement du perdant.</item>
-    <item>Dans la rue, demandez à un(e) inconnu(e) son adresse de MSN.</item>
-    <item>Tenez la pose d''un chien faisant pipi, tout en grattant les oreilles avec les doigts.</item>
-    <item>Allez à un bar et annoncez "Je viens d''avoir une augmentation de salaire. Vos consommations sont à mon compte.</item>
-    <item>Faites cul sec!</item>
-    <item>Feignez d''être Jack sur le Titanic en criant " Je suis roi du monde."</item>
-    <item>Faites une impression du sexe opposé.</item>
-    <item>Imitez une célébrité.</item>
-    <item>Montez sur une table, posez comme Superman et criez "Je suis Superman".</item>
-    <item>Prenez dix photos de vous faisant des grimances.</item>
-    <item>Tenez une chaussure près de l''oreille et disez "Allô, c''est qui ?"</item>
-    <item>Le perdant embrasse quelqu''un choisi par le gagnant.</item>
-    <item>Au KTV, allez dans la salle à côté et chantez ensemble avec les autres.</item>
-    <item>Les deux perdants se donnent le suçon.</item>
-    <item>Enlevez le t-shirt de quelqu''un avec votre bouche.</item>
-    <item>Faites dix poussées.</item>
-    <item>Dansez la danse.</item>
-    <item>Faites 30 sit-up.</item>
-    <item>Racontez un secret.</item>
-    <item>Racontez une histoire gênante qui vous est arrivée.</item>
-    <item>Étreignez un arbre comme un koala pendant 10 secondes.</item>
-    <item>Buvez un mélange de boissons dégoutant.</item>
-    <item>Faites une danse érotique.</item>
-  </Party>
   <Queue>
     <item>Trouvez trois inconnus pour jouer au "Party Magic".</item>
     <item>Tenez les affaires du gagnant jusqu''à ce qu''il y ait un nouveau perdant.</item>
@@ -96,4 +93,4 @@
     <item>Dites à haute voix : "Soyez patients! Vous n''allez attendre que 3 heures</item>
     <item>Dites à la haute voix:" J''ai la BO (odeur de corps), merci de me supporter."</item>
   </Queue>
-</XnaContent>
+
