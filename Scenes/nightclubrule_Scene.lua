@@ -7,7 +7,7 @@ local xml = require("xmlSimple").newParser()
 local langxml = xml:loadFile("LanguageXML.xml")
 local rulexml = {}
 local lang = composer.getVariable( "lang" )
-local nightclubrulecount = composer.getVariable( "nightclubrulecount" )
+local totalrule = composer.getVariable( "totalrule" )
 local nightclubruledata = {}
 
 local rulenotexist = false
@@ -537,7 +537,8 @@ function scene:create( event )
 	    	print(rulenotexist)
 	    	for i=1,#nightclubrulecount do
 	    		if nightclubrulecount[i] == rowIndex then
-	    			table.remove( nightclubrulecount, i )
+	    			--table.remove( nightclubrulecount, i )
+	    			table.remove( totalrule, nightclubruledata[i] )
 	    			print("remove")
 	    			rulenotexist = true
 	    		end

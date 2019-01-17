@@ -8,9 +8,11 @@ local langxml = xml:loadFile("LanguageXML.xml")
 local rulexml = {}
 local lang = composer.getVariable( "lang" )
 local familyrulecount = composer.getVariable( "familyrulecount" )
+local totalrule = composer.getVariable( "totalrule" )
 local familyruledata = {}
 
 local rulenotexist = false
+local definitionField
 
 if(lang == "Japan") then
 	rulexml = xml:loadFile("JapanXML.xml")
@@ -68,6 +70,17 @@ local function textListener( event )
     end
 end
 
+function nextstepruleButtonEvent( ... )
+	composer.setVariable( "familyrulecount", familyrulecount )
+	composer.setVariable( "nightclubrulecount", nightclubrulecount)
+	composer.setVariable( "partyrulecount", partyrulecount )
+	composer.setVariable( "queuerulecount", queuerulecount )
+	composer.setVariable( "totalrule", totalrule )
+	--definitionField:removeEventListener("userInput", textListener)
+	--definitionField:removeSelf()
+	composer.gotoScene( "Scenes.ruleoptionScene", frad , 400)
+end
+
 function scene:create( event )
 	local sceneGroup = self.view
 
@@ -92,12 +105,12 @@ function scene:create( event )
 	sceneGroup:insert( categorytitleText )
 
 --增加輸入框
-	local definitionField = native.newTextField( display.contentWidth * 0.6, display.contentHeight * 0.275, display.contentWidth * 0.73, display.contentHeight * 0.15 )
+	definitionField = native.newTextField( display.contentWidth * 0.6, display.contentHeight * 0.275, display.contentWidth * 0.73, display.contentHeight * 0.15 )
 	definitionField.align = "center"
 	definitionField.placeholder = "Add new item"
 	definitionField.hasBackground = false
 	sceneGroup:insert( definitionField )
-	definitionField:addEventListener( "userInput", textListener )
+	sceneGroup:addEventListener( "userInput", textListener )
 
 	local blockbg = display.newImage( "Image/Family/stickers_back.png" )
 	blockbg.x = display.contentWidth * 0.6
@@ -538,12 +551,15 @@ function scene:create( event )
 	    	for i=1,#familyrulecount do
 	    		if familyrulecount[i] == rowIndex then
 	    			table.remove( familyrulecount, i )
+	    			table.remove( totalrule, i)
+	    			
 	    			print("remove")
 	    			rulenotexist = true
 	    		end
 	    	end
 	    	if (rulenotexist == false) then
 		    	table.insert( familyrulecount, rowIndex)
+		    	table.insert( totalrule, familyruledata[rowIndex])
 				print(rulexml.Family.item[rowIndex]:value())
 			end
 			rulenotexist = false
@@ -562,7 +578,7 @@ function scene:create( event )
 	)
 	tableView.x = display.contentWidth * 0.6
 	tableView.y = display.contentHeight * 0.7
-
+	sceneGroup:insert( tableView )
 	-- Insert 40 rows
 	for i = 1, #familyruledata do
 	    -- Insert a row into the tableView
@@ -573,7 +589,9 @@ function scene:create( event )
 end
 function scene:show( event )
 	local phase = event.phase
-
+	if "will" == phase then
+		composer.removeScene( "ruleoptionScene" )
+	end
 	if "did" == phase then
 		print( "1: show event, phase did" )
 	end	
@@ -583,7 +601,7 @@ function scene:hide( event )
 	local phase = event.phase
 	if "will" == phase then
 		print( "1: hide event, phase will" )
-
+		definitionField:removeSelf()
 	end
 end
 

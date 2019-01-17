@@ -4,7 +4,18 @@ local composer = require( "composer" )
 local scene = composer.newScene()
 local scrollView
 
+local familyrulecount = {}
+local nightclubrulecount = {}
+local partyrulecount = {}
+local queuerulecount = {}
+local totalrule = {}
+
 function fingerfightingButtonEvent( ... )
+	composer.setVariable( "familyrulecount", familyrulecount )
+	composer.setVariable( "nightclubrulecount", nightclubrulecount)
+	composer.setVariable( "partyrulecount", partyrulecount )
+	composer.setVariable( "queuerulecount", queuerulecount )
+	composer.setVariable( "totalrule", totalrule )
 	composer.gotoScene( "Scenes.ruleoptionScene", frad , 400)
 end
 
@@ -76,6 +87,7 @@ function scene:create( event )
 	numbertrapButton.xScale = 0.7
 	numbertrapButton.yScale = 0.7
 	scrollView:insert( numbertrapButton ) 
+
 
 
 end

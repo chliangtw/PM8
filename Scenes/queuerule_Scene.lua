@@ -7,7 +7,7 @@ local xml = require("xmlSimple").newParser()
 local langxml = xml:loadFile("LanguageXML.xml")
 local rulexml = {}
 local lang = composer.getVariable( "lang" )
-local queuerulecount = composer.getVariable( "queuerulecount" )
+local totalrule = composer.getVariable( "totalrule" )
 local queueruledata = {}
 
 local rulenotexist = false
@@ -539,7 +539,8 @@ function scene:create( event )
 	    	print(rulenotexist)
 	    	for i=1,#queuerulecount do
 	    		if queueyrulecount[i] == rowIndex then
-	    			table.remove( queuerulecount, i )
+	    			--table.remove( queuerulecount, i )
+	    			table.remove( totalrule, queueruledata[i] )
 	    			print("remove")
 	    			rulenotexist = true
 	    		end

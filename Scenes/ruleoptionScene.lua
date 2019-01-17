@@ -10,16 +10,18 @@ local langXML = xml:loadFile("LanguageXML.xml")
 local rulexml = {}
 local lang = composer.getVariable( "lang" )
 
-local familyrulecount = {}
-local nightclubrulecount = {}
-local partyrulecount = {}
-local queuerulecount = {}
+local familyrulecount = composer.getVariable( "familyrulecount" )
+local nightclubrulecount = composer.getVariable( "nightclubrulecount" )
+local partyrulecount = composer.getVariable( "partyrulecount" )
+local queuerulecount = composer.getVariable( "queuerulecount" )
 
 local fameilyText,nightclubText,partyText,queueText
 local familyruletotal,nightclubruletotal,partyruletotal,queueruletotal
 local familycount,nightclubcount,partycount,queuecount
 
 local familyruleButton,nightclubruleButton,partyruleButton,queueruleButton
+
+local rulecount
 
 if(lang == "Japan") then
 	rulexml = xml:loadFile("JapanXML.xml")
@@ -170,7 +172,11 @@ end
 
 
 function nextStepButtonEvent( ... )
-	composer.gotoScene( "Scenes.Showrule_Scene", frad,400)
+	
+	rulecount = #familyrulecount + #nightclubrulecount + #partyrulecount + #queuerulecount
+	if(rulecount == 8 ) then
+		composer.gotoScene( "Scenes.Showrule_Scene", frad,400)
+	end
 end
 
 
@@ -299,7 +305,7 @@ function scene:create( event )
 	familycount.x = display.contentWidth * 0.277
 	familycount.y = display.contentHeight * 0.77
 	familycount:setFillColor( 1, 0, 0 )
-	familycount.text = #familyrulecount
+	
 	sceneGroup:insert( familycount )
 
 	--夜店類
@@ -307,7 +313,7 @@ function scene:create( event )
 	nightclubcount.x = display.contentWidth * 0.6
 	nightclubcount.y = display.contentHeight * 0.31
 	nightclubcount:setFillColor( 1, 0, 0 )
-	nightclubcount.text = #nightclubrulecount
+	
 	sceneGroup:insert( nightclubcount )
 
 
@@ -316,7 +322,7 @@ function scene:create( event )
 	partycount.x = display.contentWidth * 0.277
 	partycount.y = display.contentHeight * 0.31
 	partycount:setFillColor( 1, 0, 0 )
-	partycount.text = #partyrulecount
+	
 	sceneGroup:insert( partycount )
 
 	--排隊時
@@ -324,7 +330,7 @@ function scene:create( event )
 	queuecount.x = display.contentWidth * 0.6
 	queuecount.y = display.contentHeight * 0.77
 	queuecount:setFillColor( 1, 0, 0 )
-	queuecount.text = #queuerulecount
+	
 	sceneGroup:insert( queuecount )
 
 
@@ -388,7 +394,19 @@ function scene:create( event )
 end
 function scene:show( event )
 	local phase = event.phase
-
+	if "will" == phase then
+		familyrulecount = composer.getVariable( "familyrulecount" )
+		nightclubrulecount = composer.getVariable( "nightclubrulecount" )
+		partyrulecount = composer.getVariable( "partyrulecount" )
+		queuerulecount = composer.getVariable( "queuerulecount" )
+		familycount.text = #familyrulecount
+		nightclubcount.text = #nightclubrulecount
+		partycount.text = #partyrulecount
+		queuecount.text = #queuerulecount
+		composer.removeScene( "GameSelectionScene" )
+		composer.removeScene( "familyrule_Scene" )
+		print( "1: show event, phase will" )
+	end
 	if "did" == phase then
 		print( "1: show event, phase did" )
 	end	
