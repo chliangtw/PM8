@@ -17,17 +17,16 @@ function scene:create( event )
 	print("Width: "..display.contentWidth)
 	print("Height: "..display.contentHeight)
 	--背景圖片
-	local backgrounkImage = display.newImage( "Image/MainMenu/party_magic.jpg" )
+	local backgrounkImage = display.newImage( "Image/MainMenu/party_magic8.png" )
+	backgrounkImage.width = display.contentWidth
+	backgrounkImage.height = display.contentHeight
 	backgrounkImage.x = display.contentCenterX
 	backgrounkImage.y = display.contentCenterY
 
-	--版本數字圖片
-	local versionImage = display.newImage( "Image/MainMenu/three3.png" )
-	versionImage.x = display.contentWidth * 0.9
-	versionImage.y = display.contentHeight * 0.1
+	
 
 	sceneGroup:insert( backgrounkImage )
-	sceneGroup:insert( versionImage )
+	
 
 	--more按鈕
 	local moreButton = widget.newButton(

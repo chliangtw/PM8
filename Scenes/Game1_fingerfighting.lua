@@ -17,6 +17,7 @@ local TWxml = xml:loadFile("LanguageXML.xml")
 
 --local chooserole = composer.getVariable( "chooserole" )
 local chooserole = {true,true,true,true}
+local c = {30,25,20,15,10,5}
 local i = 1
 
 local DazyIcon,TrickyIcon,ChunkandEddyIcon,AshIcon,IconButton
@@ -33,16 +34,65 @@ local GameTime = 30
 
 local BGAnimation,DazyAnimation,TrickyAnimation,CandEAnimation,AshAnimation
 
+local bgtimer,createicontimmer,createicontimmer2,createicontimmer3,createicontimmer4
+
 local gameresult = {false,false,false,false}
 
 function GameTimecountdown( ... )
 	function countdown(event)
 		local count = event.count
+		local source = event.source
 		if GameTime > 0 then
 			GameTime = GameTime - 1
 			GameTimeText.text = GameTime
 		else
-			timer.cancel( event.source )
+			timer.cancel( source)
+		end
+
+		if GameTime % 2 == 0 and GameTime > 1 then
+			touchDazyIcon.x = math.random(touchDazyIcon.width / 2,display.contentWidth - (touchDazyIcon.width / 2))
+			touchDazyIcon.y = math.random(touchDazyIcon.height / 2,display.contentHeight - (touchDazyIcon.height / 2))
+
+			touchTrickyIcon.x = math.random(touchTrickyIcon.width / 2,display.contentWidth - (touchTrickyIcon.width / 2))
+			touchTrickyIcon.y = math.random(touchTrickyIcon.height / 2,display.contentHeight - (touchTrickyIcon.height / 2))
+
+			touchChunkandEddyIcon.x = math.random(touchChunkandEddyIcon.width / 2,display.contentWidth - (touchChunkandEddyIcon.width / 2))
+			touchChunkandEddyIcon.y = math.random(touchChunkandEddyIcon.height / 2,display.contentHeight - (touchChunkandEddyIcon.height / 2))
+
+			touchAshIcon.x = math.random(touchAshIcon.width / 2,display.contentWidth - (touchAshIcon.width / 2))
+			touchAshIcon.y = math.random(touchAshIcon.height / 2,display.contentHeight - (touchAshIcon.height / 2))
+
+			if(touchDazyIcon.isVisible) then
+				print("test1")
+				touchDazyIcon.isVisible=false
+			else
+				print("test2")
+				touchDazyIcon.isVisible=true
+			end
+
+			if(touchTrickyIcon.isVisible) then
+				print("test1")
+				touchTrickyIcon.isVisible=false
+			else
+				print("test2")
+				touchTrickyIcon.isVisible=true
+			end
+
+			if(touchChunkandEddyIcon.isVisible) then
+				print("test1")
+				touchChunkandEddyIcon.isVisible=false
+			else
+				print("test2")
+				touchChunkandEddyIcon.isVisible=true
+			end
+
+			if(touchAshIcon.isVisible) then
+				print("test1")
+				touchAshIcon.isVisible=false
+			else
+				print("test2")
+				touchAshIcon.isVisible=true
+			end
 		end
 
 		if GameTime == 20 then
@@ -146,13 +196,13 @@ function GameTimecountdown( ... )
 			    end
 		        
 			end
-			timer.performWithDelay( 300, swapSheet,0 )
+			bgtimer = timer.performWithDelay( 300, swapSheet,0 )
 		end
 
 		if GameTime == 10 then
 			GameTimeText:setFillColor(136/255,0, 0 )
 		end
-		DazyScore,TrickyScore,CandEScore,AshScore
+		
 		if GameTime == 0 then
 			if(DazyScore>TrickyScore and DazyScore>CandEScore and DazyScore>AshScore)then
 				gameresult[1] = true
@@ -203,9 +253,10 @@ function GameTimecountdown( ... )
 				gameresult[4] = true
 			end
 
+			timer.cancel( source)
 
 			composer.setVariable( "gameresult", gameresult)
-			composer.gotoScene( "Scenes.GameDescription_Scene", frad,400)
+			composer.gotoScene( "Scenes.GameResult_Scene", frad,400)
 		end
 
 	end
@@ -214,7 +265,7 @@ function GameTimecountdown( ... )
 end
 
 
-function randomlocation( obj,seconds,dis_seconds,wid,hei)
+--[[function randomlocation( obj,seconds,dis_seconds,wid,hei)
 	function CreatetouchIcon( event )
 		local creattimer = event.source
 		function afterTimer()
@@ -230,13 +281,13 @@ function randomlocation( obj,seconds,dis_seconds,wid,hei)
 		
 		obj.x = math.random(wid,display.contentWidth-wid)
 		obj.y = math.random(hei,display.contentHeight-hei)
-		timer.pause( creattimer )
-		--timer.cancel( creattimer )
+		--timer.pause( creattimer )
+		timer.cancel( creattimer )
 		
 
 	end
-	timer.performWithDelay( math.random(500,2000), CreatetouchIcon,0)
-end
+	createicontimmer = timer.performWithDelay( math.random(500,2000), CreatetouchIcon,0)
+end]]
 
 --[[ 測試創建按鈕
 function randomlocation2(ImageFile,B_id)
@@ -841,7 +892,7 @@ function scene:show( event )
 			randomlocation(touchAshIcon,1000,1000, touchAshIcon.width * 0.8 / 2, touchAshIcon.height * 0.8 / 2)
 		end]]
 		
-		if(chooserole[1] == true and chooserole[2] == true and chooserole[3] == true and chooserole[4] == true) then
+		--[[if(chooserole[1] == true and chooserole[2] == true and chooserole[3] == true and chooserole[4] == true) then
 			--randomlocation2("Image/Game/BallImage/bubu/bubu.png","DazyIcon")
 
 
@@ -914,9 +965,9 @@ function scene:show( event )
 		elseif(chooserole[4] == true) then
 			randomlocation(touchAshIcon,1000,1000, touchAshIcon.width * 0.8 / 2, touchAshIcon.height * 0.8 / 2)
 		
-		end
+		end]]
 
-		
+
 
 	end	
 end

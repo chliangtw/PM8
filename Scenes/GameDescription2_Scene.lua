@@ -94,6 +94,10 @@ function addScoreText( ... )
 
 end
 
+function startButtonEvent( ... )
+	composer.gotoScene( "Scenes.waitingload_Scene", frad,400)
+end
+
 function addScore2Text( ... )
 	point2Text = display.newText( "+100",0 , 0, native.systemFont, 20 )
 	point2Text.x = display.contentWidth * 0.7

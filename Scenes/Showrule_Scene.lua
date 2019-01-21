@@ -82,6 +82,9 @@ end
 
 function startButtonEvent( ... )
 	composer.gotoScene( "Scenes.Selectrole_Scene", frad,400)
+
+	--測試懲罰規則
+	--composer.gotoScene( "Scenes.penaltyrule_Scene", frad,400)
 end
 
 function scene:create( event )

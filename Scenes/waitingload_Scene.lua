@@ -51,12 +51,21 @@ function scene:create( event )
 	numberText:setFillColor(1,1, 1 )
 	sceneGroup:insert( numberText )
 	function countdown(event)
+		local countdowntimer = event.source
 		local count = event.count
-    	
+    	function delaygame( ... )
+			composer.gotoScene( "Scenes.Game1_fingerfighting", frad,400)
+		end
+		if(count == 4)then
+			timer.cancel( countdowntimer )
+			timer.performWithDelay( 500, delaygame,1)	
+		end
 		numberText.text = reciprocal[count]
+
+
 	end
 
-	timer.performWithDelay( 1000, countdown,3)	
+	timer.performWithDelay( 1000, countdown,4)	
 end
 function scene:show( event )
 	local phase = event.phase

@@ -13,7 +13,7 @@ local readytimer,ready2timer
 
 local ready1,ready2,ready3,ready4
 
-local sheetArray = sheetInfo:getSheet()
+--local sheetArray = sheetInfo:getSheet()
 local myImageSheet = graphics.newImageSheet( "Image/Actor/ActorAnimation.png", sheetInfo:getSheet() )
 
 local roleButton

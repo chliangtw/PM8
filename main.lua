@@ -8,9 +8,11 @@
 local composer = require( "composer" )
 display.setStatusBar(display.HiddenStatusBar)
 composer.setVariable( "lang", "Taiwan" )
+print(display.pixelWidth,display.pixelHeight)
+print(imageSuffix )
 --到遊戲主畫面
-composer.gotoScene( "Scenes.Selectrole_Scene", frad,400)
-
+--composer.gotoScene( "Scenes.MainMenu.MainMenu_America", frad,400)
+composer.gotoScene( "Scenes.Game1_fingerfighting", frad,400)
 --[[ 
 	 Japan 日本 01
 	 Korea 韓國 02
